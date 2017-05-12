@@ -1,0 +1,15 @@
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/actool/_PartialAppManifest.items
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/actool/_BundleResourceWithLogicalName.items
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/optimized/
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/ToDoActivity.iOS.exe.mdb
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/ToDoActivity.iOS.exe
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/ToDoActivity.iOS.exe
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/ToDoActivity.iOS.exe.mdb
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/ToDoActivity.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/ToDoActivity.dll.mdb

@@ -1,0 +1,16 @@
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.App.xaml
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.View.HomePage.xaml
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.View.CreateActivityPage.xaml
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.View.ActivityDetailPage.xaml
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.App.xaml.g.cs
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.View.HomePage.xaml.g.cs
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.View.CreateActivityPage.xaml.g.cs
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.View.ActivityDetailPage.xaml.g.cs
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/ToDoActivity.dll.mdb
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/ToDoActivity.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/obj/Debug/ToDoActivity.dll.mdb
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/Xamarin.Forms.Core.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/Xamarin.Forms.Xaml.dll
