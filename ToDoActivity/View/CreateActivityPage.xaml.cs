@@ -17,6 +17,10 @@ namespace ToDoActivity
 				Title = "Edit";
 				deleteButton.IsVisible = true;
 			}
+			else
+			{
+				deleteButton.IsVisible = false;
+			}
 		}
 	}
 }

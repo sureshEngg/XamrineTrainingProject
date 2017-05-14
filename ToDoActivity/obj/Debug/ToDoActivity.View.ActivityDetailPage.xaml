@@ -41,6 +41,9 @@
 				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
 			</StackLayout>
+			<StackLayout Orientation="Horizontal" Spacing="10" Padding="20">
+				<Button x:Name="deleteButton" Text="Delete" TextColor="White" BackgroundColor="Red" Command="{Binding DeleteCommand}" WidthRequest="300" HeightRequest="35" />
+			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>
 	

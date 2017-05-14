@@ -40,13 +40,27 @@ namespace ToDoActivity
 			}
 
 			EditCommand = new Command(Edit);
+			DeleteCommand = new Command(Delete);
 		}
 
 		public Command EditCommand { get; private set; }
+		public Command DeleteCommand { get; private set; }
 
-		public void Edit()
+		async void Edit()
 		{
-			navigation.PushAsync(new CreateActivityPage(activityModel));
+			await navigation.PushAsync(new CreateActivityPage(activityModel));
+		}
+
+		async void Delete()
+		{
+			//Cancel scheduled notification
+			DependencyService.Get<IGeoLocation>().CancelNotification(activityModel);
+
+			// Save activity
+			await DatabaseManager.SharedInstance().DeleteItemAsync(activityModel);
+
+			// Pop to home page.
+			await navigation.PopAsync();
 		}
 	}
 }

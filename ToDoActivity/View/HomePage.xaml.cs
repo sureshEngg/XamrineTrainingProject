@@ -27,7 +27,15 @@ namespace ToDoActivity
 		protected override async void OnAppearing()
 		{
 			base.OnAppearing();
-			activityList.ItemsSource = await DatabaseManager.SharedInstance().GetItemsAsync();
+			var source = await DatabaseManager.SharedInstance().GetItemsAsync();
+
+			if (source.Count > 0)
+			{
+				activityList.ItemsSource = (List<ActivityModel>)source;
+			}
+			else {
+				activityList.ItemsSource = new List<ActivityModel>();
+			}
 		}
 
 		private void OnItemSelected(object o, ItemTappedEventArgs e)
