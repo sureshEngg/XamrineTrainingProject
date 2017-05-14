@@ -15,6 +15,7 @@ namespace ToDoActivity
 			if (activityModel != null)
 			{
 				Title = "Edit";
+				deleteButton.IsVisible = true;
 			}
 		}
 	}

@@ -1218,7 +1218,7 @@ System_Runtime_TraceCore_get_ResourceManager:
 	.long mono_aot_System_ServiceModel_Internals_got - . + 280
 	.byte 0,0,159,231,4,0,141,229,0,16,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 284
-	.byte 1,16,159,231,1,0,160,225,0,16,145,229,15,224,160,225,208,241,145,229,8,0,141,229,0,0,159,229,0,0,0,234
+	.byte 1,16,159,231,1,0,160,225,0,16,145,229,15,224,160,225,212,241,145,229,8,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,18,31,160,227
 bl _p_5
@@ -5714,7 +5714,7 @@ bl _p_4
 	.byte 136,0,155,229,140,16,155,229,124,0,139,229,116,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 732
 	.byte 0,0,159,231,128,0,139,229,0,224,214,229,0,0,150,229,12,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225
-	.byte 192,241,145,229
+	.byte 196,241,145,229
 bl _p_177
 
 	.byte 132,0,139,229,0,0,159,229,0,0,0,234
@@ -11010,7 +11010,7 @@ _mono_aot_file_info:
 	.long 376,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 60,91,162,225,14,169,82,171,171,235,98,105,214,129,222,166
+	.byte 98,171,79,47,35,71,121,122,245,253,122,48,130,157,44,235
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 2
 _mono_aot_module_System_ServiceModel_Internals_info:

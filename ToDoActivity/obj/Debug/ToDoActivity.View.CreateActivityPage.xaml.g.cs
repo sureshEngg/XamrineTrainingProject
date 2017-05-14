@@ -18,9 +18,13 @@ namespace ToDoActivity {
         private global::Xamarin.Forms.ToolbarItem toolBarItem;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button deleteButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CreateActivityPage));
             toolBarItem = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.ToolbarItem>(this, "toolBarItem");
+            deleteButton = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.Button>(this, "deleteButton");
         }
     }
 }

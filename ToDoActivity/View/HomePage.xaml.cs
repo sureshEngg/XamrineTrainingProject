@@ -1,6 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace ToDoActivity
@@ -12,7 +12,7 @@ namespace ToDoActivity
 		public HomePage()
 		{
 			InitializeComponent();
-			homeViewModel = new HomeViewModel(Navigation);
+			homeViewModel = new HomeViewModel();
 			BindingContext = homeViewModel;
 
 			ToolbarItems.Add(new ToolbarItem("New", null, () =>
@@ -22,6 +22,12 @@ namespace ToDoActivity
 
 			// Update Back button name
 			NavigationPage.SetBackButtonTitle(this, "Back");
+		}
+
+		protected override async void OnAppearing()
+		{
+			base.OnAppearing();
+			activityList.ItemsSource = await DatabaseManager.SharedInstance().GetItemsAsync();
 		}
 
 		private void OnItemSelected(object o, ItemTappedEventArgs e)

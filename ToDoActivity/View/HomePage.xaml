@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ToDoActivity.HomePage" Title="Activity List">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="ToDoActivity.HomePage" 
+	Title="Activity List">
+	
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical" Padding="10" Spacing="10">
-			<ListView x:Name="activityList" ItemsSource="{Binding Activities}" ItemTapped="OnItemSelected" SeparatorColor="Transparent">
+			<ListView x:Name="activityList" ItemTapped="OnItemSelected" SeparatorColor="Transparent">
 				<ListView.ItemTemplate>
 					<DataTemplate>
 						<ViewCell>

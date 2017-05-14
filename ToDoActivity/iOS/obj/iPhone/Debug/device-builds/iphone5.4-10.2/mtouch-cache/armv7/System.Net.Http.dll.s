@@ -420,7 +420,7 @@ System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext:
 	.byte 0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227,32,0,139,229
 	.byte 0,15,160,227,36,0,139,229,156,0,155,229,0,0,144,229,0,0,139,229,156,0,155,229,16,80,144,229,0,0,155,229
 	.byte 64,3,80,227,35,0,0,154,156,96,155,229,20,160,149,229,10,0,160,225,0,224,208,229,10,64,160,225,36,0,212,229
-	.byte 0,15,80,227,8,0,0,10,106,11,9,227,1,0,64,227
+	.byte 0,15,80,227,8,0,0,10,154,11,9,227,1,0,64,227
 bl _p_29
 
 	.byte 0,32,160,225,241,0,0,227,0,2,64,227,0,31,160,227
@@ -442,7 +442,7 @@ bl _p_5
 bl _p_31
 
 	.byte 5,160,160,225,156,0,155,229,24,96,144,229,156,0,155,229,36,64,144,229,4,0,160,225,0,224,208,229,48,64,139,229
-	.byte 48,0,155,229,36,0,208,229,0,15,80,227,8,0,0,10,106,11,9,227,1,0,64,227
+	.byte 48,0,155,229,36,0,208,229,0,15,80,227,8,0,0,10,154,11,9,227,1,0,64,227
 bl _p_29
 
 	.byte 0,32,160,225,241,0,0,227,0,2,64,227,0,31,160,227
@@ -20052,7 +20052,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 	.byte 7,15,139,226,14,47,160,227
 bl _p_24
 
-	.byte 7,0,0,234,158,8,14,227,1,0,64,227
+	.byte 7,0,0,234,206,8,14,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -20253,7 +20253,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 	.byte 7,15,139,226,20,47,160,227
 bl _p_24
 
-	.byte 7,0,0,234,158,8,14,227,1,0,64,227
+	.byte 7,0,0,234,206,8,14,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -20606,7 +20606,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,16,223,77,226,13,176,160,225,56,0,139,229,60,16,139,229,0,15,160,227
 	.byte 0,0,139,229,0,15,160,227,4,0,139,229,0,15,160,227,8,0,139,229,0,15,160,227,12,0,139,229,60,0,155,229
 	.byte 0,16,144,229,28,16,139,229,4,16,144,229,32,16,139,229,8,16,144,229,36,16,139,229,12,16,144,229,40,16,139,229
-	.byte 16,16,144,229,44,16,139,229,20,16,144,229,48,16,139,229,24,0,144,229,52,0,139,229,7,0,0,234,158,8,14,227
+	.byte 16,16,144,229,44,16,139,229,20,16,144,229,48,16,139,229,24,0,144,229,52,0,139,229,7,0,0,234,206,8,14,227
 	.byte 1,0,64,227
 bl _p_29
 
@@ -20656,7 +20656,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_Htt
 	.byte 7,15,139,226,9,47,160,227
 bl _p_24
 
-	.byte 7,0,0,234,158,8,14,227,1,0,64,227
+	.byte 7,0,0,234,206,8,14,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -20704,7 +20704,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_
 	.byte 0,0,139,229,0,15,160,227,4,0,139,229,0,15,160,227,8,0,139,229,0,15,160,227,12,0,139,229,64,0,155,229
 	.byte 0,16,144,229,28,16,139,229,4,16,144,229,32,16,139,229,8,16,144,229,36,16,139,229,12,16,144,229,40,16,139,229
 	.byte 16,16,144,229,44,16,139,229,20,16,144,229,48,16,139,229,24,16,144,229,52,16,139,229,28,0,144,229,56,0,139,229
-	.byte 7,0,0,234,158,8,14,227,1,0,64,227
+	.byte 7,0,0,234,206,8,14,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -21879,10 +21879,10 @@ bl _p_652
 	.byte 14,223,139,226,0,9,189,232,128,128,189,232
 .loc 8 356 0
 
-	.byte 202,12,10,227,1,0,64,227
+	.byte 250,12,10,227,1,0,64,227
 bl _p_29
 
-	.byte 48,0,139,229,234,12,10,227,1,0,64,227
+	.byte 48,0,139,229,26,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,32,160,225,48,16,155,229,135,0,0,227,0,2,64,227
@@ -21929,10 +21929,10 @@ bl _p_652
 	.byte 14,223,139,226,0,9,189,232,128,128,189,232
 .loc 8 386 0
 
-	.byte 202,12,10,227,1,0,64,227
+	.byte 250,12,10,227,1,0,64,227
 bl _p_29
 
-	.byte 48,0,139,229,234,12,10,227,1,0,64,227
+	.byte 48,0,139,229,26,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,32,160,225,48,16,155,229,135,0,0,227,0,2,64,227
@@ -21978,7 +21978,7 @@ bl _p_654
 	.byte 16,223,139,226,0,9,189,232,128,128,189,232
 .loc 8 397 0
 
-	.byte 143,13,10,227,1,0,64,227
+	.byte 191,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -21986,7 +21986,7 @@ bl _mono_create_corlib_exception_1
 bl _p_22
 .loc 8 401 0
 
-	.byte 161,13,10,227,1,0,64,227
+	.byte 209,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -21994,10 +21994,10 @@ bl _mono_create_corlib_exception_1
 bl _p_22
 .loc 8 406 0
 
-	.byte 202,12,10,227,1,0,64,227
+	.byte 250,12,10,227,1,0,64,227
 bl _p_29
 
-	.byte 48,0,139,229,234,12,10,227,1,0,64,227
+	.byte 48,0,139,229,26,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,32,160,225,48,16,155,229,135,0,0,227,0,2,64,227
@@ -22043,7 +22043,7 @@ bl _p_654
 	.byte 18,223,139,226,0,9,189,232,128,128,189,232
 .loc 8 422 0
 
-	.byte 143,13,10,227,1,0,64,227
+	.byte 191,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -22051,7 +22051,7 @@ bl _mono_create_corlib_exception_1
 bl _p_22
 .loc 8 426 0
 
-	.byte 161,13,10,227,1,0,64,227
+	.byte 209,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -22059,10 +22059,10 @@ bl _mono_create_corlib_exception_1
 bl _p_22
 .loc 8 430 0
 
-	.byte 202,12,10,227,1,0,64,227
+	.byte 250,12,10,227,1,0,64,227
 bl _p_29
 
-	.byte 56,0,139,229,234,12,10,227,1,0,64,227
+	.byte 56,0,139,229,26,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,32,160,225,56,16,155,229,135,0,0,227,0,2,64,227
@@ -22444,14 +22444,14 @@ bl _p_678
 	.byte 6,0,160,225,17,223,139,226,64,9,189,232,128,128,189,232
 .loc 8 891 0
 
-	.byte 161,13,10,227,1,0,64,227
+	.byte 209,13,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_22
 
-	.byte 181,13,10,227,1,0,64,227
+	.byte 229,13,10,227,1,0,64,227
 .loc 8 886 0
 bl _p_29
 
@@ -22506,9 +22506,36 @@ bl _p_48
 Lme_343:
 .text
 	.align 2
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task:
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
+.loc 9 69 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,2,223,77,226,0,0,141,229,1,160,160,225,0,0,157,229,12,0,144,229
+	.byte 0,15,80,227,2,0,0,10,0,0,157,229,12,0,144,229,26,0,0,234
+.loc 9 70 0
+
+	.byte 0,15,90,227,11,0,0,10,0,224,218,229,36,0,154,229,255,31,15,227,1,0,0,224,255,28,224,227,1,0,0,224
+	.byte 4,15,0,226,0,15,80,227,2,0,0,26
+.loc 9 73 0
+
+	.byte 0,224,218,229,16,0,154,229,12,0,0,234
+.loc 9 74 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2424
+	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
+bl _p_8
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2428
+	.byte 0,0,159,231,0,0,144,229,2,223,141,226,0,5,189,232,128,128,189,232
+
+Lme_344:
+.text
+	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
 .loc 9 93 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,4,223,77,226,13,176,160,225,12,0,139,229,0,15,160,227,8,0,139,229
@@ -22518,7 +22545,7 @@ bl _p_680
 
 	.byte 4,223,139,226,0,9,189,232,128,128,189,232
 
-Lme_344:
+Lme_345:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -22551,7 +22578,7 @@ bl _p_5
 	.byte 8,0,155,229,20,0,132,229
 .loc 9 217 0
 
-	.byte 7,223,139,226,16,9,189,232,128,128,189,232,202,12,10,227,1,0,64,227
+	.byte 7,223,139,226,16,9,189,232,128,128,189,232,250,12,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,135,0,0,227,0,2,64,227
@@ -22560,7 +22587,37 @@ bl _p_22
 
 	.byte 227,255,255,234
 
-Lme_345:
+Lme_346:
+.text
+	.align 2
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult:
+.loc 9 286 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,9,45,233,13,223,77,226,13,176,160,225,0,96,160,225,24,16,139,229,0,15,160,227
+	.byte 16,0,139,229,64,3,160,227,16,0,139,229
+.loc 9 287 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 12
+	.byte 0,0,159,231,48,255,47,225,56,0,144,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2360
+	.byte 1,16,159,231,128,36,224,227,2,16,1,224,252,33,1,226,2,33,160,225,2,0,128,224,0,0,144,229,33,19,160,225
+	.byte 254,36,224,227,2,16,1,224,1,0,128,224,0,16,144,229
+.loc 9 288 0
+
+	.byte 1,0,160,225,40,0,139,229,2,15,134,226,0,0,144,229,20,0,139,229,16,0,150,229,44,0,139,229,6,0,160,225
+bl _p_682
+
+	.byte 0,16,160,225,40,0,155,229,44,48,155,229,36,16,139,229,4,207,139,226,0,128,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2364
+	.byte 8,128,159,231,32,0,139,229,24,16,155,229,20,32,155,229,0,15,160,227,0,0,141,229,36,0,155,229,4,0,141,229
+	.byte 32,0,155,229,8,192,141,229
+bl _p_683
+
+	.byte 13,223,139,226,64,9,189,232,128,128,189,232
+
+Lme_347:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -22580,11 +22637,11 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_Start
 	.long mono_aot_System_Net_Http_got - . + 2364
 	.byte 8,128,159,231,4,0,160,225,40,0,139,229,24,16,155,229,28,32,155,229,32,48,155,229,0,15,160,227,0,0,141,229
 	.byte 36,0,155,229,4,0,141,229,40,0,155,229,8,192,141,229
-bl _p_682
+bl _p_683
 
 	.byte 13,223,139,226,16,9,189,232,128,128,189,232
 
-Lme_346:
+Lme_348:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -22650,20 +22707,20 @@ bl _p_668
 .loc 9 567 0
 
 	.byte 84,32,155,229,0,16,155,229,2,0,160,225,0,224,210,229
-bl _p_683
+bl _p_684
 
 	.byte 255,0,0,226
 .loc 9 568 0
 
 	.byte 0,15,80,227,73,0,0,10,0,0,155,229,52,0,139,229,64,0,139,229,52,0,155,229,0,15,80,227,13,0,0,10
 	.byte 52,0,155,229,0,0,144,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2424
+	.long mono_aot_System_Net_Http_got - . + 2432
 	.byte 1,16,159,231,1,0,80,225,2,0,0,10,0,15,160,227,64,0,139,229,255,255,255,234,64,0,155,229,0,15,80,227
 	.byte 50,0,0,10
 .loc 9 570 0
 
 	.byte 84,0,155,229,28,0,144,229,16,32,144,229,2,0,160,225,0,31,160,227,0,224,210,229
-bl _p_684
+bl _p_685
 .loc 9 572 0
 
 	.byte 42,0,0,234
@@ -22673,20 +22730,20 @@ bl _p_684
 .loc 9 576 0
 
 	.byte 84,16,155,229,1,0,160,225,0,224,209,229
-bl _p_685
+bl _p_686
 
 	.byte 0,16,160,225,0,15,160,227,64,35,160,227
-bl _p_686
+bl _p_687
 .loc 9 578 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2428
+	.long mono_aot_System_Net_Http_got - . + 2436
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,4,0,0,10
 .loc 9 580 0
 
 	.byte 84,16,155,229,1,0,160,225,0,224,209,229
-bl _p_685
-bl _p_687
+bl _p_686
+bl _p_688
 .loc 9 582 0
 
 	.byte 88,0,219,229,0,15,80,227,7,0,0,10
@@ -22700,7 +22757,7 @@ bl _p_659
 .loc 9 588 0
 
 	.byte 84,32,155,229,216,0,219,225,77,0,203,229,2,0,160,225,77,16,155,229,0,224,210,229
-bl _p_688
+bl _p_689
 .loc 9 593 0
 
 	.byte 48,192,155,229,12,240,160,225
@@ -22708,7 +22765,7 @@ bl _p_688
 
 	.byte 24,223,139,226,64,13,189,232,128,128,189,232
 
-Lme_347:
+Lme_349:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
@@ -22719,11 +22776,11 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 	.byte 20,48,139,229,8,0,155,229,16,192,144,229,0,128,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2396
 	.byte 8,128,159,231,12,0,155,229,16,16,155,229,0,47,160,227,20,48,155,229,0,192,141,229
-bl _p_689
+bl _p_690
 
 	.byte 6,223,139,226,0,9,189,232,128,128,189,232
 
-Lme_348:
+Lme_34a:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
@@ -22733,7 +22790,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 	.byte 128,64,45,233,13,112,160,225,96,13,45,233,19,223,77,226,13,176,160,225,0,160,160,225,40,16,139,229,44,32,139,229
 	.byte 48,48,139,229,104,224,157,229,52,224,139,229,0,15,160,227,8,0,139,229,0,15,160,227,12,0,203,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2432
+	.long mono_aot_System_Net_Http_got - . + 2440
 	.byte 0,0,159,231,5,31,160,227
 bl _p_3
 
@@ -22753,7 +22810,7 @@ bl _p_5
 .loc 9 824 0
 
 	.byte 52,0,155,229,64,19,160,227
-bl _p_690
+bl _p_691
 .loc 9 826 0
 
 	.byte 8,0,155,229,60,0,139,229,0,0,159,229,0,0,0,234
@@ -22762,7 +22819,7 @@ bl _p_690
 bl _p_3
 
 	.byte 64,0,139,229,48,16,155,229,52,32,155,229
-bl _p_691
+bl _p_692
 
 	.byte 60,0,155,229,64,16,155,229,56,16,139,229,16,16,128,229,4,15,128,226
 bl _p_5
@@ -22774,20 +22831,20 @@ bl _p_5
 .loc 9 831 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2428
+	.long mono_aot_System_Net_Http_got - . + 2436
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,3,0,0,10
 .loc 9 833 0
 
 	.byte 8,0,155,229,16,0,144,229
-bl _p_692
+bl _p_693
 
 	.byte 255,255,255,234
 .loc 9 842 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2436
+	.long mono_aot_System_Net_Http_got - . + 2444
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,99,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2440
+	.long mono_aot_System_Net_Http_got - . + 2448
 	.byte 0,0,159,231,4,31,160,227
 bl _p_3
 
@@ -22798,7 +22855,7 @@ bl _p_5
 .loc 9 844 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2444
+	.long mono_aot_System_Net_Http_got - . + 2452
 	.byte 0,0,159,231,3,31,160,227
 bl _p_3
 
@@ -22809,7 +22866,7 @@ bl _p_5
 .loc 9 847 0
 
 	.byte 0,15,86,227,175,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2448
+	.long mono_aot_System_Net_Http_got - . + 2456
 	.byte 0,0,159,231,14,31,160,227
 bl _p_3
 
@@ -22817,20 +22874,20 @@ bl _p_3
 bl _p_5
 
 	.byte 56,16,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2452
-	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2456
-	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2460
+	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2464
+	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2468
 	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,0,15,160,227,48,0,193,229,10,0,160,225
 	.byte 48,32,155,229,15,224,160,225,12,240,154,229,0,80,160,225
 .loc 9 852 0
 
 	.byte 0,15,80,227,74,0,0,10,5,0,160,225,0,16,149,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2464
+	.long mono_aot_System_Net_Http_got - . + 2472
 	.byte 8,128,159,231,15,224,160,225,16,240,17,229,255,0,0,226,0,15,80,227,63,0,0,10,8,16,150,229,1,0,160,225
 	.byte 0,224,209,229
-bl _p_693
+bl _p_694
 
 	.byte 255,0,0,226,0,15,80,227,56,0,0,10
 .loc 9 855 0
@@ -22838,14 +22895,14 @@ bl _p_693
 	.byte 12,0,150,229,8,16,144,229,12,0,150,229,12,32,144,229,12,0,150,229,16,48,144,229,0,128,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2396
 	.byte 8,128,159,231,5,0,160,225,0,207,160,227,0,192,141,229
-bl _p_694
+bl _p_695
 .loc 9 857 0
 
 	.byte 41,0,0,234
 .loc 9 861 0
 
 	.byte 8,0,155,229,64,0,139,229,0,15,80,227,100,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2448
+	.long mono_aot_System_Net_Http_got - . + 2456
 	.byte 0,0,159,231,14,31,160,227
 bl _p_3
 
@@ -22853,11 +22910,11 @@ bl _p_3
 bl _p_5
 
 	.byte 56,0,155,229,60,16,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2468
-	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2472
-	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2476
+	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2480
+	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2484
 	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,0,15,160,227,48,0,193,229,10,0,160,225
 	.byte 48,32,155,229,15,224,160,225,12,240,154,229
 .loc 9 866 0
@@ -22869,20 +22926,20 @@ bl _p_5
 .loc 9 870 0
 
 	.byte 8,0,155,229,16,16,144,229,1,0,160,225,0,224,209,229
-bl _p_685
+bl _p_686
 
 	.byte 0,16,160,225,0,15,160,227,192,35,160,227
-bl _p_686
+bl _p_687
 .loc 9 872 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2428
+	.long mono_aot_System_Net_Http_got - . + 2436
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,5,0,0,10
 .loc 9 874 0
 
 	.byte 8,0,155,229,16,16,144,229,1,0,160,225,0,224,209,229
-bl _p_685
-bl _p_687
+bl _p_686
+bl _p_688
 .loc 9 878 0
 
 	.byte 8,0,155,229,16,32,144,229,0,15,160,227,12,0,203,229,0,12,160,225,64,12,160,225,36,0,203,229,2,0,160,225
@@ -22891,20 +22948,20 @@ bl _p_659
 .loc 9 879 0
 
 	.byte 16,0,155,229
-bl _p_695
+bl _p_696
 .loc 9 882 0
 
 	.byte 8,0,155,229,16,0,144,229,19,223,139,226,96,13,189,232,128,128,189,232
 .loc 9 820 0
 
-	.byte 29,14,10,227,1,0,64,227
+	.byte 77,14,10,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_22
 
-	.byte 5,14,10,227,1,0,64,227
+	.byte 53,14,10,227,1,0,64,227
 .loc 9 817 0
 bl _p_29
 
@@ -22917,7 +22974,7 @@ bl _p_48
 
 	.byte 133,0,0,0
 
-Lme_349:
+Lme_34b:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -22940,9 +22997,9 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_34a:
+Lme_34c:
 .text
-ut_843:
+ut_845:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
@@ -22966,9 +23023,9 @@ bl _p_5
 
 	.byte 16,0,157,229,11,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_34b:
+Lme_34d:
 .text
-ut_844:
+ut_846:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
@@ -22980,14 +23037,14 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 .loc 4 485 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
-bl _p_696
+bl _p_697
 .loc 4 486 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_34c:
+Lme_34e:
 .text
-ut_845:
+ut_847:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
@@ -23007,7 +23064,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 bl _p_3
 
 	.byte 4,0,141,229
-bl _p_697
+bl _p_698
 
 	.byte 4,16,157,229,1,0,160,225,1,96,160,225,0,0,141,229,8,0,138,229,2,15,138,226
 bl _p_5
@@ -23017,9 +23074,9 @@ bl _p_5
 
 	.byte 6,0,160,225,3,223,141,226,64,5,189,232,128,128,189,232
 
-Lme_34d:
+Lme_34f:
 .text
-ut_846:
+ut_848:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
@@ -23039,7 +23096,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 	.byte 0,128,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2352
 	.byte 8,128,159,231,10,0,160,225,0,16,155,229
-bl _p_698
+bl _p_699
 
 	.byte 8,0,139,229,8,0,138,229,2,15,138,226
 bl _p_5
@@ -23054,13 +23111,13 @@ bl _p_5
 .loc 4 603 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2428
+	.long mono_aot_System_Net_Http_got - . + 2436
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,3,0,0,10
 .loc 4 605 0
 
 	.byte 6,0,160,225,0,224,214,229
-bl _p_685
-bl _p_687
+bl _p_686
+bl _p_688
 .loc 4 608 0
 
 	.byte 6,0,160,225,0,16,155,229,0,224,214,229
@@ -23072,16 +23129,16 @@ bl _p_659
 	.byte 4,223,139,226,64,13,189,232,128,128,189,232
 .loc 4 610 0
 
-	.byte 76,6,11,227,1,0,64,227
+	.byte 124,6,11,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,224,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_22
 
-Lme_34e:
+Lme_350:
 .text
-ut_847:
+ut_849:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -23111,14 +23168,14 @@ bl _p_5
 	.byte 0,15,160,227,0,0,205,229,0,12,160,225,64,12,160,225,1,0,205,229,0,128,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2352
 	.byte 8,128,159,231,6,0,160,225,1,16,157,229
-bl _p_699
+bl _p_700
 .loc 4 638 0
 
 	.byte 2,223,141,226,64,1,189,232,128,128,189,232
 
-Lme_34f:
+Lme_351:
 .text
-ut_848:
+ut_850:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
@@ -23148,12 +23205,12 @@ bl _p_645
 
 	.byte 10,176,160,225,0,15,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2480
+	.long mono_aot_System_Net_Http_got - . + 2488
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,191,160,227,11,64,160,225
 .loc 4 662 0
 
 	.byte 0,15,91,227,5,0,0,26,5,0,160,225,10,16,160,225,0,224,213,229
-bl _p_683
+bl _p_684
 
 	.byte 255,64,0,226,9,0,0,234,0,224,212,229,17,15,132,226,0,0,144,229,0,0,141,229,5,0,160,225,0,16,157,229
 	.byte 4,32,160,225,0,224,213,229
@@ -23168,7 +23225,7 @@ bl _p_668
 	.byte 3,223,141,226,48,13,189,232,128,128,189,232
 .loc 4 649 0
 
-	.byte 50,3,11,227,1,0,64,227
+	.byte 98,3,11,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
@@ -23176,16 +23233,16 @@ bl _mono_create_corlib_exception_1
 bl _p_22
 .loc 4 675 0
 
-	.byte 76,6,11,227,1,0,64,227
+	.byte 124,6,11,227,1,0,64,227
 bl _p_29
 
 	.byte 0,16,160,225,224,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_22
 
-Lme_350:
+Lme_352:
 .text
-ut_849:
+ut_851:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
@@ -23200,14 +23257,14 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 .loc 4 752 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
+	.long mono_aot_System_Net_Http_got - . + 2492
 	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2488
+	.long mono_aot_System_Net_Http_got - . + 2496
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,40,0,0,10
 .loc 4 754 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2492
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
@@ -23218,32 +23275,32 @@ bl _p_3
 .loc 4 755 0
 
 	.byte 0,15,80,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2496
+	.long mono_aot_System_Net_Http_got - . + 2504
 	.byte 0,0,159,231,0,160,144,229,4,0,0,234,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2500
+	.long mono_aot_System_Net_Http_got - . + 2508
 	.byte 0,0,159,231,0,160,144,229
 .loc 4 756 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2504
+	.long mono_aot_System_Net_Http_got - . + 2512
 	.byte 0,0,159,231,10,0,160,225,31,2,0,234
 .loc 4 759 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
+	.long mono_aot_System_Net_Http_got - . + 2492
 	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2508
+	.long mono_aot_System_Net_Http_got - . + 2516
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,46,0,0,10
 .loc 4 764 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2492
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,8,2,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2512
+	.long mono_aot_System_Net_Http_got - . + 2520
 	.byte 2,32,159,231,2,0,81,225,0,2,0,27,8,160,144,229
 .loc 4 765 0
 
@@ -23251,34 +23308,34 @@ bl _p_3
 .loc 4 768 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2516
+	.long mono_aot_System_Net_Http_got - . + 2524
 	.byte 0,0,159,231,0,0,144,229,0,31,224,227,1,16,74,224,12,32,144,229,1,0,82,225,243,1,0,155,1,17,160,225
 	.byte 1,0,128,224,4,15,128,226,0,0,144,229
 .loc 4 769 0
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2504
+	.long mono_aot_System_Net_Http_got - . + 2512
 	.byte 1,16,159,231,227,1,0,234
 .loc 4 773 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2520
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2528
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,204,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2524
+	.long mono_aot_System_Net_Http_got - . + 2532
 	.byte 2,32,159,231,2,0,81,225,196,1,0,27,8,0,144,229,0,15,80,227,167,1,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2528
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2536
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
@@ -23286,55 +23343,55 @@ bl _p_3
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 1952
 	.byte 2,32,159,231,2,0,81,225,159,1,0,27,8,0,208,229,0,15,80,227,130,1,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2532
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2540
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,130,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2536
+	.long mono_aot_System_Net_Http_got - . + 2544
 	.byte 2,32,159,231,2,0,81,225,122,1,0,27,216,0,208,225,0,15,80,227,93,1,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2540
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2548
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,93,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2544
-	.byte 2,32,159,231,2,0,81,225,85,1,0,27,184,0,208,225,0,15,80,227,56,1,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2548
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,57,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2552
+	.byte 2,32,159,231,2,0,81,225,85,1,0,27,184,0,208,225,0,15,80,227,56,1,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2556
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,57,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2560
 	.byte 0,0,159,231,0,16,144,229,16,16,139,229,4,16,144,229,20,16,139,229,8,16,144,229,24,16,139,229,12,0,144,229
 	.byte 28,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2492
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,44,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2556
+	.long mono_aot_System_Net_Http_got - . + 2564
 	.byte 2,32,159,231,2,0,81,225,36,1,0,27,2,15,128,226,0,16,144,229,32,16,139,229,4,16,144,229,36,16,139,229
 	.byte 8,16,144,229,40,16,139,229,12,0,144,229,44,0,139,229,16,0,155,229,20,16,155,229,24,32,155,229,28,48,155,229
 	.byte 32,192,155,229,0,192,141,229,36,192,155,229,4,192,141,229,40,192,155,229,8,192,141,229,44,192,155,229,12,192,141,229
-bl _p_700
+bl _p_701
 
 	.byte 255,0,0,226,0,15,80,227,241,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2560
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,29,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2568
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,29,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
@@ -23343,73 +23400,73 @@ bl _p_3
 	.long mono_aot_System_Net_Http_got - . + 2276
 	.byte 2,32,159,231,2,0,80,225,232,0,0,27,2,15,129,226,12,16,145,229,0,0,144,229,0,15,32,226,0,31,33,226
 	.byte 1,0,128,225,0,15,80,227,198,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2564
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,29,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2572
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,29,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 0,16,160,225,2,15,129,226,212,35,219,225,0,32,192,229,0,0,145,229,24,32,208,229,0,15,82,227,197,0,0,27
 	.byte 0,0,144,229,0,0,144,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2568
+	.long mono_aot_System_Net_Http_got - . + 2576
 	.byte 2,32,159,231,2,0,80,225,189,0,0,27,2,15,129,226,12,16,145,229,0,0,144,229,0,15,32,226,0,31,33,226
 	.byte 1,0,128,225,0,15,80,227,155,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2572
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2580
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,155,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2576
+	.long mono_aot_System_Net_Http_got - . + 2584
 	.byte 2,32,159,231,2,0,81,225,147,0,0,27,248,0,208,225,0,15,80,227,118,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2580
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2588
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,118,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2584
+	.long mono_aot_System_Net_Http_got - . + 2592
 	.byte 2,32,159,231,2,0,81,225,110,0,0,27,184,0,208,225,0,15,80,227,81,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2588
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,27,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2596
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,27,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,81,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2592
+	.long mono_aot_System_Net_Http_got - . + 2600
 	.byte 2,32,159,231,2,0,81,225,73,0,0,27,8,16,144,229,0,15,160,227,1,0,80,225,0,0,160,19,1,0,160,3
 	.byte 0,15,80,227,40,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2484
-	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2596
-	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,40,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2492
+	.byte 0,0,159,231,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2604
+	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,40,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2500
 	.byte 0,0,159,231,144,18,160,227
 bl _p_3
 
 	.byte 2,31,128,226,212,35,219,225,0,32,193,229,0,16,144,229,24,32,209,229,0,15,82,227,40,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2600
+	.long mono_aot_System_Net_Http_got - . + 2608
 	.byte 2,32,159,231,2,0,81,225,32,0,0,27,8,16,144,229,0,15,160,227,1,0,80,225,0,0,160,19,1,0,160,3
 	.byte 0,15,80,227,12,0,0,10
 .loc 4 786 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2604
+	.long mono_aot_System_Net_Http_got - . + 2612
 	.byte 0,0,159,231,0,0,144,229,16,0,0,234
 .loc 4 789 0
 
@@ -23417,7 +23474,7 @@ bl _p_3
 .loc 4 791 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2604
+	.long mono_aot_System_Net_Http_got - . + 2612
 	.byte 0,0,159,231,0,0,144,229,9,0,0,234
 .loc 4 795 0
 
@@ -23427,7 +23484,7 @@ bl _p_3
 bl _p_3
 
 	.byte 56,0,139,229,52,16,155,229
-bl _p_701
+bl _p_702
 
 	.byte 56,0,155,229,17,223,139,226,0,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_48
@@ -23437,9 +23494,9 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_351:
+Lme_353:
 .text
-ut_850:
+ut_852:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
@@ -23451,15 +23508,15 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 .loc 4 427 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,15,160,227,0,0,205,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2608
+	.long mono_aot_System_Net_Http_got - . + 2616
 	.byte 8,128,159,231,0,0,157,229
-bl _p_702
+bl _p_703
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2604
+	.long mono_aot_System_Net_Http_got - . + 2612
 	.byte 0,0,159,231,0,16,128,229,3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_352:
+Lme_354:
 .text
 	.align 2
 	.no_dead_strip System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
@@ -23471,10 +23528,10 @@ System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnu
 .loc 5 20 0
 
 	.byte 16,0,155,229
-bl _p_703
+bl _p_704
 
 	.byte 0,128,160,225
-bl _p_704
+bl _p_705
 
 	.byte 0,160,160,225
 .loc 5 23 0
@@ -23486,7 +23543,7 @@ bl _p_704
 .loc 5 33 0
 
 	.byte 16,0,155,229
-bl _p_705
+bl _p_706
 
 	.byte 0,32,160,225,4,16,146,229,5,0,160,225
 bl _p_671
@@ -23498,7 +23555,7 @@ bl _p_671
 .loc 5 36 0
 
 	.byte 16,0,155,229
-bl _p_705
+bl _p_706
 
 	.byte 0,32,160,225,4,16,146,229,6,0,160,225
 bl _p_671
@@ -23507,10 +23564,10 @@ bl _p_671
 .loc 5 37 0
 
 	.byte 0,15,80,227,23,0,0,10,16,0,155,229
-bl _p_706
+bl _p_707
 
 	.byte 0,32,160,225,4,0,160,225,0,16,148,229,2,128,160,225,15,224,160,225,76,240,17,229,40,0,139,229,16,0,155,229
-bl _p_706
+bl _p_707
 
 	.byte 0,32,160,225,0,0,155,229,0,16,160,225,0,16,145,229,2,128,160,225,15,224,160,225,76,240,17,229,0,16,160,225
 	.byte 40,0,155,229,1,0,80,225,1,0,0,10
@@ -23520,13 +23577,13 @@ bl _p_706
 .loc 5 43 0
 
 	.byte 16,0,155,229
-bl _p_707
+bl _p_708
 
 	.byte 0,32,160,225,5,0,160,225,0,16,149,229,2,128,160,225,15,224,160,225,24,240,17,229,4,0,139,229
 .loc 5 44 0
 
 	.byte 16,0,155,229
-bl _p_707
+bl _p_708
 
 	.byte 0,32,160,225,6,0,160,225,0,16,150,229,2,128,160,225,15,224,160,225,24,240,17,229,8,0,139,229,53,0,0,234
 .loc 5 48 0
@@ -23535,15 +23592,15 @@ bl _p_707
 	.long mono_aot_System_Net_Http_got - . + 232
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,255,0,0,226,0,15,80,227,36,0,0,10,4,0,155,229,52,0,139,229
 	.byte 16,0,155,229
-bl _p_708
+bl _p_709
 
 	.byte 0,32,160,225,52,16,155,229,1,0,160,225,0,16,145,229,2,128,160,225,15,224,160,225,4,240,17,229,40,0,139,229
 	.byte 8,0,155,229,48,0,139,229,16,0,155,229
-bl _p_708
+bl _p_709
 
 	.byte 0,32,160,225,48,16,155,229,1,0,160,225,0,16,145,229,2,128,160,225,15,224,160,225,4,240,17,229,44,0,139,229
 	.byte 16,0,155,229
-bl _p_709
+bl _p_710
 
 	.byte 0,192,160,225,40,16,155,229,44,32,155,229,10,0,160,225,0,48,154,229,12,128,160,225,15,224,160,225,28,240,19,229
 	.byte 255,0,0,226,0,15,80,227,4,0,0,26
@@ -23573,21 +23630,21 @@ bl _p_709
 .loc 5 25 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2612
+	.long mono_aot_System_Net_Http_got - . + 2620
 	.byte 0,0,159,231,59,17,0,227
 bl _p_21
-bl _p_710
+bl _p_711
 bl _p_22
 .loc 5 30 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2612
+	.long mono_aot_System_Net_Http_got - . + 2620
 	.byte 0,0,159,231,71,17,0,227
 bl _p_21
-bl _p_710
+bl _p_711
 bl _p_22
 
-Lme_353:
+Lme_355:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
@@ -23609,12 +23666,12 @@ System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
 .loc 6 419 0
 
 	.byte 0,0,157,229,6,16,160,225
-bl _p_711
+bl _p_712
 .loc 6 421 0
 
 	.byte 2,223,141,226,96,5,189,232,128,128,189,232
 
-Lme_354:
+Lme_356:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
@@ -23633,11 +23690,11 @@ bl _p_639
 .loc 6 714 0
 
 	.byte 208,2,160,227,88,17,160,227
-bl _p_712
+bl _p_713
 .loc 6 718 0
 
 	.byte 24,0,155,229,0,0,144,229
-bl _p_713
+bl _p_714
 
 	.byte 0,32,160,225,4,16,146,229,28,0,155,229
 bl _p_671
@@ -23649,7 +23706,7 @@ bl _p_671
 .loc 6 720 0
 
 	.byte 24,0,155,229,0,0,144,229
-bl _p_714
+bl _p_715
 
 	.byte 0,32,160,225,5,0,160,225,0,16,149,229,2,128,160,225,15,224,160,225,76,240,17,229,0,64,160,225
 .loc 6 721 0
@@ -23685,7 +23742,7 @@ bl _p_572
 .loc 6 735 0
 
 	.byte 24,0,155,229,0,0,144,229
-bl _p_715
+bl _p_716
 
 	.byte 4,16,160,225
 bl _p_174
@@ -23694,13 +23751,13 @@ bl _p_174
 .loc 6 736 0
 
 	.byte 24,0,155,229,0,0,144,229
-bl _p_716
+bl _p_717
 
 	.byte 0,192,160,225,5,0,160,225,10,16,160,225,0,47,160,227,0,48,149,229,12,128,160,225,15,224,160,225,32,240,19,229
 .loc 6 737 0
 
 	.byte 24,0,155,229,8,16,144,229,10,0,160,225,6,32,160,225,0,224,218,229
-bl _p_717
+bl _p_718
 .loc 6 739 0
 
 	.byte 24,0,155,229,0,16,160,225,16,16,145,229,4,16,129,224,16,16,128,229
@@ -23710,7 +23767,7 @@ bl _p_717
 .loc 6 743 0
 
 	.byte 24,0,155,229,0,0,144,229
-bl _p_718
+bl _p_719
 
 	.byte 0,32,160,225,28,0,155,229,0,16,160,225,0,16,145,229,2,128,160,225,15,224,160,225,24,240,17,229,8,0,139,229
 	.byte 20,0,0,234
@@ -23718,11 +23775,11 @@ bl _p_718
 
 	.byte 24,0,155,229,32,0,139,229,6,0,160,225,36,0,139,229,64,99,134,226,8,0,155,229,40,0,139,229,24,0,155,229
 	.byte 0,0,144,229
-bl _p_719
+bl _p_720
 
 	.byte 0,32,160,225,40,16,155,229,1,0,160,225,0,16,145,229,2,128,160,225,15,224,160,225,4,240,17,229,0,32,160,225
 	.byte 32,0,155,229,36,16,155,229
-bl _p_720
+bl _p_721
 .loc 6 744 0
 
 	.byte 8,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
@@ -23741,7 +23798,7 @@ bl _p_720
 
 	.byte 12,223,139,226,112,13,189,232,128,128,189,232
 
-Lme_355:
+Lme_357:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
@@ -23750,7 +23807,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
 .loc 10 32 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,4,223,77,226,0,128,141,229,0,0,157,229
-bl _p_721
+bl _p_722
 
 	.byte 0,160,144,229
 .loc 10 33 0
@@ -23759,23 +23816,23 @@ bl _p_721
 .loc 10 34 0
 
 	.byte 0,0,157,229
-bl _p_722
+bl _p_723
 
 	.byte 0,128,160,225
-bl _p_723
+bl _p_724
 
 	.byte 0,160,160,225
 .loc 10 35 0
 
 	.byte 12,0,141,229,0,0,157,229
-bl _p_721
+bl _p_722
 
 	.byte 8,0,141,229,12,16,157,229,0,0,160,227,186,15,7,238,8,0,157,229,0,16,128,229
 .loc 10 37 0
 
 	.byte 10,0,160,225,4,223,141,226,0,5,189,232,128,128,189,232
 
-Lme_356:
+Lme_358:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_RemoveAt_int
@@ -23808,7 +23865,7 @@ bl _p_572
 
 	.byte 5,223,139,226,0,13,189,232,128,128,189,232
 
-Lme_357:
+Lme_359:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
@@ -23817,16 +23874,16 @@ System_Collections_Generic_List_1_T_REF_IndexOf_T_REF:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229,8,0,144,229
 	.byte 8,0,141,229,0,0,157,229,16,0,144,229,12,0,141,229,0,0,157,229,0,0,144,229
-bl _p_724
+bl _p_725
 
 	.byte 0,128,160,225,8,0,157,229,12,48,157,229,4,16,157,229,0,47,160,227
-bl _p_725
+bl _p_726
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_358:
+Lme_35a:
 .text
-ut_857:
+ut_859:
 
 	.byte 8,0,128,226
 	b System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
@@ -23853,7 +23910,7 @@ bl _p_5
 
 	.byte 3,223,141,226,64,5,189,232,128,128,189,232
 
-Lme_359:
+Lme_35b:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
@@ -23877,7 +23934,7 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_35a:
+Lme_35c:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
@@ -23902,7 +23959,7 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_35b:
+Lme_35d:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
@@ -23928,7 +23985,7 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_360:
+Lme_362:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
@@ -23954,9 +24011,9 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_365:
+Lme_367:
 .text
-ut_870:
+ut_872:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -23977,9 +24034,9 @@ bl _p_5
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_366:
+Lme_368:
 .text
-ut_871:
+ut_873:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
@@ -23994,9 +24051,9 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 	.byte 0,224,209,229,36,0,144,229,88,7,0,226,0,15,80,227,0,0,160,227,1,0,160,131,3,223,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_367:
+Lme_369:
 .text
-ut_872:
+ut_874:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
@@ -24009,14 +24066,14 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229,0,0,144,229
 	.byte 4,16,157,229,64,35,160,227,64,51,160,227
-bl _p_726
+bl _p_727
 .loc 11 337 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_368:
+Lme_36a:
 .text
-ut_873:
+ut_875:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
@@ -24029,14 +24086,14 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229,0,0,144,229
 	.byte 4,16,157,229,64,35,160,227,0,63,160,227
-bl _p_726
+bl _p_727
 .loc 11 348 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_369:
+Lme_36b:
 .text
-ut_874:
+ut_876:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
@@ -24048,15 +24105,15 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .loc 11 357 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,16,141,229,8,0,141,229,8,0,157,229,0,0,144,229
-bl _p_727
+bl _p_728
 .loc 11 358 0
 
 	.byte 8,0,157,229,0,0,144,229,0,16,160,225,0,224,209,229,10,15,128,226,208,0,208,225,4,0,205,229,0,0,157,229
 	.byte 212,16,221,225,0,16,192,229,5,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_36a:
+Lme_36c:
 .text
-ut_875:
+ut_877:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -24069,9 +24126,9 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,11,223,77,226,16,0,141,229,20,16,141,229,24,32,205,229,0,15,160,227
 	.byte 0,0,141,229,0,15,160,227,4,0,141,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2616
+	.long mono_aot_System_Net_Http_got - . + 2624
 	.byte 8,128,159,231,13,0,160,225,20,16,157,229,24,32,221,229
-bl _p_728
+bl _p_729
 
 	.byte 0,0,157,229,8,0,141,229,4,0,157,229,12,0,141,229,16,16,157,229,1,0,160,225,8,32,157,229,36,32,141,229
 	.byte 0,32,129,229,32,0,141,229
@@ -24082,9 +24139,9 @@ bl _p_5
 
 	.byte 11,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_36b:
+Lme_36d:
 .text
-ut_876:
+ut_878:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
@@ -24102,9 +24159,9 @@ bl _p_5
 
 	.byte 16,0,157,229,20,16,157,229,1,15,128,226,8,16,157,229,0,16,128,229,7,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_36c:
+Lme_36e:
 .text
-ut_877:
+ut_879:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -24127,9 +24184,9 @@ bl _p_5
 
 	.byte 2,223,141,226,64,1,189,232,128,128,189,232
 
-Lme_36d:
+Lme_36f:
 .text
-ut_878:
+ut_880:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
@@ -24144,9 +24201,9 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 	.byte 0,224,209,229,36,0,144,229,88,7,0,226,0,15,80,227,0,0,160,227,1,0,160,131,3,223,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_36e:
+Lme_370:
 .text
-ut_879:
+ut_881:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
@@ -24159,14 +24216,14 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,16,157,229,0,0,145,229
 	.byte 4,32,209,229,4,16,157,229,64,51,160,227
-bl _p_726
+bl _p_727
 .loc 11 515 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_36f:
+Lme_371:
 .text
-ut_880:
+ut_882:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
@@ -24179,14 +24236,14 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,16,157,229,0,0,145,229
 	.byte 4,32,209,229,4,16,157,229,0,63,160,227
-bl _p_726
+bl _p_727
 .loc 11 526 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_370:
+Lme_372:
 .text
-ut_881:
+ut_883:
 
 	.byte 8,0,128,226
 	b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
@@ -24198,13 +24255,13 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .loc 11 535 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,16,141,229,8,0,141,229,8,0,157,229,0,0,144,229
-bl _p_727
+bl _p_728
 .loc 11 536 0
 
 	.byte 8,0,157,229,0,0,144,229,0,16,160,225,0,224,209,229,10,15,128,226,208,0,208,225,4,0,205,229,0,0,157,229
 	.byte 212,16,221,225,0,16,192,229,5,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_371:
+Lme_373:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -24227,7 +24284,7 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_372:
+Lme_374:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
@@ -24261,7 +24318,7 @@ bl _p_650
 
 	.byte 16,223,139,226,96,9,189,232,128,128,189,232
 
-Lme_373:
+Lme_375:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -24279,9 +24336,9 @@ bl _p_662
 .loc 12 156 0
 
 	.byte 8,0,154,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2620
+	.long mono_aot_System_Net_Http_got - . + 2628
 	.byte 1,16,159,231,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2624
+	.long mono_aot_System_Net_Http_got - . + 2632
 	.byte 2,32,159,231
 bl _p_671
 
@@ -24298,9 +24355,9 @@ bl _p_671
 .loc 12 162 0
 
 	.byte 8,0,154,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2628
+	.long mono_aot_System_Net_Http_got - . + 2636
 	.byte 1,16,159,231,0,32,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2632
+	.long mono_aot_System_Net_Http_got - . + 2640
 	.byte 2,32,159,231
 bl _p_671
 
@@ -24315,14 +24372,14 @@ bl _p_671
 
 	.byte 1,223,141,226,112,5,189,232,128,128,189,232
 
-Lme_374:
+Lme_376:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
 System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2636
+	.long mono_aot_System_Net_Http_got - . + 2644
 	.byte 0,0,159,231,2,31,160,227
 bl _p_3
 
@@ -24330,7 +24387,7 @@ bl _p_3
 	.long mono_aot_System_Net_Http_got - . + 2400
 	.byte 0,0,159,231,0,16,128,229,1,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_375:
+Lme_377:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
@@ -24356,7 +24413,7 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_37a:
+Lme_37c:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
@@ -24364,7 +24421,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_37b:
+Lme_37d:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
@@ -24375,12 +24432,12 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks
 	.byte 12,32,150,229,16,48,150,229,0,128,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2396
 	.byte 8,128,159,231,8,0,155,229,64,195,160,227,0,192,141,229
-bl _p_694
+bl _p_695
 .loc 9 864 0
 
 	.byte 5,223,139,226,64,9,189,232,128,128,189,232
 
-Lme_37c:
+Lme_37e:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
@@ -24388,7 +24445,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_37d:
+Lme_37f:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
@@ -24397,7 +24454,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,5,223,77,226,13,176,160,225,0,96,160,225,8,16,139,229,8,16,150,229
 	.byte 1,0,160,225,0,224,209,229
-bl _p_693
+bl _p_694
 
 	.byte 255,0,0,226,0,15,80,227,13,0,0,10
 .loc 9 850 0
@@ -24405,12 +24462,12 @@ bl _p_693
 	.byte 12,0,150,229,8,16,144,229,12,0,150,229,12,32,144,229,12,0,150,229,16,48,144,229,0,128,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2396
 	.byte 8,128,159,231,8,0,155,229,64,195,160,227,0,192,141,229
-bl _p_694
+bl _p_695
 .loc 9 851 0
 
 	.byte 5,223,139,226,64,9,189,232,128,128,189,232
 
-Lme_37e:
+Lme_380:
 .text
 	.align 2
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
@@ -24424,11 +24481,11 @@ System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Thread
 bl _p_3
 
 	.byte 16,0,139,229,0,31,160,227,12,32,155,229,64,60,160,227,8,192,155,229,0,192,141,229
-bl _p_729
+bl _p_730
 
 	.byte 16,0,155,229,6,223,139,226,0,9,189,232,128,128,189,232
 
-Lme_37f:
+Lme_381:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_set_Capacity_int
@@ -24440,7 +24497,7 @@ System_Collections_Generic_List_1_T_REF_set_Capacity_int:
 .loc 6 117 0
 
 	.byte 240,2,160,227,84,17,160,227
-bl _p_712
+bl _p_713
 .loc 6 121 0
 
 	.byte 8,0,155,229,8,0,144,229,12,0,144,229,0,0,90,225,45,0,0,10
@@ -24450,7 +24507,7 @@ bl _p_712
 .loc 6 123 0
 
 	.byte 8,0,155,229,0,0,144,229
-bl _p_730
+bl _p_731
 
 	.byte 10,16,160,225
 bl _p_174
@@ -24473,13 +24530,13 @@ bl _p_5
 .loc 6 130 0
 
 	.byte 8,0,155,229,20,0,139,229,8,0,155,229,0,0,144,229
-bl _p_731
+bl _p_732
 
 	.byte 217,193,208,225,0,0,92,227,0,0,0,26
 bl _p_8
 
 	.byte 8,0,155,229,0,0,144,229
-bl _p_732
+bl _p_733
 
 	.byte 0,16,160,225,20,0,155,229,0,16,145,229,16,16,139,229,8,16,128,229,2,15,128,226
 bl _p_5
@@ -24489,7 +24546,7 @@ bl _p_5
 
 	.byte 6,223,139,226,64,13,189,232,128,128,189,232
 
-Lme_380:
+Lme_382:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
@@ -24501,7 +24558,7 @@ System_Collections_Generic_List_1_T_REF_Insert_int_T_REF:
 .loc 6 679 0
 
 	.byte 208,2,160,227,108,17,160,227
-bl _p_712
+bl _p_713
 .loc 6 682 0
 
 	.byte 8,0,155,229,16,0,144,229,8,16,155,229,8,16,145,229,12,16,145,229,1,0,80,225,4,0,0,26,8,0,155,229
@@ -24528,7 +24585,7 @@ bl _p_572
 
 	.byte 5,223,139,226,64,9,189,232,128,128,189,232
 
-Lme_381:
+Lme_383:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
@@ -24536,35 +24593,18 @@ System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 .loc 10 49 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,128,141,229,0,0,157,229
-bl _p_733
+bl _p_734
 
 	.byte 0,64,160,225,0,15,84,227,9,0,0,10,0,0,148,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2640
+	.long mono_aot_System_Net_Http_got - . + 2648
 	.byte 1,16,159,231,1,0,80,225,38,1,0,27,4,160,160,225
 .loc 10 51 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2644
+	.long mono_aot_System_Net_Http_got - . + 2652
 	.byte 0,0,159,231,0,0,84,225,0,0,160,19,1,0,160,3,0,15,80,227,19,0,0,10
 .loc 10 52 0
-
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2648
-	.byte 0,0,159,231,2,31,160,227
-bl _p_3
-
-	.byte 0,160,160,225,0,0,157,229
-bl _p_734
-
-	.byte 0,80,160,225,0,15,90,227,5,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,4,0,144,229,5,0,80,225
-	.byte 10,1,0,27,10,0,160,225,5,1,0,234
-.loc 10 57 0
-
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2652
-	.byte 0,0,159,231,0,0,90,225,0,0,160,19,1,0,160,3,0,15,80,227,19,0,0,10
-.loc 10 58 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_System_Net_Http_got - . + 2656
@@ -24572,137 +24612,154 @@ bl _p_734
 bl _p_3
 
 	.byte 0,160,160,225,0,0,157,229
-bl _p_734
+bl _p_735
+
+	.byte 0,80,160,225,0,15,90,227,5,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,4,0,144,229,5,0,80,225
+	.byte 10,1,0,27,10,0,160,225,5,1,0,234
+.loc 10 57 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2660
+	.byte 0,0,159,231,0,0,90,225,0,0,160,19,1,0,160,3,0,15,80,227,19,0,0,10
+.loc 10 58 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2664
+	.byte 0,0,159,231,2,31,160,227
+bl _p_3
+
+	.byte 0,160,160,225,0,0,157,229
+bl _p_735
 
 	.byte 0,80,160,225,0,15,90,227,5,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,4,0,144,229,5,0,80,225
 	.byte 237,0,0,27,10,0,160,225,232,0,0,234
 .loc 10 62 0
 
 	.byte 0,0,157,229
-bl _p_735
+bl _p_736
 
 	.byte 0,32,160,225,10,16,160,225,0,32,146,229,15,224,160,225,124,240,146,229,255,0,0,226,0,15,80,227,19,0,0,10
 .loc 10 64 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2660
+	.long mono_aot_System_Net_Http_got - . + 2668
 	.byte 0,0,159,231,10,16,160,225
-bl _p_736
+bl _p_737
 
 	.byte 0,160,160,225,0,0,157,229
-bl _p_734
+bl _p_735
 
 	.byte 0,80,160,225,0,15,90,227,5,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,4,0,144,229,5,0,80,225
 	.byte 207,0,0,27,10,0,160,225,202,0,0,234
 .loc 10 70 0
 
-	.byte 10,0,160,225,0,16,154,229,15,224,160,225,252,240,145,229,255,0,0,226,0,15,80,227,86,0,0,10,10,0,160,225
-	.byte 0,16,154,229,15,224,160,225,160,240,145,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2664
+	.byte 10,0,160,225,0,16,154,229,15,224,160,225,0,241,145,229,255,0,0,226,0,15,80,227,86,0,0,10,10,0,160,225
+	.byte 0,16,154,229,15,224,160,225,164,240,145,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_Net_Http_got - . + 2672
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,73,0,0,10
 .loc 10 71 0
 
-	.byte 10,0,160,225,0,16,154,229,15,224,160,225,168,240,145,229,12,16,144,229,0,15,81,227,182,0,0,155,16,80,144,229
+	.byte 10,0,160,225,0,16,154,229,15,224,160,225,172,240,145,229,12,16,144,229,0,15,81,227,182,0,0,155,16,80,144,229
 	.byte 0,15,85,227,9,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2640
+	.long mono_aot_System_Net_Http_got - . + 2648
 	.byte 1,16,159,231,1,0,80,225,165,0,0,27,5,96,160,225
 .loc 10 72 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2668
+	.long mono_aot_System_Net_Http_got - . + 2676
 	.byte 0,0,159,231,12,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2672
+	.long mono_aot_System_Net_Http_got - . + 2680
 	.byte 0,0,159,231,64,19,160,227
 bl _p_174
 
 	.byte 0,48,160,225,8,0,141,229,3,0,160,225,0,31,160,227,5,32,160,225,0,48,147,229,15,224,160,225,132,240,147,229
-	.byte 8,16,157,229,12,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,176,240,146,229,0,32,160,225,5,16,160,225
+	.byte 8,16,157,229,12,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,180,240,146,229,0,32,160,225,5,16,160,225
 	.byte 0,32,146,229,15,224,160,225,124,240,146,229,255,0,0,226,0,15,80,227,19,0,0,10
 .loc 10 74 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2676
+	.long mono_aot_System_Net_Http_got - . + 2684
 	.byte 0,0,159,231,6,16,160,225
-bl _p_736
+bl _p_737
 
 	.byte 0,96,160,225,0,0,157,229
-bl _p_734
+bl _p_735
 
 	.byte 0,176,160,225,0,15,86,227,5,0,0,10,0,0,150,229,0,0,144,229,8,0,144,229,4,0,144,229,11,0,80,225
 	.byte 113,0,0,27,6,0,160,225,108,0,0,234
 .loc 10 82 0
 
-	.byte 10,0,160,225,0,16,154,229,15,224,160,225,12,241,145,229,255,0,0,226,0,15,80,227,94,0,0,10
+	.byte 10,0,160,225,0,16,154,229,15,224,160,225,16,241,145,229,255,0,0,226,0,15,80,227,94,0,0,10
 .loc 10 83 0
 
 	.byte 10,0,160,225
-bl _p_737
 bl _p_738
+bl _p_739
 
 	.byte 0,80,160,225
 .loc 10 88 0
 
 	.byte 80,82,64,226,2,15,85,227,87,0,0,42,5,17,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2680
+	.long mono_aot_System_Net_Http_got - . + 2688
 	.byte 0,0,159,231,1,0,128,224,0,0,144,229,0,240,160,225
 .loc 10 91 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2684
+	.long mono_aot_System_Net_Http_got - . + 2692
 	.byte 0,0,159,231,10,16,160,225
-bl _p_736
+bl _p_737
 
 	.byte 0,80,160,225,0,0,157,229
-bl _p_734
+bl _p_735
 
 	.byte 0,176,160,225,0,15,85,227,5,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,4,0,144,229,11,0,80,225
 	.byte 71,0,0,27,5,0,160,225,66,0,0,234
 .loc 10 97 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2688
+	.long mono_aot_System_Net_Http_got - . + 2696
 	.byte 0,0,159,231,10,16,160,225
-bl _p_736
+bl _p_737
 
 	.byte 0,80,160,225,0,0,157,229
-bl _p_734
+bl _p_735
 
 	.byte 0,176,160,225,0,15,85,227,5,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,4,0,144,229,11,0,80,225
 	.byte 51,0,0,27,5,0,160,225,46,0,0,234
 .loc 10 106 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2692
+	.long mono_aot_System_Net_Http_got - . + 2700
 	.byte 0,0,159,231,10,16,160,225
-bl _p_736
+bl _p_737
 
 	.byte 0,80,160,225,0,0,157,229
-bl _p_734
+bl _p_735
 
 	.byte 0,176,160,225,0,15,85,227,5,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,4,0,144,229,11,0,80,225
 	.byte 31,0,0,27,5,0,160,225,26,0,0,234
 .loc 10 113 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2696
+	.long mono_aot_System_Net_Http_got - . + 2704
 	.byte 0,0,159,231,10,16,160,225
-bl _p_736
+bl _p_737
 
 	.byte 0,80,160,225,0,0,157,229
-bl _p_734
+bl _p_735
 
 	.byte 0,176,160,225,0,15,85,227,5,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,4,0,144,229,11,0,80,225
 	.byte 11,0,0,27,5,0,160,225,6,0,0,234
 .loc 10 120 0
 
 	.byte 0,0,157,229
-bl _p_739
+bl _p_740
 
 	.byte 2,31,160,227
 bl _p_3
 
 	.byte 8,0,141,229
-bl _p_740
+bl _p_741
 
 	.byte 8,0,157,229,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_48
@@ -24712,7 +24769,7 @@ bl _p_48
 
 	.byte 217,0,0,0
 
-Lme_382:
+Lme_384:
 .text
 	.align 2
 	.no_dead_strip System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
@@ -24726,16 +24783,16 @@ System_Array_IndexOf_T_REF_T_REF___T_REF_int_int:
 	.byte 0,15,90,227,47,0,0,186,20,96,139,229,8,0,148,229,12,0,139,229,0,15,80,227,3,0,0,10,12,0,155,229
 	.byte 4,0,144,229,16,0,139,229,1,0,0,234,0,15,160,227,16,0,139,229,20,0,155,229,16,16,155,229,1,0,80,225
 	.byte 32,0,0,186,64,3,70,226,32,0,139,229,4,0,160,225,0,31,160,227,0,224,212,229
-bl _p_741
+bl _p_742
 
 	.byte 0,16,160,225,32,0,155,229,10,16,65,224,1,0,80,225,21,0,0,202
 .loc 3 3048 0
 
 	.byte 8,0,155,229
-bl _p_742
+bl _p_743
 
 	.byte 0,128,160,225
-bl _p_743
+bl _p_744
 
 	.byte 0,192,160,225,4,16,160,225,24,32,155,229,6,48,160,225,0,160,141,229,0,192,156,229,15,224,160,225,68,240,156,229
 	.byte 11,223,139,226,80,13,189,232,128,128,189,232
@@ -24753,7 +24810,7 @@ bl _p_22
 bl _mono_create_corlib_exception_0
 bl _p_22
 
-Lme_383:
+Lme_385:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
@@ -24761,7 +24818,7 @@ System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_384:
+Lme_386:
 .text
 	.align 2
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -24769,18 +24826,18 @@ System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb_
 .loc 8 87 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,2,223,77,226,0,0,141,229,1,160,160,225,10,0,160,225,0,224,218,229
-bl _p_744
+bl _p_745
 
 	.byte 0,160,160,225,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_Net_Http_got - . + 2700
+	.long mono_aot_System_Net_Http_got - . + 2708
 	.byte 1,16,159,231,1,0,80,225,3,0,0,27,10,0,160,225,2,223,141,226,0,5,189,232,128,128,189,232,14,16,160,225
 	.byte 0,0,159,229
 bl _p_48
 
 	.byte 223,0,0,0
 
-Lme_385:
+Lme_387:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
@@ -24788,7 +24845,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,3,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_386:
+Lme_388:
 .text
 	.align 3
 jit_code_end:
@@ -25634,8 +25691,10 @@ bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueW
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
+bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
@@ -25719,10 +25778,10 @@ unbox_trampolines:
 	.long 725,726,727,731,732,733,734,735
 	.long 736,737,738,739,740,764,765,766
 	.long 767,768,769,770,771,772,773,774
-	.long 775,776,777,778,779,806,807,843
-	.long 844,845,846,847,848,849,850,857
-	.long 870,871,872,873,874,875,876,877
-	.long 878,879,880,881
+	.long 775,776,777,778,779,806,807,845
+	.long 846,847,848,849,850,851,852,859
+	.long 872,873,874,875,876,877,878,879
+	.long 880,881,882,883
 unbox_trampolines_end:
 
 	.long 0
@@ -25832,17 +25891,15 @@ bl ut_778
 bl ut_779
 bl ut_806
 bl ut_807
-bl ut_843
-bl ut_844
 bl ut_845
 bl ut_846
 bl ut_847
 bl ut_848
 bl ut_849
 bl ut_850
-bl ut_857
-bl ut_870
-bl ut_871
+bl ut_851
+bl ut_852
+bl ut_859
 bl ut_872
 bl ut_873
 bl ut_874
@@ -25853,6 +25910,8 @@ bl ut_878
 bl ut_879
 bl ut_880
 bl ut_881
+bl ut_882
+bl ut_883
 
 	.long 0
 .section __TEXT, __const
@@ -26329,46 +26388,49 @@ unwind_info:
 	.byte 136,4,139,3,142,1,68,14,56,68,13,11,2,80,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,44,12,13
 	.byte 0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,88,68,13,11,2,224,10,68,13,13,14,20,68
 	.byte 8,6,8,8,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,244,10
-	.byte 68,14,12,68,8,8,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,132,5,136,4,139,3,142,1,68,14
-	.byte 48,68,13,11,2,120,10,68,13,13,14,20,68,8,4,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2
-	.byte 72,14,20,132,5,136,4,139,3,142,1,68,14,72,68,13,11,2,216,10,68,13,13,14,20,68,8,4,8,8,8,11
-	.byte 14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11
-	.byte 3,128,2,10,68,13,13,14,24,68,8,6,8,8,8,10,8,11,14,8,68,11,53,12,13,0,68,14,8,135,2,72
-	.byte 14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,104,68,13,11,3,40,4,10,68,13,13,14,28,68,8,5
-	.byte 8,6,8,8,8,10,8,11,14,8,68,11,39,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1
-	.byte 68,14,32,2,88,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,48,12,13,0,68,14,8,135,2,72,14,24
-	.byte 134,6,136,5,138,4,139,3,142,1,68,14,40,68,13,11,2,156,10,68,13,13,14,24,68,8,6,8,8,8,10,8
-	.byte 11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,100,10,68,14,16
-	.byte 68,8,6,8,8,14,8,68,11,47,12,13,0,68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142
-	.byte 1,68,14,40,2,204,10,68,14,28,68,8,4,8,5,8,8,8,10,8,11,14,8,68,11,45,12,13,0,68,14,8
-	.byte 135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,88,68,13,11,3,100,9,10,68,13,13,14,20,68,8,8,8
-	.byte 10,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12
-	.byte 68,8,8,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142
-	.byte 1,68,14,88,68,13,11,3,8,3,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68
-	.byte 11,43,12,13,0,68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32,2,124,10,68,14,24
-	.byte 68,8,5,8,6,8,8,8,10,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136
-	.byte 5,138,4,139,3,142,1,68,14,80,68,13,11,3,208,2,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8
-	.byte 10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,32,2,88,10,68
-	.byte 14,16,68,8,8,8,10,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68
-	.byte 14,40,68,13,11,2,172,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,39,12,13,0,68,14,8,135
-	.byte 2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,52,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11
-	.byte 52,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,16,1
-	.byte 10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14
-	.byte 32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,32,1,10,68,14,32,68,8,4,8,5,8,6
-	.byte 8,8,8,10,8,11,14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,24,133,6,134,5,136,4,139,3,142,1
-	.byte 68,14,88,68,13,11,3,16,1,10,68,13,13,14,24,68,8,5,8,6,8,8,8,11,14,8,68,11,47,12,13,0
-	.byte 68,14,8,135,2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32,2,172,10,68,14,28,68,8,4
-	.byte 8,5,8,6,8,8,8,10,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1
-	.byte 68,14,40,68,13,11,2,52,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8
-	.byte 135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,40,68,13,11,2,92,10,68,13,13,14,20,68,8,6,8,8
-	.byte 8,11,14,8,68,11,48,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,48,68
-	.byte 13,11,2,240,10,68,13,13,14,24,68,8,6,8,8,8,10,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2
-	.byte 72,14,20,134,5,136,4,139,3,142,1,68,14,40,68,13,11,2,220,10,68,13,13,14,20,68,8,6,8,8,8,11
-	.byte 14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14
-	.byte 48,3,208,4,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,52,12,13,0,68,14,8
-	.byte 135,2,72,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11,2,188,10,68,13,13,14,28,68
-	.byte 8,4,8,6,8,8,8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1
-	.byte 68,14,24,2,76,10,68,14,16,68,8,8,8,10,14,8,68,11
+	.byte 68,14,12,68,8,8,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2
+	.byte 144,10,68,14,16,68,8,8,8,10,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,132,5,136,4,139,3
+	.byte 142,1,68,14,48,68,13,11,2,120,10,68,13,13,14,20,68,8,4,8,8,8,11,14,8,68,11,44,12,13,0,68
+	.byte 14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,72,68,13,11,2,220,10,68,13,13,14,20,68,8,6
+	.byte 8,8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,132,5,136,4,139,3,142,1,68,14,72,68
+	.byte 13,11,2,216,10,68,13,13,14,20,68,8,4,8,8,8,11,14,8,68,11,49,12,13,0,68,14,8,135,2,72,14
+	.byte 24,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11,3,128,2,10,68,13,13,14,24,68,8,6,8,8,8
+	.byte 10,8,11,14,8,68,11,53,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68
+	.byte 14,104,68,13,11,3,40,4,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,39,12,13
+	.byte 0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,88,10,68,14,20,68,8,6,8,8,8
+	.byte 10,14,8,68,11,48,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,40,68,13
+	.byte 11,2,156,10,68,13,13,14,24,68,8,6,8,8,8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72
+	.byte 14,16,134,4,136,3,142,1,68,14,24,2,100,10,68,14,16,68,8,6,8,8,14,8,68,11,47,12,13,0,68,14
+	.byte 8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,40,2,204,10,68,14,28,68,8,4,8,5
+	.byte 8,8,8,10,8,11,14,8,68,11,45,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14
+	.byte 88,68,13,11,3,100,9,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135
+	.byte 2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12,68,8,8,14,8,68,11,57,12,13,0,68,14,8,135
+	.byte 2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11,3,8,3,10,68,13,13,14
+	.byte 32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,43,12,13,0,68,14,8,135,2,72,14,24,133,6
+	.byte 134,5,136,4,138,3,142,1,68,14,32,2,124,10,68,14,24,68,8,5,8,6,8,8,8,10,14,8,68,11,57,12
+	.byte 13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,208
+	.byte 2,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135
+	.byte 2,72,14,16,136,4,138,3,142,1,68,14,32,2,88,10,68,14,16,68,8,8,8,10,14,8,68,11,44,12,13,0
+	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,40,68,13,11,2,172,10,68,13,13,14,20,68,8
+	.byte 8,8,10,8,11,14,8,68,11,39,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32
+	.byte 2,52,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,32,132,8,133
+	.byte 7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,16,1,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10
+	.byte 8,11,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+	.byte 68,14,56,3,32,1,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,49,12,13,0,68
+	.byte 14,8,135,2,72,14,24,133,6,134,5,136,4,139,3,142,1,68,14,88,68,13,11,3,16,1,10,68,13,13,14,24
+	.byte 68,8,5,8,6,8,8,8,11,14,8,68,11,47,12,13,0,68,14,8,135,2,72,14,28,132,7,133,6,134,5,136
+	.byte 4,138,3,142,1,68,14,32,2,172,10,68,14,28,68,8,4,8,5,8,6,8,8,8,10,14,8,68,11,44,12,13
+	.byte 0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,40,68,13,11,2,52,10,68,13,13,14,20,68
+	.byte 8,6,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14
+	.byte 40,68,13,11,2,92,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,48,12,13,0,68,14,8,135,2
+	.byte 72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,240,10,68,13,13,14,24,68,8,6,8,8
+	.byte 8,10,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,40,68
+	.byte 13,11,2,220,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14
+	.byte 32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,3,208,4,10,68,14,32,68,8,4,8,5,8,6
+	.byte 8,8,8,10,8,11,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,28,132,7,134,6,136,5,138,4,139,3
+	.byte 142,1,68,14,72,68,13,11,2,188,10,68,13,13,14,28,68,8,4,8,6,8,8,8,10,8,11,14,8,68,11,35
+	.byte 12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,76,10,68,14,16,68,8,8,8,10,14
+	.byte 8,68,11
 
 .text
 	.align 4
@@ -26379,4469 +26441,4475 @@ plt_System_Net_Http_HttpClient__ctor_System_Net_Http_HttpMessageHandler_bool:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2716,16722
+	.long mono_aot_System_Net_Http_got - . + 2724,16785
 	.no_dead_strip plt_System_Net_Http_HttpMessageInvoker__ctor_System_Net_Http_HttpMessageHandler_bool
 plt_System_Net_Http_HttpMessageInvoker__ctor_System_Net_Http_HttpMessageHandler_bool:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2720,16724
+	.long mono_aot_System_Net_Http_got - . + 2728,16787
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2724,16726
+	.long mono_aot_System_Net_Http_got - . + 2732,16789
 	.no_dead_strip plt_System_Threading_CancellationTokenSource__ctor
 plt_System_Threading_CancellationTokenSource__ctor:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2728,16734
+	.long mono_aot_System_Net_Http_got - . + 2736,16797
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
 plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2732,16739
+	.long mono_aot_System_Net_Http_got - . + 2740,16802
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_Dispose
 plt_System_Threading_CancellationTokenSource_Dispose:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2736,16746
+	.long mono_aot_System_Net_Http_got - . + 2744,16809
 	.no_dead_strip plt_System_Net_Http_HttpMessageInvoker_Dispose_bool
 plt_System_Net_Http_HttpMessageInvoker_Dispose_bool:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2740,16751
+	.long mono_aot_System_Net_Http_got - . + 2748,16814
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2744,16753
+	.long mono_aot_System_Net_Http_got - . + 2752,16816
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage__ctor_System_Net_Http_HttpMethod_System_Uri
 plt_System_Net_Http_HttpRequestMessage__ctor_System_Net_Http_HttpMethod_System_Uri:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2748,16779
+	.long mono_aot_System_Net_Http_got - . + 2756,16842
 	.no_dead_strip plt_System_Net_Http_HttpClient_SendAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClient_SendAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2752,16781
+	.long mono_aot_System_Net_Http_got - . + 2760,16844
 	.no_dead_strip plt_System_Uri_op_Equality_System_Uri_System_Uri
 plt_System_Uri_op_Equality_System_Uri_System_Uri:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2756,16783
+	.long mono_aot_System_Net_Http_got - . + 2764,16846
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_set_RequestUri_System_Uri
 plt_System_Net_Http_HttpRequestMessage_set_RequestUri_System_Uri:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2760,16788
+	.long mono_aot_System_Net_Http_got - . + 2768,16851
 	.no_dead_strip plt_System_Uri_get_Scheme
 plt_System_Uri_get_Scheme:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2764,16790
+	.long mono_aot_System_Net_Http_got - . + 2772,16853
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2768,16795
+	.long mono_aot_System_Net_Http_got - . + 2776,16858
 	.no_dead_strip plt_System_Uri_get_OriginalString
 plt_System_Uri_get_OriginalString:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2772,16800
+	.long mono_aot_System_Net_Http_got - . + 2780,16863
 	.no_dead_strip plt_string_StartsWith_string_System_StringComparison
 plt_string_StartsWith_string_System_StringComparison:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2776,16805
+	.long mono_aot_System_Net_Http_got - . + 2784,16868
 	.no_dead_strip plt_System_Uri__ctor_System_Uri_System_Uri
 plt_System_Uri__ctor_System_Uri_System_Uri:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2780,16810
+	.long mono_aot_System_Net_Http_got - . + 2788,16873
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_get_Headers
 plt_System_Net_Http_HttpRequestMessage_get_Headers:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2784,16815
+	.long mono_aot_System_Net_Http_got - . + 2792,16878
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_AddHeaders_System_Net_Http_Headers_HttpRequestHeaders
 plt_System_Net_Http_Headers_HttpRequestHeaders_AddHeaders_System_Net_Http_Headers_HttpRequestHeaders:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2788,16817
+	.long mono_aot_System_Net_Http_got - . + 2796,16880
 	.no_dead_strip plt_System_Net_Http_HttpClient_SendAsyncWorker_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClient_SendAsyncWorker_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2792,16820
+	.long mono_aot_System_Net_Http_got - . + 2800,16883
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2796,16822
+	.long mono_aot_System_Net_Http_got - . + 2804,16885
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2800,16842
+	.long mono_aot_System_Net_Http_got - . + 2808,16905
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2804,16870
+	.long mono_aot_System_Net_Http_got - . + 2812,16933
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2808,16875
+	.long mono_aot_System_Net_Http_got - . + 2816,16938
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2812,16880
+	.long mono_aot_System_Net_Http_got - . + 2820,16943
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_get_Task:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2816,16892
+	.long mono_aot_System_Net_Http_got - . + 2824,16955
 	.no_dead_strip plt_System_TimeSpan_FromSeconds_double
 plt_System_TimeSpan_FromSeconds_double:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2820,16903
+	.long mono_aot_System_Net_Http_got - . + 2828,16966
 	.no_dead_strip plt_System_Net_Http_HttpMessageInvoker_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken
 plt_System_Net_Http_HttpMessageInvoker_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2824,16908
+	.long mono_aot_System_Net_Http_got - . + 2832,16971
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2828,16910
+	.long mono_aot_System_Net_Http_got - . + 2836,16973
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_CreateLinkedTokenSource_System_Threading_CancellationToken_System_Threading_CancellationToken
 plt_System_Threading_CancellationTokenSource_CreateLinkedTokenSource_System_Threading_CancellationToken_System_Threading_CancellationToken:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2832,16939
+	.long mono_aot_System_Net_Http_got - . + 2840,17002
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_CancelAfter_System_TimeSpan
 plt_System_Threading_CancellationTokenSource_CancelAfter_System_TimeSpan:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2836,16944
+	.long mono_aot_System_Net_Http_got - . + 2844,17007
 	.no_dead_strip plt_System_Net_Http_HttpClient__n__0_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClient__n__0_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2840,16949
+	.long mono_aot_System_Net_Http_got - . + 2848,17012
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_ConfigureAwait_bool:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2844,16951
+	.long mono_aot_System_Net_Http_got - . + 2852,17014
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2848,16962
+	.long mono_aot_System_Net_Http_got - . + 2856,17025
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_GetResult:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2852,16974
+	.long mono_aot_System_Net_Http_got - . + 2860,17037
 	.no_dead_strip plt_System_Net_Http_HttpContent_LoadIntoBufferAsync_long
 plt_System_Net_Http_HttpContent_LoadIntoBufferAsync_long:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2856,16985
+	.long mono_aot_System_Net_Http_got - . + 2864,17048
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2860,16987
+	.long mono_aot_System_Net_Http_got - . + 2868,17050
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_GetResult:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2864,16999
+	.long mono_aot_System_Net_Http_got - . + 2872,17062
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetException_System_Exception:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2868,17004
+	.long mono_aot_System_Net_Http_got - . + 2876,17067
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2872,17015
+	.long mono_aot_System_Net_Http_got - . + 2880,17078
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetResult_System_Net_Http_HttpResponseMessage
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetResult_System_Net_Http_HttpResponseMessage:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2876,17054
+	.long mono_aot_System_Net_Http_got - . + 2884,17117
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2880,17065
+	.long mono_aot_System_Net_Http_got - . + 2888,17128
 	.no_dead_strip plt_System_Threading_Interlocked_Increment_long_
 plt_System_Threading_Interlocked_Increment_long_:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2884,17076
+	.long mono_aot_System_Net_Http_got - . + 2892,17139
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2888,17081
+	.long mono_aot_System_Net_Http_got - . + 2896,17144
 	.no_dead_strip plt_System_Net_CookieContainer__ctor
 plt_System_Net_CookieContainer__ctor:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2892,17086
+	.long mono_aot_System_Net_Http_got - . + 2900,17149
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_EnsureModifiability
 plt_System_Net_Http_HttpClientHandler_EnsureModifiability:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2896,17091
+	.long mono_aot_System_Net_Http_got - . + 2904,17154
 	.no_dead_strip plt_System_Net_ServicePointManager_CloseConnectionGroup_string
 plt_System_Net_ServicePointManager_CloseConnectionGroup_string:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2900,17093
+	.long mono_aot_System_Net_Http_got - . + 2908,17156
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2904,17098
+	.long mono_aot_System_Net_Http_got - . + 2912,17161
 	.no_dead_strip plt_System_Net_HttpWebRequest__ctor_System_Uri
 plt_System_Net_HttpWebRequest__ctor_System_Uri:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2908,17133
+	.long mono_aot_System_Net_Http_got - . + 2916,17196
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_ThrowOnError_bool
 plt_System_Net_HttpWebRequest_set_ThrowOnError_bool:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2912,17138
+	.long mono_aot_System_Net_Http_got - . + 2920,17201
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_ProtocolVersion_System_Version
 plt_System_Net_HttpWebRequest_set_ProtocolVersion_System_Version:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2916,17143
+	.long mono_aot_System_Net_Http_got - . + 2924,17206
 	.no_dead_strip plt_System_Net_HttpWebRequest_get_ProtocolVersion
 plt_System_Net_HttpWebRequest_get_ProtocolVersion:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2920,17148
+	.long mono_aot_System_Net_Http_got - . + 2928,17211
 	.no_dead_strip plt_System_Version_op_Equality_System_Version_System_Version
 plt_System_Version_op_Equality_System_Version_System_Version:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2924,17153
+	.long mono_aot_System_Net_Http_got - . + 2932,17216
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionKeepAlive
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionKeepAlive:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2928,17158
+	.long mono_aot_System_Net_Http_got - . + 2936,17221
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_KeepAlive_bool
 plt_System_Net_HttpWebRequest_set_KeepAlive_bool:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2932,17161
+	.long mono_aot_System_Net_Http_got - . + 2940,17224
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionClose
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionClose:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2936,17166
+	.long mono_aot_System_Net_Http_got - . + 2944,17229
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_MaximumAutomaticRedirections_int
 plt_System_Net_HttpWebRequest_set_MaximumAutomaticRedirections_int:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2940,17169
+	.long mono_aot_System_Net_Http_got - . + 2948,17232
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_AutomaticDecompression_System_Net_DecompressionMethods
 plt_System_Net_HttpWebRequest_set_AutomaticDecompression_System_Net_DecompressionMethods:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2944,17174
+	.long mono_aot_System_Net_Http_got - . + 2952,17237
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_get_CookieContainer
 plt_System_Net_Http_HttpClientHandler_get_CookieContainer:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2948,17179
+	.long mono_aot_System_Net_Http_got - . + 2956,17242
 	.no_dead_strip plt_System_Net_HttpWebRequest_get_ServicePoint
 plt_System_Net_HttpWebRequest_get_ServicePoint:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2952,17181
+	.long mono_aot_System_Net_Http_got - . + 2960,17244
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_ExpectContinue
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_ExpectContinue:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2956,17186
+	.long mono_aot_System_Net_Http_got - . + 2964,17249
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaders_GetEnumerator:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2960,17189
+	.long mono_aot_System_Net_Http_got - . + 2968,17252
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_Host
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_Host:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2964,17192
+	.long mono_aot_System_Net_Http_got - . + 2972,17255
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_Host_string
 plt_System_Net_HttpWebRequest_set_Host_string:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2968,17195
+	.long mono_aot_System_Net_Http_got - . + 2976,17258
 	.no_dead_strip plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool
 plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2972,17200
+	.long mono_aot_System_Net_Http_got - . + 2980,17263
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetSingleHeaderString_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Net_Http_Headers_HttpHeaders_GetSingleHeaderString_string_System_Collections_Generic_IEnumerable_1_string:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2976,17212
+	.long mono_aot_System_Net_Http_got - . + 2984,17275
 	.no_dead_strip plt_System_Net_WebHeaderCollection_AddInternal_string_string
 plt_System_Net_WebHeaderCollection_AddInternal_string_string:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2980,17215
+	.long mono_aot_System_Net_Http_got - . + 2988,17278
 	.no_dead_strip plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_System_Threading_CancellationToken
 plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_System_Threading_CancellationToken:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2984,17220
+	.long mono_aot_System_Net_Http_got - . + 2992,17283
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetKnownHeaderKind_string
 plt_System_Net_Http_Headers_HttpHeaders_GetKnownHeaderKind_string:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2988,17222
+	.long mono_aot_System_Net_Http_got - . + 2996,17285
 	.no_dead_strip plt_System_Net_Http_HttpContent_get_Headers
 plt_System_Net_Http_HttpContent_get_Headers:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2992,17225
+	.long mono_aot_System_Net_Http_got - . + 3000,17288
 	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_Headers
 plt_System_Net_Http_HttpResponseMessage_get_Headers:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 2996,17227
+	.long mono_aot_System_Net_Http_got - . + 3004,17290
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_TryAddWithoutValidation_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Net_Http_Headers_HttpHeaders_TryAddWithoutValidation_string_System_Collections_Generic_IEnumerable_1_string:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3000,17229
+	.long mono_aot_System_Net_Http_got - . + 3008,17292
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Net_Http_HttpClientHandler__SendAsyncd__63_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Net_Http_HttpClientHandler__SendAsyncd__63_:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3004,17232
+	.long mono_aot_System_Net_Http_got - . + 3012,17295
 	.no_dead_strip plt_string_op_Inequality_string_string
 plt_string_op_Inequality_string_string:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3008,17244
+	.long mono_aot_System_Net_Http_got - . + 3016,17307
 	.no_dead_strip plt_System_Threading_CancellationToken_Register_System_Action_1_object_object
 plt_System_Threading_CancellationToken_Register_System_Action_1_object_object:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3012,17249
+	.long mono_aot_System_Net_Http_got - . + 3020,17312
 	.no_dead_strip plt_System_Net_Http_Headers_HttpContentHeaders_get_ContentLength
 plt_System_Net_Http_Headers_HttpContentHeaders_get_ContentLength:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3016,17254
+	.long mono_aot_System_Net_Http_got - . + 3024,17317
 	.no_dead_strip plt_System_Nullable_1_long_get_Value
 plt_System_Nullable_1_long_get_Value:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3020,17257
+	.long mono_aot_System_Net_Http_got - . + 3028,17320
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClientHandler__SendAsyncd__63_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClientHandler__SendAsyncd__63_:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3024,17268
+	.long mono_aot_System_Net_Http_got - . + 3032,17331
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_IO_Stream_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_IO_Stream_ConfigureAwait_bool:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3028,17280
+	.long mono_aot_System_Net_Http_got - . + 3036,17343
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpClientHandler__SendAsyncd__63_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpClientHandler__SendAsyncd__63_:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3032,17291
+	.long mono_aot_System_Net_Http_got - . + 3040,17354
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_GetResult:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3036,17303
+	.long mono_aot_System_Net_Http_got - . + 3044,17366
 	.no_dead_strip plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream
 plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3040,17314
+	.long mono_aot_System_Net_Http_got - . + 3048,17377
 	.no_dead_strip plt_System_Net_Http_HttpMethod_Equals_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpMethod_Equals_System_Net_Http_HttpMethod:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3044,17316
+	.long mono_aot_System_Net_Http_got - . + 3052,17379
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_WebResponse_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_Net_WebResponse_ConfigureAwait_bool:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3048,17318
+	.long mono_aot_System_Net_Http_got - . + 3056,17381
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse__System_Net_Http_HttpClientHandler__SendAsyncd__63_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse__System_Net_Http_HttpClientHandler__SendAsyncd__63_:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3052,17329
+	.long mono_aot_System_Net_Http_got - . + 3060,17392
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_GetResult:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3056,17341
+	.long mono_aot_System_Net_Http_got - . + 3064,17404
 	.no_dead_strip plt_System_Threading_CancellationTokenRegistration_Dispose
 plt_System_Threading_CancellationTokenRegistration_Dispose:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3060,17352
+	.long mono_aot_System_Net_Http_got - . + 3068,17415
 	.no_dead_strip plt_System_Net_Http_HttpRequestException__ctor_string_System_Exception
 plt_System_Net_Http_HttpRequestException__ctor_string_System_Exception:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3064,17357
+	.long mono_aot_System_Net_Http_got - . + 3072,17420
 	.no_dead_strip plt_System_Threading_CancellationToken_get_IsCancellationRequested
 plt_System_Threading_CancellationToken_get_IsCancellationRequested:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3068,17359
+	.long mono_aot_System_Net_Http_got - . + 3076,17422
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage__ctor:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3072,17364
+	.long mono_aot_System_Net_Http_got - . + 3080,17427
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_SetCanceled
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_SetCanceled:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3076,17375
+	.long mono_aot_System_Net_Http_got - . + 3084,17438
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter
 plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3080,17386
+	.long mono_aot_System_Net_Http_got - . + 3088,17449
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClientHandler__SendAsyncd__63_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClientHandler__SendAsyncd__63_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClientHandler__SendAsyncd__63_:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3084,17397
+	.long mono_aot_System_Net_Http_got - . + 3092,17460
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3088,17409
+	.long mono_aot_System_Net_Http_got - . + 3096,17472
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_CreateResponseMessage_System_Net_HttpWebResponse_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClientHandler_CreateResponseMessage_System_Net_HttpWebResponse_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3092,17420
+	.long mono_aot_System_Net_Http_got - . + 3100,17483
 	.no_dead_strip plt_System_Net_Http_Headers_HttpContentHeaders__ctor_System_Net_Http_HttpContent
 plt_System_Net_Http_Headers_HttpContentHeaders__ctor_System_Net_Http_HttpContent:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3096,17422
+	.long mono_aot_System_Net_Http_got - . + 3104,17485
 	.no_dead_strip plt_System_Nullable_1_long__ctor_long
 plt_System_Nullable_1_long__ctor_long:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3100,17425
+	.long mono_aot_System_Net_Http_got - . + 3108,17488
 	.no_dead_strip plt_System_Threading_Tasks_Task_Wait
 plt_System_Threading_Tasks_Task_Wait:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3104,17436
+	.long mono_aot_System_Net_Http_got - . + 3112,17499
 	.no_dead_strip plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream_System_Net_TransportContext
 plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream_System_Net_TransportContext:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3108,17441
+	.long mono_aot_System_Net_Http_got - . + 3116,17504
 	.no_dead_strip plt_System_IO_Stream_CopyToAsync_System_IO_Stream
 plt_System_IO_Stream_CopyToAsync_System_IO_Stream:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3112,17443
+	.long mono_aot_System_Net_Http_got - . + 3120,17506
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3116,17448
+	.long mono_aot_System_Net_Http_got - . + 3124,17511
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_get_Task:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3120,17460
+	.long mono_aot_System_Net_Http_got - . + 3128,17523
 	.no_dead_strip plt_System_Net_Http_HttpContent_FixedMemoryStream__ctor_long
 plt_System_Net_Http_HttpContent_FixedMemoryStream__ctor_long:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3124,17471
+	.long mono_aot_System_Net_Http_got - . + 3132,17534
 	.no_dead_strip plt_System_IO_Stream_Dispose
 plt_System_IO_Stream_Dispose:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3128,17473
+	.long mono_aot_System_Net_Http_got - . + 3136,17536
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3132,17478
+	.long mono_aot_System_Net_Http_got - . + 3140,17541
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3136,17490
+	.long mono_aot_System_Net_Http_got - . + 3144,17553
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3140,17495
+	.long mono_aot_System_Net_Http_got - . + 3148,17558
 	.no_dead_strip plt_System_IO_MemoryStream__ctor
 plt_System_IO_MemoryStream__ctor:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3144,17507
+	.long mono_aot_System_Net_Http_got - . + 3152,17570
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3148,17512
+	.long mono_aot_System_Net_Http_got - . + 3156,17575
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3152,17542
+	.long mono_aot_System_Net_Http_got - . + 3160,17605
 	.no_dead_strip plt_System_Net_Http_HttpRequestException__ctor_string
 plt_System_Net_Http_HttpRequestException__ctor_string:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3156,17547
+	.long mono_aot_System_Net_Http_got - . + 3164,17610
 	.no_dead_strip plt_System_Net_Http_HttpContent_FixedMemoryStream_CheckOverflow_int
 plt_System_Net_Http_HttpContent_FixedMemoryStream_CheckOverflow_int:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3160,17549
+	.long mono_aot_System_Net_Http_got - . + 3168,17612
 	.no_dead_strip plt_System_IO_MemoryStream_WriteByte_byte
 plt_System_IO_MemoryStream_WriteByte_byte:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3164,17551
+	.long mono_aot_System_Net_Http_got - . + 3172,17614
 	.no_dead_strip plt_System_IO_MemoryStream_Write_byte___int_int
 plt_System_IO_MemoryStream_Write_byte___int_int:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3168,17556
+	.long mono_aot_System_Net_Http_got - . + 3176,17619
 	.no_dead_strip plt_System_Net_Http_HttpContent_LoadIntoBufferAsync
 plt_System_Net_Http_HttpContent_LoadIntoBufferAsync:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3172,17561
+	.long mono_aot_System_Net_Http_got - . + 3180,17624
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3176,17563
+	.long mono_aot_System_Net_Http_got - . + 3184,17626
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetException_System_Exception:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3180,17575
+	.long mono_aot_System_Net_Http_got - . + 3188,17638
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetResult_System_IO_Stream
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetResult_System_IO_Stream:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3184,17586
+	.long mono_aot_System_Net_Http_got - . + 3192,17649
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3188,17597
+	.long mono_aot_System_Net_Http_got - . + 3196,17660
 	.no_dead_strip plt_System_Net_Http_HttpContent_CreateFixedMemoryStream_long
 plt_System_Net_Http_HttpContent_CreateFixedMemoryStream_long:
 _p_120:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3192,17608
+	.long mono_aot_System_Net_Http_got - . + 3200,17671
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_:
 _p_121:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3196,17610
+	.long mono_aot_System_Net_Http_got - . + 3204,17673
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_122:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3200,17622
+	.long mono_aot_System_Net_Http_got - . + 3208,17685
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_123:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3204,17627
+	.long mono_aot_System_Net_Http_got - . + 3212,17690
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_124:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3208,17632
+	.long mono_aot_System_Net_Http_got - . + 3216,17695
 	.no_dead_strip plt_System_IO_MemoryStream__ctor_byte___int_int_bool
 plt_System_IO_MemoryStream__ctor_byte___int_int_bool:
 _p_125:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3212,17637
+	.long mono_aot_System_Net_Http_got - . + 3220,17700
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_:
 _p_126:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3216,17642
+	.long mono_aot_System_Net_Http_got - . + 3224,17705
 	.no_dead_strip plt_System_Net_Http_HttpMessageHandler_Dispose
 plt_System_Net_Http_HttpMessageHandler_Dispose:
 _p_127:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3220,17654
+	.long mono_aot_System_Net_Http_got - . + 3228,17717
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Token_Check_string
 plt_System_Net_Http_Headers_Parser_Token_Check_string:
 _p_128:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3224,17656
+	.long mono_aot_System_Net_Http_got - . + 3232,17719
 	.no_dead_strip plt_string_Equals_string_string_System_StringComparison
 plt_string_Equals_string_string_System_StringComparison:
 _p_129:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3228,17659
+	.long mono_aot_System_Net_Http_got - . + 3236,17722
 	.no_dead_strip plt_System_Net_Http_HttpMethod__ctor_string
 plt_System_Net_Http_HttpMethod__ctor_string:
 _p_130:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3232,17664
+	.long mono_aot_System_Net_Http_got - . + 3240,17727
 	.no_dead_strip plt_System_Exception__ctor
 plt_System_Exception__ctor:
 _p_131:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3236,17666
+	.long mono_aot_System_Net_Http_got - . + 3244,17729
 	.no_dead_strip plt_System_Exception__ctor_string
 plt_System_Exception__ctor_string:
 _p_132:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3240,17671
+	.long mono_aot_System_Net_Http_got - . + 3248,17734
 	.no_dead_strip plt_System_Exception__ctor_string_System_Exception
 plt_System_Exception__ctor_string_System_Exception:
 _p_133:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3244,17676
+	.long mono_aot_System_Net_Http_got - . + 3252,17739
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_set_Method_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpRequestMessage_set_Method_System_Net_Http_HttpMethod:
 _p_134:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3248,17681
+	.long mono_aot_System_Net_Http_got - . + 3256,17744
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders__ctor
 plt_System_Net_Http_Headers_HttpRequestHeaders__ctor:
 _p_135:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3252,17683
+	.long mono_aot_System_Net_Http_got - . + 3260,17746
 	.no_dead_strip plt_System_Net_Http_HttpMethod_op_Equality_System_Net_Http_HttpMethod_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpMethod_op_Equality_System_Net_Http_HttpMethod_System_Net_Http_HttpMethod:
 _p_136:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3256,17686
+	.long mono_aot_System_Net_Http_got - . + 3264,17749
 	.no_dead_strip plt_System_Uri_op_Inequality_System_Uri_System_Uri
 plt_System_Uri_op_Inequality_System_Uri_System_Uri:
 _p_137:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3260,17688
+	.long mono_aot_System_Net_Http_got - . + 3268,17751
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_IsAllowedAbsoluteUri_System_Uri
 plt_System_Net_Http_HttpRequestMessage_IsAllowedAbsoluteUri_System_Uri:
 _p_138:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3264,17693
+	.long mono_aot_System_Net_Http_got - . + 3272,17756
 	.no_dead_strip plt_System_Net_Http_HttpContent_Dispose
 plt_System_Net_Http_HttpContent_Dispose:
 _p_139:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3268,17695
+	.long mono_aot_System_Net_Http_got - . + 3276,17758
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_140:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3272,17697
+	.long mono_aot_System_Net_Http_got - . + 3280,17760
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_141:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3276,17702
+	.long mono_aot_System_Net_Http_got - . + 3284,17765
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_142:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3280,17707
+	.long mono_aot_System_Net_Http_got - . + 3288,17770
 	.no_dead_strip plt_System_Net_Http_Headers_HttpResponseHeaders__ctor
 plt_System_Net_Http_Headers_HttpResponseHeaders__ctor:
 _p_143:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3284,17712
+	.long mono_aot_System_Net_Http_got - . + 3292,17775
 	.no_dead_strip plt_System_Net_HttpListenerResponseHelper_GetStatusDescription_int
 plt_System_Net_HttpListenerResponseHelper_GetStatusDescription_int:
 _p_144:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3288,17715
+	.long mono_aot_System_Net_Http_got - . + 3296,17778
 	.no_dead_strip plt_System_Text_StringBuilder_Append_int
 plt_System_Text_StringBuilder_Append_int:
 _p_145:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3292,17720
+	.long mono_aot_System_Net_Http_got - . + 3300,17783
 	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_ReasonPhrase
 plt_System_Net_Http_HttpResponseMessage_get_ReasonPhrase:
 _p_146:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3296,17725
+	.long mono_aot_System_Net_Http_got - . + 3304,17788
 	.no_dead_strip plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_int
 plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_int:
 _p_147:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3300,17727
+	.long mono_aot_System_Net_Http_got - . + 3308,17790
 	.no_dead_strip plt_System_Net_Http_StreamContent__ctor_System_IO_Stream
 plt_System_Net_Http_StreamContent__ctor_System_IO_Stream:
 _p_148:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3304,17729
+	.long mono_aot_System_Net_Http_got - . + 3312,17792
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_System_IO_Stream_System_IO_Stream
 plt_System_Threading_Tasks_Task_FromResult_System_IO_Stream_System_IO_Stream:
 _p_149:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3308,17731
+	.long mono_aot_System_Net_Http_got - . + 3316,17794
 	.no_dead_strip plt_System_Net_Http_HttpContent_Dispose_bool
 plt_System_Net_Http_HttpContent_Dispose_bool:
 _p_150:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3312,17743
+	.long mono_aot_System_Net_Http_got - . + 3320,17806
 	.no_dead_strip plt_object_MemberwiseClone
 plt_object_MemberwiseClone:
 _p_151:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3316,17745
+	.long mono_aot_System_Net_Http_got - . + 3324,17808
 	.no_dead_strip plt_string_ToLowerInvariant
 plt_string_ToLowerInvariant:
 _p_152:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3320,17750
+	.long mono_aot_System_Net_Http_got - . + 3328,17813
 	.no_dead_strip plt_System_Net_Http_Headers_AuthenticationHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_AuthenticationHeaderValue__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_AuthenticationHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_AuthenticationHeaderValue__System_Net_Http_Headers_Token_:
 _p_153:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3324,17755
+	.long mono_aot_System_Net_Http_got - . + 3332,17818
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_AuthenticationHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_AuthenticationHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_AuthenticationHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_AuthenticationHeaderValue_:
 _p_154:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3328,17757
+	.long mono_aot_System_Net_Http_got - . + 3336,17820
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_Scan_bool
 plt_System_Net_Http_Headers_Lexer_Scan_bool:
 _p_155:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3332,17769
+	.long mono_aot_System_Net_Http_got - . + 3340,17832
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token:
 _p_156:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3336,17772
+	.long mono_aot_System_Net_Http_got - . + 3344,17835
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetRemainingStringValue_int
 plt_System_Net_Http_Headers_Lexer_GetRemainingStringValue_int:
 _p_157:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3340,17775
+	.long mono_aot_System_Net_Http_got - . + 3348,17838
 	.no_dead_strip plt_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token_Type_int_int
 plt_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token_Type_int_int:
 _p_158:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3344,17778
+	.long mono_aot_System_Net_Http_got - . + 3352,17841
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_159:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3348,17781
+	.long mono_aot_System_Net_Http_got - . + 3356,17844
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_GetEnumerator
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_GetEnumerator:
 _p_160:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3352,17786
+	.long mono_aot_System_Net_Http_got - . + 3360,17849
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_Add_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_Add_System_Net_Http_Headers_NameValueHeaderValue:
 _p_161:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3356,17797
+	.long mono_aot_System_Net_Http_got - . + 3364,17860
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_NameValueHeaderValue_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_NameValueHeaderValue_MoveNext:
 _p_162:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3360,17808
+	.long mono_aot_System_Net_Http_got - . + 3368,17871
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_GetEnumerator
 plt_System_Collections_Generic_List_1_string_GetEnumerator:
 _p_163:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3364,17819
+	.long mono_aot_System_Net_Http_got - . + 3372,17882
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_Add_string
 plt_System_Collections_Generic_List_1_string_Add_string:
 _p_164:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3368,17830
+	.long mono_aot_System_Net_Http_got - . + 3376,17893
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext:
 _p_165:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3372,17841
+	.long mono_aot_System_Net_Http_got - . + 3380,17904
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_166:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3376,17852
+	.long mono_aot_System_Net_Http_got - . + 3384,17915
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_string_System_Collections_Generic_List_1_string_System_Collections_Generic_List_1_string
 plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_string_System_Collections_Generic_List_1_string_System_Collections_Generic_List_1_string:
 _p_167:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3380,17864
+	.long mono_aot_System_Net_Http_got - . + 3388,17927
 	.no_dead_strip plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_168:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3384,17876
+	.long mono_aot_System_Net_Http_got - . + 3392,17939
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_GetHashCode
 plt_System_Nullable_1_System_TimeSpan_GetHashCode:
 _p_169:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3388,17888
+	.long mono_aot_System_Net_Http_got - . + 3396,17951
 	.no_dead_strip plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_string_System_Collections_Generic_ICollection_1_string
 plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_string_System_Collections_Generic_ICollection_1_string:
 _p_170:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3392,17910
+	.long mono_aot_System_Net_Http_got - . + 3400,17973
 	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
 plt__PrivateImplementationDetails_ComputeStringHash_string:
 _p_171:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3396,17922
+	.long mono_aot_System_Net_Http_got - . + 3404,17985
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetTimeSpanValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_TryGetTimeSpanValue_System_Net_Http_Headers_Token:
 _p_172:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3400,17925
+	.long mono_aot_System_Net_Http_got - . + 3408,17988
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetQuotedStringValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_GetQuotedStringValue_System_Net_Http_Headers_Token:
 _p_173:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3404,17928
+	.long mono_aot_System_Net_Http_got - . + 3412,17991
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_174:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3408,17931
+	.long mono_aot_System_Net_Http_got - . + 3416,17994
 	.no_dead_strip plt_string_Split_char__
 plt_string_Split_char__:
 _p_175:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3412,17939
+	.long mono_aot_System_Net_Http_got - . + 3420,18002
 	.no_dead_strip plt_string_Trim_char__
 plt_string_Trim_char__:
 _p_176:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3416,17944
+	.long mono_aot_System_Net_Http_got - . + 3424,18007
 	.no_dead_strip plt_System_Net_Http_Headers_CacheControlHeaderValue_get_PrivateHeaders
 plt_System_Net_Http_Headers_CacheControlHeaderValue_get_PrivateHeaders:
 _p_177:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3420,17949
+	.long mono_aot_System_Net_Http_got - . + 3428,18012
 	.no_dead_strip plt_System_Net_Http_Headers_CacheControlHeaderValue_get_NoCacheHeaders
 plt_System_Net_Http_Headers_CacheControlHeaderValue_get_NoCacheHeaders:
 _p_178:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3424,17952
+	.long mono_aot_System_Net_Http_got - . + 3432,18015
 	.no_dead_strip plt_System_Net_Http_Headers_CacheControlHeaderValue_get_Extensions
 plt_System_Net_Http_Headers_CacheControlHeaderValue_get_Extensions:
 _p_179:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3428,17955
+	.long mono_aot_System_Net_Http_got - . + 3436,18018
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_Create_string_string
 plt_System_Net_Http_Headers_NameValueHeaderValue_Create_string_string:
 _p_180:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3432,17957
+	.long mono_aot_System_Net_Http_got - . + 3440,18020
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_string_System_Collections_Generic_List_1_string_System_Text_StringBuilder
 plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_string_System_Collections_Generic_List_1_string_System_Text_StringBuilder:
 _p_181:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3436,17960
+	.long mono_aot_System_Net_Http_got - . + 3444,18023
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_get_Value
 plt_System_Nullable_1_System_TimeSpan_get_Value:
 _p_182:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3440,17972
+	.long mono_aot_System_Net_Http_got - . + 3448,18035
 	.no_dead_strip plt__jit_icall___emul_lconv_to_r8
 plt__jit_icall___emul_lconv_to_r8:
 _p_183:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3444,17983
+	.long mono_aot_System_Net_Http_got - . + 3452,18046
 	.no_dead_strip plt_double_ToString_System_IFormatProvider
 plt_double_ToString_System_IFormatProvider:
 _p_184:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3448,18004
+	.long mono_aot_System_Net_Http_got - . + 3456,18067
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Text_StringBuilder
 plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Text_StringBuilder:
 _p_185:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3452,18009
+	.long mono_aot_System_Net_Http_got - . + 3460,18072
 	.no_dead_strip plt_System_Text_StringBuilder_get_Chars_int
 plt_System_Text_StringBuilder_get_Chars_int:
 _p_186:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3456,18021
+	.long mono_aot_System_Net_Http_got - . + 3464,18084
 	.no_dead_strip plt_System_Text_StringBuilder_Remove_int_int
 plt_System_Text_StringBuilder_Remove_int_int:
 _p_187:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3460,18026
+	.long mono_aot_System_Net_Http_got - . + 3468,18089
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_188:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3464,18067
+	.long mono_aot_System_Net_Http_got - . + 3472,18130
 	.no_dead_strip plt_System_Collections_Generic_List_1_TSource_REF_get_Count
 plt_System_Collections_Generic_List_1_TSource_REF_get_Count:
 _p_189:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3468,18079
+	.long mono_aot_System_Net_Http_got - . + 3476,18142
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_190:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3472,18102
+	.long mono_aot_System_Net_Http_got - . + 3480,18165
 	.no_dead_strip plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF
 plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF:
 _p_191:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3476,18129
+	.long mono_aot_System_Net_Http_got - . + 3484,18192
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_192:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3480,18186
+	.long mono_aot_System_Net_Http_got - . + 3488,18249
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count
 plt_System_Collections_Generic_List_1_T_REF_get_Count:
 _p_193:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3484,18198
+	.long mono_aot_System_Net_Http_got - . + 3492,18261
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Item_int
 plt_System_Collections_Generic_List_1_T_REF_get_Item_int:
 _p_194:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3488,18221
+	.long mono_aot_System_Net_Http_got - . + 3496,18284
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_195:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3492,18280
+	.long mono_aot_System_Net_Http_got - . + 3500,18343
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count_0
 plt_System_Collections_Generic_List_1_T_REF_get_Count_0:
 _p_196:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3496,18292
+	.long mono_aot_System_Net_Http_got - . + 3504,18355
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Item_int_0
 plt_System_Collections_Generic_List_1_T_REF_get_Item_int_0:
 _p_197:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3500,18315
+	.long mono_aot_System_Net_Http_got - . + 3508,18378
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_198:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3504,18374
+	.long mono_aot_System_Net_Http_got - . + 3512,18437
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF__ctor
 plt_System_Collections_Generic_List_1_T_REF__ctor:
 _p_199:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3508,18386
+	.long mono_aot_System_Net_Http_got - . + 3516,18449
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Add_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Add_T_REF:
 _p_200:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3512,18409
+	.long mono_aot_System_Net_Http_got - . + 3520,18472
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count_1
 plt_System_Collections_Generic_List_1_T_REF_get_Count_1:
 _p_201:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3516,18432
+	.long mono_aot_System_Net_Http_got - . + 3524,18495
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_string_string_int_System_Net_Http_Headers_ElementTryParser_1_string_System_Collections_Generic_List_1_string_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_string_string_int_System_Net_Http_Headers_ElementTryParser_1_string_System_Collections_Generic_List_1_string_:
 _p_202:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3520,18455
+	.long mono_aot_System_Net_Http_got - . + 3528,18518
 	.no_dead_strip plt_System_Net_Http_Headers_ContentDispositionHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_ContentDispositionHeaderValue_get_Parameters:
 _p_203:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3524,18467
+	.long mono_aot_System_Net_Http_got - . + 3532,18530
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue__ctor_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_NameValueHeaderValue__ctor_System_Net_Http_Headers_NameValueHeaderValue:
 _p_204:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3528,18470
+	.long mono_aot_System_Net_Http_got - . + 3536,18533
 	.no_dead_strip plt_System_Net_Http_Headers_ContentDispositionHeaderValue__ctor_System_Net_Http_Headers_ContentDispositionHeaderValue
 plt_System_Net_Http_Headers_ContentDispositionHeaderValue__ctor_System_Net_Http_Headers_ContentDispositionHeaderValue:
 _p_205:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3532,18473
+	.long mono_aot_System_Net_Http_got - . + 3540,18536
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_ToString_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_CollectionExtensions_ToString_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_206:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3536,18476
+	.long mono_aot_System_Net_Http_got - . + 3544,18539
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_207:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3540,18488
+	.long mono_aot_System_Net_Http_got - . + 3548,18551
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_TryParseParameters_System_Net_Http_Headers_Lexer_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_NameValueHeaderValue_TryParseParameters_System_Net_Http_Headers_Lexer_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue__System_Net_Http_Headers_Token_:
 _p_208:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3544,18493
+	.long mono_aot_System_Net_Http_got - . + 3552,18556
 	.no_dead_strip plt_System_Nullable_1_long_GetHashCode
 plt_System_Nullable_1_long_GetHashCode:
 _p_209:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3548,18496
+	.long mono_aot_System_Net_Http_got - . + 3556,18559
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_IsStarStringValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_IsStarStringValue_System_Net_Http_Headers_Token:
 _p_210:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3552,18518
+	.long mono_aot_System_Net_Http_got - . + 3560,18581
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_long_
 plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_long_:
 _p_211:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3556,18521
+	.long mono_aot_System_Net_Http_got - . + 3564,18584
 	.no_dead_strip plt_long_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_long_
 plt_long_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_long_:
 _p_212:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3560,18524
+	.long mono_aot_System_Net_Http_got - . + 3568,18587
 	.no_dead_strip plt_System_Text_StringBuilder__ctor_string
 plt_System_Text_StringBuilder__ctor_string:
 _p_213:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3564,18529
+	.long mono_aot_System_Net_Http_got - . + 3572,18592
 	.no_dead_strip plt_long_ToString_System_IFormatProvider
 plt_long_ToString_System_IFormatProvider:
 _p_214:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3568,18534
+	.long mono_aot_System_Net_Http_got - . + 3576,18597
 	.no_dead_strip plt_System_Net_Http_Headers_EntityTagHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_EntityTagHeaderValue__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_EntityTagHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_EntityTagHeaderValue__System_Net_Http_Headers_Token_:
 _p_215:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3572,18539
+	.long mono_aot_System_Net_Http_got - . + 3580,18602
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_PeekChar
 plt_System_Net_Http_Headers_Lexer_PeekChar:
 _p_216:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3576,18542
+	.long mono_aot_System_Net_Http_got - . + 3584,18605
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_EntityTagHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_EntityTagHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_EntityTagHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_EntityTagHeaderValue_:
 _p_217:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3580,18545
+	.long mono_aot_System_Net_Http_got - . + 3588,18608
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_218:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3584,18593
+	.long mono_aot_System_Net_Http_got - . + 3592,18656
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_219:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3588,18633
+	.long mono_aot_System_Net_Http_got - . + 3596,18696
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_220:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3592,18700
+	.long mono_aot_System_Net_Http_got - . + 3600,18763
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind:
 _p_221:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3596,18712
+	.long mono_aot_System_Net_Http_got - . + 3604,18775
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_222:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3600,18778
+	.long mono_aot_System_Net_Http_got - . + 3608,18841
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CollectionHeaderTypeInfo_2_T_REF_T_REF__ctor_string_System_Net_Http_Headers_TryParseListDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CollectionHeaderTypeInfo_2_T_REF_T_REF__ctor_string_System_Net_Http_Headers_TryParseListDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_223:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3604,18790
+	.long mono_aot_System_Net_Http_got - . + 3612,18853
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo__ctor_string_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo__ctor_string_System_Net_Http_Headers_HttpHeaderKind:
 _p_224:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3608,18818
+	.long mono_aot_System_Net_Http_got - . + 3616,18881
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_225:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3612,18871
+	.long mono_aot_System_Net_Http_got - . + 3620,18934
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_226:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3616,18883
+	.long mono_aot_System_Net_Http_got - . + 3624,18946
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_227:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3620,18900
+	.long mono_aot_System_Net_Http_got - . + 3628,18963
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_AddRange_System_Collections_Generic_List_1_U_REF
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_AddRange_System_Collections_Generic_List_1_U_REF:
 _p_228:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3624,18912
+	.long mono_aot_System_Net_Http_got - . + 3632,18975
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_229:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3628,18933
+	.long mono_aot_System_Net_Http_got - . + 3636,18996
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_Add_U_REF
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_Add_U_REF:
 _p_230:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3632,18943
+	.long mono_aot_System_Net_Http_got - . + 3640,19006
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_231:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3636,18989
+	.long mono_aot_System_Net_Http_got - . + 3644,19052
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo:
 _p_232:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3640,19001
+	.long mono_aot_System_Net_Http_got - . + 3648,19064
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_233:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3644,19047
+	.long mono_aot_System_Net_Http_got - . + 3652,19110
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_get_Count
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_get_Count:
 _p_234:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3648,19059
+	.long mono_aot_System_Net_Http_got - . + 3656,19122
 	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor_System_Collections_Generic_IEnumerable_1_string
 plt_System_Collections_Generic_List_1_string__ctor_System_Collections_Generic_IEnumerable_1_string:
 _p_235:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3652,19080
+	.long mono_aot_System_Net_Http_got - . + 3660,19143
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_GetEnumerator:
 _p_236:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3656,19102
+	.long mono_aot_System_Net_Http_got - . + 3664,19165
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_237:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3660,19132
+	.long mono_aot_System_Net_Http_got - . + 3668,19195
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_AddRange_System_Collections_Generic_IEnumerable_1_string
 plt_System_Collections_Generic_List_1_string_AddRange_System_Collections_Generic_IEnumerable_1_string:
 _p_238:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3664,19159
+	.long mono_aot_System_Net_Http_got - . + 3672,19222
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_U_REF__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_U_REF__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind:
 _p_239:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3668,19196
+	.long mono_aot_System_Net_Http_got - . + 3676,19259
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__ctor_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HttpHeaders__ctor_System_Net_Http_Headers_HttpHeaderKind:
 _p_240:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3672,19224
+	.long mono_aot_System_Net_Http_got - . + 3680,19287
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Nullable_1_long_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Nullable_1_long_string:
 _p_241:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3676,19227
+	.long mono_aot_System_Net_Http_got - . + 3684,19290
 	.no_dead_strip plt_System_Net_Http_HttpContent_get_LoadedBufferLength
 plt_System_Net_Http_HttpContent_get_LoadedBufferLength:
 _p_242:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3680,19239
+	.long mono_aot_System_Net_Http_got - . + 3688,19302
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_SetValue_long_string_long_System_Func_2_object_string
 plt_System_Net_Http_Headers_HttpHeaders_SetValue_long_string_long_System_Func_2_object_string:
 _p_243:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3684,19241
+	.long mono_aot_System_Net_Http_got - . + 3692,19304
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_244:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3688,19253
+	.long mono_aot_System_Net_Http_got - . + 3696,19316
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_StringWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_StringWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_245:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3692,19265
+	.long mono_aot_System_Net_Http_got - . + 3700,19328
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_string_string_System_Net_Http_Headers_TryParseListDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_string_string_System_Net_Http_Headers_TryParseListDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_246:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3696,19277
+	.long mono_aot_System_Net_Http_got - . + 3704,19340
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_TimeSpan_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_TimeSpan_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_247:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3700,19289
+	.long mono_aot_System_Net_Http_got - . + 3708,19352
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_248:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3704,19301
+	.long mono_aot_System_Net_Http_got - . + 3712,19364
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_CacheControlHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_CacheControlHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_CacheControlHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_CacheControlHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_249:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3708,19313
+	.long mono_aot_System_Net_Http_got - . + 3716,19376
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentDispositionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentDispositionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentDispositionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentDispositionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_250:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3712,19325
+	.long mono_aot_System_Net_Http_got - . + 3720,19388
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_long_string_System_Net_Http_Headers_TryParseDelegate_1_long_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_long_string_System_Net_Http_Headers_TryParseDelegate_1_long_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_251:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3716,19337
+	.long mono_aot_System_Net_Http_got - . + 3724,19400
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Uri_string_System_Net_Http_Headers_TryParseDelegate_1_System_Uri_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Uri_string_System_Net_Http_Headers_TryParseDelegate_1_System_Uri_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_252:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3720,19349
+	.long mono_aot_System_Net_Http_got - . + 3728,19412
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_byte___string_System_Net_Http_Headers_TryParseDelegate_1_byte___System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_byte___string_System_Net_Http_Headers_TryParseDelegate_1_byte___System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_253:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3724,19361
+	.long mono_aot_System_Net_Http_got - . + 3732,19424
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentRangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentRangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentRangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentRangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_254:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3728,19373
+	.long mono_aot_System_Net_Http_got - . + 3736,19436
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_MediaTypeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_MediaTypeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_MediaTypeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_MediaTypeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_255:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3732,19385
+	.long mono_aot_System_Net_Http_got - . + 3740,19448
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_DateTimeOffset_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_DateTimeOffset_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_256:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3736,19397
+	.long mono_aot_System_Net_Http_got - . + 3744,19460
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_257:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3740,19409
+	.long mono_aot_System_Net_Http_got - . + 3748,19472
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_258:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3744,19421
+	.long mono_aot_System_Net_Http_got - . + 3752,19484
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_string_string_System_Net_Http_Headers_TryParseDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_string_string_System_Net_Http_Headers_TryParseDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_259:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3748,19433
+	.long mono_aot_System_Net_Http_got - . + 3756,19496
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_260:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3752,19445
+	.long mono_aot_System_Net_Http_got - . + 3760,19508
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_261:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3756,19457
+	.long mono_aot_System_Net_Http_got - . + 3764,19520
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_int_string_System_Net_Http_Headers_TryParseDelegate_1_int_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_int_string_System_Net_Http_Headers_TryParseDelegate_1_int_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_262:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3760,19469
+	.long mono_aot_System_Net_Http_got - . + 3768,19532
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_263:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3764,19481
+	.long mono_aot_System_Net_Http_got - . + 3772,19544
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_264:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3768,19493
+	.long mono_aot_System_Net_Http_got - . + 3776,19556
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_265:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3772,19505
+	.long mono_aot_System_Net_Http_got - . + 3780,19568
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RetryConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RetryConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RetryConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RetryConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_266:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3776,19517
+	.long mono_aot_System_Net_Http_got - . + 3784,19580
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductInfoHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductInfoHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductInfoHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductInfoHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_267:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3780,19529
+	.long mono_aot_System_Net_Http_got - . + 3788,19592
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_268:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3784,19541
+	.long mono_aot_System_Net_Http_got - . + 3792,19604
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_269:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3788,19553
+	.long mono_aot_System_Net_Http_got - . + 3796,19616
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_270:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3792,19565
+	.long mono_aot_System_Net_Http_got - . + 3800,19628
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ViaHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ViaHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ViaHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ViaHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_271:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3796,19577
+	.long mono_aot_System_Net_Http_got - . + 3804,19640
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_WarningHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_WarningHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_WarningHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_WarningHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_272:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3800,19589
+	.long mono_aot_System_Net_Http_got - . + 3808,19652
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo__ctor_System_Collections_Generic_IEqualityComparer_1_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo__ctor_System_Collections_Generic_IEqualityComparer_1_string:
 _p_273:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3804,19601
+	.long mono_aot_System_Net_Http_got - . + 3812,19664
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_Add_string_System_Net_Http_Headers_HeaderInfo
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_Add_string_System_Net_Http_Headers_HeaderInfo:
 _p_274:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3808,19612
+	.long mono_aot_System_Net_Http_got - . + 3816,19675
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_System_Collections_Generic_IEqualityComparer_1_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_System_Collections_Generic_IEqualityComparer_1_string:
 _p_275:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3812,19623
+	.long mono_aot_System_Net_Http_got - . + 3820,19686
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__ctor
 plt_System_Net_Http_Headers_HttpHeaders__ctor:
 _p_276:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3816,19634
+	.long mono_aot_System_Net_Http_got - . + 3824,19697
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_TryGetValue_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_TryGetValue_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_:
 _p_277:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3820,19637
+	.long mono_aot_System_Net_Http_got - . + 3828,19700
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateCollection_System_Net_Http_Headers_HttpHeaders
 plt_System_Net_Http_Headers_HeaderInfo_CreateCollection_System_Net_Http_Headers_HttpHeaders:
 _p_278:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3824,19648
+	.long mono_aot_System_Net_Http_got - . + 3832,19711
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_object_System_Func_2_object_string
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_object_System_Func_2_object_string:
 _p_279:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3828,19651
+	.long mono_aot_System_Net_Http_got - . + 3836,19714
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Values
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Values:
 _p_280:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3832,19654
+	.long mono_aot_System_Net_Http_got - . + 3840,19717
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_Add_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_Add_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket:
 _p_281:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3836,19657
+	.long mono_aot_System_Net_Http_got - . + 3844,19720
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_TryCheckName_string_System_Net_Http_Headers_HeaderInfo_
 plt_System_Net_Http_Headers_HttpHeaders_TryCheckName_string_System_Net_Http_Headers_HeaderInfo_:
 _p_282:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3840,19668
+	.long mono_aot_System_Net_Http_got - . + 3848,19731
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_AddInternal_string_System_Collections_Generic_IEnumerable_1_string_System_Net_Http_Headers_HeaderInfo_bool
 plt_System_Net_Http_Headers_HttpHeaders_AddInternal_string_System_Collections_Generic_IEnumerable_1_string_System_Net_Http_Headers_HeaderInfo_bool:
 _p_283:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3844,19671
+	.long mono_aot_System_Net_Http_got - . + 3852,19734
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Token_TryCheck_string
 plt_System_Net_Http_Headers_Parser_Token_TryCheck_string:
 _p_284:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3848,19674
+	.long mono_aot_System_Net_Http_got - . + 3856,19737
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_TryGetValue_string_System_Net_Http_Headers_HeaderInfo_
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_TryGetValue_string_System_Net_Http_Headers_HeaderInfo_:
 _p_285:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3852,19677
+	.long mono_aot_System_Net_Http_got - . + 3860,19740
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_ParsedToString
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_ParsedToString:
 _p_286:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3856,19688
+	.long mono_aot_System_Net_Http_got - . + 3864,19751
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_HasStringValues
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_HasStringValues:
 _p_287:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3860,19691
+	.long mono_aot_System_Net_Http_got - . + 3868,19754
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_get_Item_string:
 _p_288:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3864,19694
+	.long mono_aot_System_Net_Http_got - . + 3872,19757
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Item_int
 plt_System_Collections_Generic_List_1_string_get_Item_int:
 _p_289:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3868,19718
+	.long mono_aot_System_Net_Http_got - . + 3876,19781
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_290:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3872,19757
+	.long mono_aot_System_Net_Http_got - . + 3880,19820
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_291:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3876,19767
+	.long mono_aot_System_Net_Http_got - . + 3884,19830
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_292:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3880,19811
+	.long mono_aot_System_Net_Http_got - . + 3888,19874
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo:
 _p_293:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3884,19823
+	.long mono_aot_System_Net_Http_got - . + 3892,19886
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_294:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3888,19846
+	.long mono_aot_System_Net_Http_got - . + 3896,19909
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_AddInvalidValue_string
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_AddInvalidValue_string:
 _p_295:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3892,19858
+	.long mono_aot_System_Net_Http_got - . + 3900,19921
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_Clear
 plt_System_Collections_Generic_List_1_string_Clear:
 _p_296:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3896,19881
+	.long mono_aot_System_Net_Http_got - . + 3904,19944
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Item_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Item_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket:
 _p_297:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3900,19903
+	.long mono_aot_System_Net_Http_got - . + 3908,19966
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19__m__Finally1
 plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19__m__Finally1:
 _p_298:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3904,19927
+	.long mono_aot_System_Net_Http_got - . + 3912,19990
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_GetEnumerator:
 _p_299:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3908,19930
+	.long mono_aot_System_Net_Http_got - . + 3916,19993
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_300:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3912,19941
+	.long mono_aot_System_Net_Http_got - . + 3920,20004
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Item_string:
 _p_301:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3916,19978
+	.long mono_aot_System_Net_Http_got - . + 3924,20041
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetAllHeaderValues_System_Net_Http_Headers_HttpHeaders_HeaderBucket_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaders_GetAllHeaderValues_System_Net_Http_Headers_HttpHeaders_HeaderBucket_System_Net_Http_Headers_HeaderInfo:
 _p_302:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3920,19989
+	.long mono_aot_System_Net_Http_got - . + 3928,20052
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string__ctor_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string__ctor_string_System_Collections_Generic_IEnumerable_1_string:
 _p_303:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3924,19992
+	.long mono_aot_System_Net_Http_got - . + 3932,20055
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_MoveNext
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_MoveNext:
 _p_304:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3928,20003
+	.long mono_aot_System_Net_Http_got - . + 3936,20066
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19_System_IDisposable_Dispose
 plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19_System_IDisposable_Dispose:
 _p_305:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3932,20014
+	.long mono_aot_System_Net_Http_got - . + 3940,20077
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_306:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3936,20065
+	.long mono_aot_System_Net_Http_got - . + 3944,20128
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF__ctor_0
 plt_System_Collections_Generic_List_1_T_REF__ctor_0:
 _p_307:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3940,20077
+	.long mono_aot_System_Net_Http_got - . + 3948,20140
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_308:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3944,20122
+	.long mono_aot_System_Net_Http_got - . + 3952,20185
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count_2
 plt_System_Collections_Generic_List_1_T_REF_get_Count_2:
 _p_309:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3948,20134
+	.long mono_aot_System_Net_Http_got - . + 3956,20197
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_310:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3952,20179
+	.long mono_aot_System_Net_Http_got - . + 3960,20242
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Add_T_REF_0
 plt_System_Collections_Generic_List_1_T_REF_Add_T_REF_0:
 _p_311:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3956,20191
+	.long mono_aot_System_Net_Http_got - . + 3964,20254
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_312:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3960,20236
+	.long mono_aot_System_Net_Http_got - . + 3968,20299
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_AddRange_System_Collections_Generic_IEnumerable_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_AddRange_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_313:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3964,20248
+	.long mono_aot_System_Net_Http_got - . + 3972,20311
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_314:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3968,20293
+	.long mono_aot_System_Net_Http_got - . + 3976,20356
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Clear
 plt_System_Collections_Generic_List_1_T_REF_Clear:
 _p_315:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3972,20305
+	.long mono_aot_System_Net_Http_got - . + 3980,20368
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_316:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3976,20350
+	.long mono_aot_System_Net_Http_got - . + 3984,20413
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Contains_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Contains_T_REF:
 _p_317:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3980,20362
+	.long mono_aot_System_Net_Http_got - . + 3988,20425
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_318:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3984,20407
+	.long mono_aot_System_Net_Http_got - . + 3992,20470
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_CopyTo_T_REF___int
 plt_System_Collections_Generic_List_1_T_REF_CopyTo_T_REF___int:
 _p_319:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3988,20419
+	.long mono_aot_System_Net_Http_got - . + 3996,20482
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_320:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3992,20464
+	.long mono_aot_System_Net_Http_got - . + 4000,20527
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Remove_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Remove_T_REF:
 _p_321:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 3996,20476
+	.long mono_aot_System_Net_Http_got - . + 4004,20539
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_322:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4000,20521
+	.long mono_aot_System_Net_Http_got - . + 4008,20584
 	.no_dead_strip plt_string_Join_T_REF_string_System_Collections_Generic_IEnumerable_1_T_REF
 plt_string_Join_T_REF_string_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_323:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4004,20549
+	.long mono_aot_System_Net_Http_got - . + 4012,20612
 	.no_dead_strip plt_string_Join_string_System_Collections_Generic_IEnumerable_1_string
 plt_string_Join_string_System_Collections_Generic_IEnumerable_1_string:
 _p_324:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4008,20571
+	.long mono_aot_System_Net_Http_got - . + 4016,20634
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_325:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4012,20598
+	.long mono_aot_System_Net_Http_got - . + 4020,20661
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_GetEnumerator
 plt_System_Collections_Generic_List_1_T_REF_GetEnumerator:
 _p_326:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4016,20610
+	.long mono_aot_System_Net_Http_got - . + 4024,20673
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_327:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4020,20644
+	.long mono_aot_System_Net_Http_got - . + 4028,20707
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_GetEnumerator:
 _p_328:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4024,20656
+	.long mono_aot_System_Net_Http_got - . + 4032,20719
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_329:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4028,20701
+	.long mono_aot_System_Net_Http_got - . + 4036,20764
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Find_System_Predicate_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Find_System_Predicate_1_T_REF:
 _p_330:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4032,20713
+	.long mono_aot_System_Net_Http_got - . + 4040,20776
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValues_string_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValues_string_string:
 _p_331:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4036,20736
+	.long mono_aot_System_Net_Http_got - . + 4044,20799
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_Connection
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_Connection:
 _p_332:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4040,20748
+	.long mono_aot_System_Net_Http_got - . + 4048,20811
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_string_Find_System_Predicate_1_string
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_string_Find_System_Predicate_1_string:
 _p_333:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4044,20751
+	.long mono_aot_System_Net_Http_got - . + 4052,20814
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_334:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4048,20762
+	.long mono_aot_System_Net_Http_got - . + 4056,20825
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_TransferEncoding
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_TransferEncoding:
 _p_335:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4052,20773
+	.long mono_aot_System_Net_Http_got - . + 4060,20836
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_System_Net_Http_Headers_TransferCodingHeaderValue_Find_System_Predicate_1_System_Net_Http_Headers_TransferCodingHeaderValue
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_System_Net_Http_Headers_TransferCodingHeaderValue_Find_System_Predicate_1_System_Net_Http_Headers_TransferCodingHeaderValue:
 _p_336:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4056,20776
+	.long mono_aot_System_Net_Http_got - . + 4064,20839
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValue_string_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValue_string_string:
 _p_337:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4060,20787
+	.long mono_aot_System_Net_Http_got - . + 4068,20850
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValues_System_Net_Http_Headers_TransferCodingHeaderValue_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValues_System_Net_Http_Headers_TransferCodingHeaderValue_string:
 _p_338:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4064,20799
+	.long mono_aot_System_Net_Http_got - . + 4072,20862
 	.no_dead_strip plt_string_Substring_int_int
 plt_string_Substring_int_int:
 _p_339:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4068,20811
+	.long mono_aot_System_Net_Http_got - . + 4076,20874
 	.no_dead_strip plt_string_Substring_int
 plt_string_Substring_int:
 _p_340:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4072,20816
+	.long mono_aot_System_Net_Http_got - . + 4080,20879
 	.no_dead_strip plt_int_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_int_
 plt_int_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_int_:
 _p_341:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4076,20821
+	.long mono_aot_System_Net_Http_got - . + 4084,20884
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_int_
 plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_int_:
 _p_342:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4080,20826
+	.long mono_aot_System_Net_Http_got - . + 4088,20889
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan:
 _p_343:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4084,20829
+	.long mono_aot_System_Net_Http_got - . + 4092,20892
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetDateValue_string_System_DateTimeOffset_
 plt_System_Net_Http_Headers_Lexer_TryGetDateValue_string_System_DateTimeOffset_:
 _p_344:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4088,20840
+	.long mono_aot_System_Net_Http_got - . + 4096,20903
 	.no_dead_strip plt_System_Globalization_DateTimeFormatInfo_get_InvariantInfo
 plt_System_Globalization_DateTimeFormatInfo_get_InvariantInfo:
 _p_345:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4092,20843
+	.long mono_aot_System_Net_Http_got - . + 4100,20906
 	.no_dead_strip plt_System_DateTimeOffset_TryParseExact_string_string___System_IFormatProvider_System_Globalization_DateTimeStyles_System_DateTimeOffset_
 plt_System_DateTimeOffset_TryParseExact_string_string___System_IFormatProvider_System_Globalization_DateTimeStyles_System_DateTimeOffset_:
 _p_346:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4096,20848
+	.long mono_aot_System_Net_Http_got - . + 4104,20911
 	.no_dead_strip plt_double_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_double_
 plt_double_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_double_:
 _p_347:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4100,20853
+	.long mono_aot_System_Net_Http_got - . + 4108,20916
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_MediaTypeHeaderValue_get_Parameters:
 _p_348:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4104,20858
+	.long mono_aot_System_Net_Http_got - . + 4112,20921
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue__ctor_System_Net_Http_Headers_MediaTypeHeaderValue
 plt_System_Net_Http_Headers_MediaTypeHeaderValue__ctor_System_Net_Http_Headers_MediaTypeHeaderValue:
 _p_349:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4108,20861
+	.long mono_aot_System_Net_Http_got - . + 4116,20924
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue_TryParseMediaType_System_Net_Http_Headers_Lexer_string_
 plt_System_Net_Http_Headers_MediaTypeHeaderValue_TryParseMediaType_System_Net_Http_Headers_Lexer_string_:
 _p_350:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4112,20864
+	.long mono_aot_System_Net_Http_got - . + 4120,20927
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token_get_Value
 plt_System_Nullable_1_System_Net_Http_Headers_Token_get_Value:
 _p_351:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4116,20867
+	.long mono_aot_System_Net_Http_got - . + 4124,20930
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token
 plt_System_Nullable_1_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token:
 _p_352:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4120,20878
+	.long mono_aot_System_Net_Http_got - . + 4128,20941
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_:
 _p_353:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4124,20889
+	.long mono_aot_System_Net_Http_got - . + 4132,20952
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_:
 _p_354:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4128,20901
+	.long mono_aot_System_Net_Http_got - . + 4136,20964
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue_get_Parameters:
 _p_355:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4132,20913
+	.long mono_aot_System_Net_Http_got - . + 4140,20976
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue__ctor_System_Net_Http_Headers_NameValueWithParametersHeaderValue
 plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue__ctor_System_Net_Http_Headers_NameValueWithParametersHeaderValue:
 _p_356:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4136,20916
+	.long mono_aot_System_Net_Http_got - . + 4144,20979
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_Equals_object
 plt_System_Net_Http_Headers_NameValueHeaderValue_Equals_object:
 _p_357:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4140,20919
+	.long mono_aot_System_Net_Http_got - . + 4148,20982
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_GetHashCode
 plt_System_Net_Http_Headers_NameValueHeaderValue_GetHashCode:
 _p_358:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4144,20922
+	.long mono_aot_System_Net_Http_got - . + 4152,20985
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_ToString
 plt_System_Net_Http_Headers_NameValueHeaderValue_ToString:
 _p_359:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4148,20925
+	.long mono_aot_System_Net_Http_got - . + 4156,20988
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_:
 _p_360:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4152,20928
+	.long mono_aot_System_Net_Http_got - . + 4160,20991
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_IsValidToken_string
 plt_System_Net_Http_Headers_Lexer_IsValidToken_string:
 _p_361:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4156,20940
+	.long mono_aot_System_Net_Http_got - . + 4164,21003
 	.no_dead_strip plt_System_DateTimeOffset_ToString_string_System_IFormatProvider
 plt_System_DateTimeOffset_ToString_string_System_IFormatProvider:
 _p_362:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4160,20943
+	.long mono_aot_System_Net_Http_got - . + 4168,21006
 	.no_dead_strip plt_System_Net_Mail_MailAddress__ctor_string
 plt_System_Net_Mail_MailAddress__ctor_string:
 _p_363:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4164,20948
+	.long mono_aot_System_Net_Http_got - . + 4172,21011
 	.no_dead_strip plt_System_Uri_TryCreate_string_System_UriKind_System_Uri_
 plt_System_Uri_TryCreate_string_System_UriKind_System_Uri_:
 _p_364:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4168,20953
+	.long mono_aot_System_Net_Http_got - . + 4176,21016
 	.no_dead_strip plt_System_Convert_FromBase64String_string
 plt_System_Convert_FromBase64String_string:
 _p_365:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4172,20958
+	.long mono_aot_System_Net_Http_got - . + 4180,21021
 	.no_dead_strip plt_System_Convert_ToBase64String_byte__
 plt_System_Convert_ToBase64String_byte__:
 _p_366:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4176,20963
+	.long mono_aot_System_Net_Http_got - . + 4184,21026
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Int_TryParse_string_int_
 plt_System_Net_Http_Headers_Parser_Int_TryParse_string_int_:
 _p_367:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4180,20968
+	.long mono_aot_System_Net_Http_got - . + 4188,21031
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ProductHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ProductHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ProductHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ProductHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductHeaderValue_:
 _p_368:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4184,20971
+	.long mono_aot_System_Net_Http_got - . + 4192,21034
 	.no_dead_strip plt_System_Net_Http_Headers_ProductInfoHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_ProductInfoHeaderValue_
 plt_System_Net_Http_Headers_ProductInfoHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_ProductInfoHeaderValue_:
 _p_369:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4188,20983
+	.long mono_aot_System_Net_Http_got - . + 4196,21046
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductInfoHeaderValue_Add_System_Net_Http_Headers_ProductInfoHeaderValue
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductInfoHeaderValue_Add_System_Net_Http_Headers_ProductInfoHeaderValue:
 _p_370:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4192,20986
+	.long mono_aot_System_Net_Http_got - . + 4200,21049
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_ScanCommentOptional_string__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_Lexer_ScanCommentOptional_string__System_Net_Http_Headers_Token_:
 _p_371:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4196,20997
+	.long mono_aot_System_Net_Http_got - . + 4204,21060
 	.no_dead_strip plt_System_Net_Http_Headers_ProductInfoHeaderValue__ctor_System_Net_Http_Headers_ProductHeaderValue
 plt_System_Net_Http_Headers_ProductInfoHeaderValue__ctor_System_Net_Http_Headers_ProductHeaderValue:
 _p_372:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4200,21000
+	.long mono_aot_System_Net_Http_got - . + 4208,21063
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset__ctor_System_DateTimeOffset
 plt_System_Nullable_1_System_DateTimeOffset__ctor_System_DateTimeOffset:
 _p_373:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4204,21003
+	.long mono_aot_System_Net_Http_got - . + 4212,21066
 	.no_dead_strip plt_System_DateTimeOffset_op_Equality_System_DateTimeOffset_System_DateTimeOffset
 plt_System_DateTimeOffset_op_Equality_System_DateTimeOffset_System_DateTimeOffset:
 _p_374:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4208,21014
+	.long mono_aot_System_Net_Http_got - . + 4216,21077
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_GetHashCode
 plt_System_Nullable_1_System_DateTimeOffset_GetHashCode:
 _p_375:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4212,21019
+	.long mono_aot_System_Net_Http_got - . + 4220,21082
 	.no_dead_strip plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_DateTimeOffset
 plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_DateTimeOffset:
 _p_376:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4216,21041
+	.long mono_aot_System_Net_Http_got - . + 4224,21104
 	.no_dead_strip plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_Net_Http_Headers_EntityTagHeaderValue
 plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_Net_Http_Headers_EntityTagHeaderValue:
 _p_377:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4220,21044
+	.long mono_aot_System_Net_Http_got - . + 4228,21107
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_get_Value
 plt_System_Nullable_1_System_DateTimeOffset_get_Value:
 _p_378:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4224,21047
+	.long mono_aot_System_Net_Http_got - . + 4232,21110
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_GetEnumerator
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_GetEnumerator:
 _p_379:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4228,21058
+	.long mono_aot_System_Net_Http_got - . + 4236,21121
 	.no_dead_strip plt_System_Net_Http_Headers_RangeHeaderValue_get_Ranges
 plt_System_Net_Http_Headers_RangeHeaderValue_get_Ranges:
 _p_380:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4232,21069
+	.long mono_aot_System_Net_Http_got - . + 4240,21132
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_RangeItemHeaderValue_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_RangeItemHeaderValue_MoveNext:
 _p_381:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4236,21072
+	.long mono_aot_System_Net_Http_got - . + 4244,21135
 	.no_dead_strip plt_System_Net_Http_Headers_RangeHeaderValue__ctor_System_Net_Http_Headers_RangeHeaderValue
 plt_System_Net_Http_Headers_RangeHeaderValue__ctor_System_Net_Http_Headers_RangeHeaderValue:
 _p_382:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4240,21083
+	.long mono_aot_System_Net_Http_got - . + 4248,21146
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue
 plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue:
 _p_383:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4244,21086
+	.long mono_aot_System_Net_Http_got - . + 4252,21149
 	.no_dead_strip plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_RangeItemHeaderValue
 plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_RangeItemHeaderValue:
 _p_384:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4248,21098
+	.long mono_aot_System_Net_Http_got - . + 4256,21161
 	.no_dead_strip plt_string_Split_char___System_StringSplitOptions
 plt_string_Split_char___System_StringSplitOptions:
 _p_385:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4252,21110
+	.long mono_aot_System_Net_Http_got - . + 4260,21173
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Long_TryParse_string_long_
 plt_System_Net_Http_Headers_Parser_Long_TryParse_string_long_:
 _p_386:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4256,21115
+	.long mono_aot_System_Net_Http_got - . + 4264,21178
 	.no_dead_strip plt_System_Net_Http_Headers_RangeItemHeaderValue__ctor_System_Nullable_1_long_System_Nullable_1_long
 plt_System_Net_Http_Headers_RangeItemHeaderValue__ctor_System_Nullable_1_long_System_Nullable_1_long:
 _p_387:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4260,21118
+	.long mono_aot_System_Net_Http_got - . + 4268,21181
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_get_Item_int
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_get_Item_int:
 _p_388:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4264,21121
+	.long mono_aot_System_Net_Http_got - . + 4272,21184
 	.no_dead_strip plt_string_Concat_object_object_object
 plt_string_Concat_object_object_object:
 _p_389:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4268,21132
+	.long mono_aot_System_Net_Http_got - . + 4276,21195
 	.no_dead_strip plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_TimeSpan
 plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_TimeSpan:
 _p_390:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4272,21137
+	.long mono_aot_System_Net_Http_got - . + 4280,21200
 	.no_dead_strip plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_DateTimeOffset
 plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_DateTimeOffset:
 _p_391:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4276,21140
+	.long mono_aot_System_Net_Http_got - . + 4284,21203
 	.no_dead_strip plt_System_Nullable_1_double_GetHashCode
 plt_System_Nullable_1_double_GetHashCode:
 _p_392:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4280,21143
+	.long mono_aot_System_Net_Http_got - . + 4288,21206
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_StringWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_StringWithQualityHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_StringWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_StringWithQualityHeaderValue_:
 _p_393:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4284,21165
+	.long mono_aot_System_Net_Http_got - . + 4292,21228
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetDoubleValue_System_Net_Http_Headers_Token_double_
 plt_System_Net_Http_Headers_Lexer_TryGetDoubleValue_System_Net_Http_Headers_Token_double_:
 _p_394:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4288,21177
+	.long mono_aot_System_Net_Http_got - . + 4296,21240
 	.no_dead_strip plt_System_Nullable_1_double__ctor_double
 plt_System_Nullable_1_double__ctor_double:
 _p_395:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4292,21180
+	.long mono_aot_System_Net_Http_got - . + 4300,21243
 	.no_dead_strip plt_System_Nullable_1_double_get_Value
 plt_System_Nullable_1_double_get_Value:
 _p_396:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4296,21191
+	.long mono_aot_System_Net_Http_got - . + 4304,21254
 	.no_dead_strip plt_double_ToString_string_System_IFormatProvider
 plt_double_ToString_string_System_IFormatProvider:
 _p_397:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4300,21202
+	.long mono_aot_System_Net_Http_got - . + 4308,21265
 	.no_dead_strip plt_System_Net_Http_Headers_TransferCodingHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_TransferCodingHeaderValue_get_Parameters:
 _p_398:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4304,21207
+	.long mono_aot_System_Net_Http_got - . + 4312,21270
 	.no_dead_strip plt_System_Net_Http_Headers_TransferCodingHeaderValue__ctor_System_Net_Http_Headers_TransferCodingHeaderValue
 plt_System_Net_Http_Headers_TransferCodingHeaderValue__ctor_System_Net_Http_Headers_TransferCodingHeaderValue:
 _p_399:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4308,21210
+	.long mono_aot_System_Net_Http_got - . + 4316,21273
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingHeaderValue_:
 _p_400:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4312,21213
+	.long mono_aot_System_Net_Http_got - . + 4320,21276
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_:
 _p_401:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4316,21225
+	.long mono_aot_System_Net_Http_got - . + 4324,21288
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ViaHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ViaHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ViaHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ViaHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ViaHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ViaHeaderValue_:
 _p_402:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4320,21237
+	.long mono_aot_System_Net_Http_got - . + 4328,21300
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token_System_Net_Http_Headers_Token:
 _p_403:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4324,21249
+	.long mono_aot_System_Net_Http_got - . + 4332,21312
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_404:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4328,21252
+	.long mono_aot_System_Net_Http_got - . + 4336,21315
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_WarningHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_WarningHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_WarningHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_WarningHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_WarningHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_WarningHeaderValue_:
 _p_405:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4332,21257
+	.long mono_aot_System_Net_Http_got - . + 4340,21320
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetDateValue_System_Net_Http_Headers_Token_System_DateTimeOffset_
 plt_System_Net_Http_Headers_Lexer_TryGetDateValue_System_Net_Http_Headers_Token_System_DateTimeOffset_:
 _p_406:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4336,21269
+	.long mono_aot_System_Net_Http_got - . + 4344,21332
 	.no_dead_strip plt_int_ToString_string
 plt_int_ToString_string:
 _p_407:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4340,21272
+	.long mono_aot_System_Net_Http_got - . + 4348,21335
 	.no_dead_strip plt_string_Concat_string_string_string_string
 plt_string_Concat_string_string_string_string:
 _p_408:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4344,21277
+	.long mono_aot_System_Net_Http_got - . + 4352,21340
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_409:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4348,21299
+	.long mono_aot_System_Net_Http_got - . + 4356,21362
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_410:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4352,21335
+	.long mono_aot_System_Net_Http_got - . + 4360,21398
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_411:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4356,21347
+	.long mono_aot_System_Net_Http_got - . + 4364,21410
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_412:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4360,21379
+	.long mono_aot_System_Net_Http_got - . + 4368,21442
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_413:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4364,21404
+	.long mono_aot_System_Net_Http_got - . + 4372,21467
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_414:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4368,21470
+	.long mono_aot_System_Net_Http_got - . + 4376,21533
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_415:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4372,21526
+	.long mono_aot_System_Net_Http_got - . + 4380,21589
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_416:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4376,21538
+	.long mono_aot_System_Net_Http_got - . + 4384,21601
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_417:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4380,21570
+	.long mono_aot_System_Net_Http_got - . + 4388,21633
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_418:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4384,21606
+	.long mono_aot_System_Net_Http_got - . + 4392,21669
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_419:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4388,21616
+	.long mono_aot_System_Net_Http_got - . + 4396,21679
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_420:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4392,21624
+	.long mono_aot_System_Net_Http_got - . + 4400,21687
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_421:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4396,21651
+	.long mono_aot_System_Net_Http_got - . + 4404,21714
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_422:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4400,21707
+	.long mono_aot_System_Net_Http_got - . + 4408,21770
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_423:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4404,21719
+	.long mono_aot_System_Net_Http_got - . + 4412,21782
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_424:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4408,21751
+	.long mono_aot_System_Net_Http_got - . + 4416,21814
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_425:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4412,21787
+	.long mono_aot_System_Net_Http_got - . + 4420,21850
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_426:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4416,21797
+	.long mono_aot_System_Net_Http_got - . + 4424,21860
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_427:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4420,21824
+	.long mono_aot_System_Net_Http_got - . + 4428,21887
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer__ctor_string
 plt_System_Net_Http_Headers_Lexer__ctor_string:
 _p_428:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4424,21883
+	.long mono_aot_System_Net_Http_got - . + 4432,21946
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_429:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4428,21895
+	.long mono_aot_System_Net_Http_got - . + 4436,21958
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_430:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4432,21907
+	.long mono_aot_System_Net_Http_got - . + 4440,21970
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_431:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4436,21941
+	.long mono_aot_System_Net_Http_got - . + 4444,22004
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_432:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4440,21985
+	.long mono_aot_System_Net_Http_got - . + 4448,22048
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_433:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4444,21995
+	.long mono_aot_System_Net_Http_got - . + 4452,22058
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_434:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4448,22005
+	.long mono_aot_System_Net_Http_got - . + 4456,22068
 	.no_dead_strip plt_System_Net_Http_Headers_Token_op_Implicit_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Token_op_Implicit_System_Net_Http_Headers_Token:
 _p_435:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4452,22041
+	.long mono_aot_System_Net_Http_got - . + 4460,22104
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_436:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4456,22044
+	.long mono_aot_System_Net_Http_got - . + 4464,22107
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_437:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4460,22093
+	.long mono_aot_System_Net_Http_got - . + 4468,22156
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_438:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4464,22141
+	.long mono_aot_System_Net_Http_got - . + 4472,22204
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_439:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4468,22168
+	.long mono_aot_System_Net_Http_got - . + 4476,22231
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_440:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4472,22217
+	.long mono_aot_System_Net_Http_got - . + 4480,22280
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_441:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4476,22244
+	.long mono_aot_System_Net_Http_got - . + 4484,22307
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_442:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4480,22279
+	.long mono_aot_System_Net_Http_got - . + 4488,22342
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_443:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4484,22289
+	.long mono_aot_System_Net_Http_got - . + 4492,22352
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_444:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4488,22340
+	.long mono_aot_System_Net_Http_got - . + 4496,22403
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_445:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4492,22378
+	.long mono_aot_System_Net_Http_got - . + 4500,22441
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_446:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4496,22390
+	.long mono_aot_System_Net_Http_got - . + 4504,22453
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_set_CustomToString_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_set_CustomToString_System_Func_2_object_string:
 _p_447:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4500,22437
+	.long mono_aot_System_Net_Http_got - . + 4508,22500
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_448:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4504,22457
+	.long mono_aot_System_Net_Http_got - . + 4512,22520
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_449:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4508,22494
+	.long mono_aot_System_Net_Http_got - . + 4516,22557
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_450:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4512,22506
+	.long mono_aot_System_Net_Http_got - . + 4520,22569
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_451:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4516,22575
+	.long mono_aot_System_Net_Http_got - . + 4524,22638
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_452:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4520,22633
+	.long mono_aot_System_Net_Http_got - . + 4528,22696
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_453:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4524,22703
+	.long mono_aot_System_Net_Http_got - . + 4532,22766
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_454:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4528,22724
+	.long mono_aot_System_Net_Http_got - . + 4536,22787
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_455:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4532,22736
+	.long mono_aot_System_Net_Http_got - . + 4540,22799
 	.no_dead_strip plt__jit_icall_mono_object_castclass_unbox
 plt__jit_icall_mono_object_castclass_unbox:
 _p_456:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4536,22777
+	.long mono_aot_System_Net_Http_got - . + 4544,22840
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_457:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4540,22807
+	.long mono_aot_System_Net_Http_got - . + 4548,22870
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_458:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4544,22864
+	.long mono_aot_System_Net_Http_got - . + 4552,22927
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_459:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4548,22895
+	.long mono_aot_System_Net_Http_got - . + 4556,22958
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_460:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4552,22907
+	.long mono_aot_System_Net_Http_got - . + 4560,22970
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_461:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4556,22955
+	.long mono_aot_System_Net_Http_got - . + 4564,23018
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_462:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4560,23014
+	.long mono_aot_System_Net_Http_got - . + 4568,23077
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_463:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4564,23026
+	.long mono_aot_System_Net_Http_got - . + 4572,23089
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_464:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4568,23058
+	.long mono_aot_System_Net_Http_got - . + 4576,23121
 	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
 plt_System_Collections_Generic_List_1_string__ctor:
 _p_465:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4572,23099
+	.long mono_aot_System_Net_Http_got - . + 4580,23162
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_466:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4576,23110
+	.long mono_aot_System_Net_Http_got - . + 4584,23173
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_467:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4580,23159
+	.long mono_aot_System_Net_Http_got - . + 4588,23222
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_468:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4584,23186
+	.long mono_aot_System_Net_Http_got - . + 4592,23249
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_469:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4588,23221
+	.long mono_aot_System_Net_Http_got - . + 4596,23284
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_470:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4592,23231
+	.long mono_aot_System_Net_Http_got - . + 4600,23294
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_471:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4596,23241
+	.long mono_aot_System_Net_Http_got - . + 4604,23304
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_472:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4600,23264
+	.long mono_aot_System_Net_Http_got - . + 4608,23327
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_473:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4604,23317
+	.long mono_aot_System_Net_Http_got - . + 4612,23380
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_474:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4608,23389
+	.long mono_aot_System_Net_Http_got - . + 4616,23452
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_475:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4612,23427
+	.long mono_aot_System_Net_Http_got - . + 4620,23490
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_476:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4616,23437
+	.long mono_aot_System_Net_Http_got - . + 4624,23500
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_477:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4620,23468
+	.long mono_aot_System_Net_Http_got - . + 4628,23531
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_478:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4624,23527
+	.long mono_aot_System_Net_Http_got - . + 4632,23590
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_479:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4628,23594
+	.long mono_aot_System_Net_Http_got - . + 4636,23657
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_480:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4632,23652
+	.long mono_aot_System_Net_Http_got - . + 4640,23715
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_481:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4636,23702
+	.long mono_aot_System_Net_Http_got - . + 4644,23765
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_482:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4640,23763
+	.long mono_aot_System_Net_Http_got - . + 4648,23826
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_483:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4644,23850
+	.long mono_aot_System_Net_Http_got - . + 4652,23913
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_484:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4648,23877
+	.long mono_aot_System_Net_Http_got - . + 4656,23940
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_485:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4652,23887
+	.long mono_aot_System_Net_Http_got - . + 4660,23950
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_486:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4656,23925
+	.long mono_aot_System_Net_Http_got - . + 4664,23988
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_487:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4660,23959
+	.long mono_aot_System_Net_Http_got - . + 4668,24022
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Values_System_Collections_Generic_List_1_string
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Values_System_Collections_Generic_List_1_string:
 _p_488:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4664,23969
+	.long mono_aot_System_Net_Http_got - . + 4672,24032
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_489:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4668,23989
+	.long mono_aot_System_Net_Http_got - . + 4676,24052
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_490:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4672,24016
+	.long mono_aot_System_Net_Http_got - . + 4680,24079
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_491:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4676,24043
+	.long mono_aot_System_Net_Http_got - . + 4684,24106
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_492:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4680,24088
+	.long mono_aot_System_Net_Http_got - . + 4688,24151
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_493:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4684,24100
+	.long mono_aot_System_Net_Http_got - . + 4692,24163
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_get_CustomToString
 plt_System_Net_Http_Headers_HeaderInfo_get_CustomToString:
 _p_494:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4688,24127
+	.long mono_aot_System_Net_Http_got - . + 4696,24190
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_495:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4692,24130
+	.long mono_aot_System_Net_Http_got - . + 4700,24193
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_496:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4696,24156
+	.long mono_aot_System_Net_Http_got - . + 4704,24219
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_497:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4700,24168
+	.long mono_aot_System_Net_Http_got - . + 4708,24231
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_498:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4704,24202
+	.long mono_aot_System_Net_Http_got - . + 4712,24265
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_499:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4708,24235
+	.long mono_aot_System_Net_Http_got - . + 4716,24298
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_500:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4712,24257
+	.long mono_aot_System_Net_Http_got - . + 4720,24320
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_501:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4716,24307
+	.long mono_aot_System_Net_Http_got - . + 4724,24370
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_502:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4720,24354
+	.long mono_aot_System_Net_Http_got - . + 4728,24417
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_503:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4724,24364
+	.long mono_aot_System_Net_Http_got - . + 4732,24427
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_504:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4728,24374
+	.long mono_aot_System_Net_Http_got - . + 4736,24437
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_505:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4732,24431
+	.long mono_aot_System_Net_Http_got - . + 4740,24494
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_506:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4736,24486
+	.long mono_aot_System_Net_Http_got - . + 4744,24549
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_507:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4740,24498
+	.long mono_aot_System_Net_Http_got - . + 4748,24561
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_508:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4744,24543
+	.long mono_aot_System_Net_Http_got - . + 4752,24606
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_509:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4748,24577
+	.long mono_aot_System_Net_Http_got - . + 4756,24640
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_510:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4752,24589
+	.long mono_aot_System_Net_Http_got - . + 4760,24652
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_511:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4756,24639
+	.long mono_aot_System_Net_Http_got - . + 4764,24702
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_512:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4760,24691
+	.long mono_aot_System_Net_Http_got - . + 4768,24754
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_513:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4764,24737
+	.long mono_aot_System_Net_Http_got - . + 4772,24800
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_514:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4768,24771
+	.long mono_aot_System_Net_Http_got - . + 4776,24834
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_515:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4772,24783
+	.long mono_aot_System_Net_Http_got - . + 4780,24846
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_516:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4776,24837
+	.long mono_aot_System_Net_Http_got - . + 4784,24900
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_517:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4780,24871
+	.long mono_aot_System_Net_Http_got - . + 4788,24934
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_518:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4784,24883
+	.long mono_aot_System_Net_Http_got - . + 4792,24946
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_519:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4788,24942
+	.long mono_aot_System_Net_Http_got - . + 4796,25005
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_520:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4792,24976
+	.long mono_aot_System_Net_Http_got - . + 4800,25039
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_521:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4796,25017
+	.long mono_aot_System_Net_Http_got - . + 4804,25080
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_522:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4800,25057
+	.long mono_aot_System_Net_Http_got - . + 4808,25120
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_523:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4804,25069
+	.long mono_aot_System_Net_Http_got - . + 4812,25132
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_524:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4808,25119
+	.long mono_aot_System_Net_Http_got - . + 4816,25182
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_525:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4812,25153
+	.long mono_aot_System_Net_Http_got - . + 4820,25216
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_526:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4816,25165
+	.long mono_aot_System_Net_Http_got - . + 4824,25228
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_527:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4820,25219
+	.long mono_aot_System_Net_Http_got - . + 4828,25282
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_528:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4824,25253
+	.long mono_aot_System_Net_Http_got - . + 4832,25316
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_529:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4828,25265
+	.long mono_aot_System_Net_Http_got - . + 4836,25328
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_530:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4832,25320
+	.long mono_aot_System_Net_Http_got - . + 4840,25383
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_531:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4836,25354
+	.long mono_aot_System_Net_Http_got - . + 4844,25417
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_532:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4840,25366
+	.long mono_aot_System_Net_Http_got - . + 4848,25429
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_533:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4844,25420
+	.long mono_aot_System_Net_Http_got - . + 4852,25483
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_534:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4848,25466
+	.long mono_aot_System_Net_Http_got - . + 4856,25529
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_535:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4852,25492
+	.long mono_aot_System_Net_Http_got - . + 4860,25555
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_536:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4856,25561
+	.long mono_aot_System_Net_Http_got - . + 4864,25624
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_537:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4860,25625
+	.long mono_aot_System_Net_Http_got - . + 4868,25688
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_538:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4864,25637
+	.long mono_aot_System_Net_Http_got - . + 4872,25700
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_539:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4868,25677
+	.long mono_aot_System_Net_Http_got - . + 4876,25740
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_540:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4872,25689
+	.long mono_aot_System_Net_Http_got - . + 4880,25752
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_541:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4876,25719
+	.long mono_aot_System_Net_Http_got - . + 4884,25782
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_542:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4880,25747
+	.long mono_aot_System_Net_Http_got - . + 4888,25810
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_543:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4884,25803
+	.long mono_aot_System_Net_Http_got - . + 4892,25866
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_544:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4888,25849
+	.long mono_aot_System_Net_Http_got - . + 4896,25912
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_545:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4892,25861
+	.long mono_aot_System_Net_Http_got - . + 4900,25924
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_546:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4896,25905
+	.long mono_aot_System_Net_Http_got - . + 4904,25968
 	.no_dead_strip plt_System_Nullable_1_long_Unbox_object
 plt_System_Nullable_1_long_Unbox_object:
 _p_547:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4900,25915
+	.long mono_aot_System_Net_Http_got - . + 4908,25978
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_548:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4904,25954
+	.long mono_aot_System_Net_Http_got - . + 4912,26017
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_TimeSpan_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_TimeSpan_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind:
 _p_549:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4908,25964
+	.long mono_aot_System_Net_Http_got - . + 4916,26027
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_550:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4912,26016
+	.long mono_aot_System_Net_Http_got - . + 4920,26079
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_551:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4916,26028
+	.long mono_aot_System_Net_Http_got - . + 4924,26091
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_DateTimeOffset_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_DateTimeOffset_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind:
 _p_552:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4920,26059
+	.long mono_aot_System_Net_Http_got - . + 4928,26122
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_553:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4924,26111
+	.long mono_aot_System_Net_Http_got - . + 4932,26174
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_554:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4928,26123
+	.long mono_aot_System_Net_Http_got - . + 4936,26186
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_555:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4932,26154
+	.long mono_aot_System_Net_Http_got - . + 4940,26217
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_556:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4936,26192
+	.long mono_aot_System_Net_Http_got - . + 4944,26255
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_557:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4940,26214
+	.long mono_aot_System_Net_Http_got - . + 4948,26277
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_558:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4944,26236
+	.long mono_aot_System_Net_Http_got - . + 4952,26299
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_559:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4948,26259
+	.long mono_aot_System_Net_Http_got - . + 4956,26322
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_560:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4952,26285
+	.long mono_aot_System_Net_Http_got - . + 4960,26348
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_561:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4956,26329
+	.long mono_aot_System_Net_Http_got - . + 4964,26392
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_562:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4960,26339
+	.long mono_aot_System_Net_Http_got - . + 4968,26402
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_563:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4964,26364
+	.long mono_aot_System_Net_Http_got - . + 4972,26427
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_564:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4968,26402
+	.long mono_aot_System_Net_Http_got - . + 4976,26465
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_565:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4972,26414
+	.long mono_aot_System_Net_Http_got - . + 4980,26477
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_566:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4976,26469
+	.long mono_aot_System_Net_Http_got - . + 4984,26532
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_567:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4980,26481
+	.long mono_aot_System_Net_Http_got - . + 4988,26544
 	.no_dead_strip plt_System_Nullable_1_long_Equals_System_Nullable_1_long
 plt_System_Nullable_1_long_Equals_System_Nullable_1_long:
 _p_568:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4984,26502
+	.long mono_aot_System_Net_Http_got - . + 4992,26565
 	.no_dead_strip plt_long_Equals_object
 plt_long_Equals_object:
 _p_569:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4988,26524
+	.long mono_aot_System_Net_Http_got - . + 4996,26587
 	.no_dead_strip plt_long_ToString
 plt_long_ToString:
 _p_570:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4992,26529
+	.long mono_aot_System_Net_Http_got - . + 5000,26592
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_571:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 4996,26553
+	.long mono_aot_System_Net_Http_got - . + 5004,26616
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_572:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5000,26579
+	.long mono_aot_System_Net_Http_got - . + 5008,26642
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Unbox_object
 plt_System_Nullable_1_System_TimeSpan_Unbox_object:
 _p_573:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5004,26584
+	.long mono_aot_System_Net_Http_got - . + 5012,26647
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan:
 _p_574:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5008,26606
+	.long mono_aot_System_Net_Http_got - . + 5016,26669
 	.no_dead_strip plt_System_TimeSpan_Equals_object
 plt_System_TimeSpan_Equals_object:
 _p_575:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5012,26628
+	.long mono_aot_System_Net_Http_got - . + 5020,26691
 	.no_dead_strip plt_System_TimeSpan_ToString
 plt_System_TimeSpan_ToString:
 _p_576:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5016,26633
+	.long mono_aot_System_Net_Http_got - . + 5024,26696
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token_Unbox_object
 plt_System_Nullable_1_System_Net_Http_Headers_Token_Unbox_object:
 _p_577:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5020,26638
+	.long mono_aot_System_Net_Http_got - . + 5028,26701
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token_Equals_System_Nullable_1_System_Net_Http_Headers_Token
 plt_System_Nullable_1_System_Net_Http_Headers_Token_Equals_System_Nullable_1_System_Net_Http_Headers_Token:
 _p_578:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5024,26658
+	.long mono_aot_System_Net_Http_got - . + 5032,26721
 	.no_dead_strip plt_System_Net_Http_Headers_Token_ToString
 plt_System_Net_Http_Headers_Token_ToString:
 _p_579:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5028,26678
+	.long mono_aot_System_Net_Http_got - . + 5036,26741
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_Unbox_object
 plt_System_Nullable_1_System_DateTimeOffset_Unbox_object:
 _p_580:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5032,26681
+	.long mono_aot_System_Net_Http_got - . + 5040,26744
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_Equals_System_Nullable_1_System_DateTimeOffset
 plt_System_Nullable_1_System_DateTimeOffset_Equals_System_Nullable_1_System_DateTimeOffset:
 _p_581:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5036,26703
+	.long mono_aot_System_Net_Http_got - . + 5044,26766
 	.no_dead_strip plt_System_DateTimeOffset_Equals_object
 plt_System_DateTimeOffset_Equals_object:
 _p_582:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5040,26725
+	.long mono_aot_System_Net_Http_got - . + 5048,26788
 	.no_dead_strip plt_System_DateTimeOffset_GetHashCode
 plt_System_DateTimeOffset_GetHashCode:
 _p_583:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5044,26730
+	.long mono_aot_System_Net_Http_got - . + 5052,26793
 	.no_dead_strip plt_System_DateTimeOffset_ToString
 plt_System_DateTimeOffset_ToString:
 _p_584:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5048,26735
+	.long mono_aot_System_Net_Http_got - . + 5056,26798
 	.no_dead_strip plt_System_Nullable_1_double_Unbox_object
 plt_System_Nullable_1_double_Unbox_object:
 _p_585:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5052,26740
+	.long mono_aot_System_Net_Http_got - . + 5060,26803
 	.no_dead_strip plt_System_Nullable_1_double_Equals_System_Nullable_1_double
 plt_System_Nullable_1_double_Equals_System_Nullable_1_double:
 _p_586:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5056,26762
+	.long mono_aot_System_Net_Http_got - . + 5064,26825
 	.no_dead_strip plt_double_Equals_object
 plt_double_Equals_object:
 _p_587:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5060,26784
+	.long mono_aot_System_Net_Http_got - . + 5068,26847
 	.no_dead_strip plt_double_GetHashCode
 plt_double_GetHashCode:
 _p_588:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5064,26789
+	.long mono_aot_System_Net_Http_got - . + 5072,26852
 	.no_dead_strip plt_double_ToString
 plt_double_ToString:
 _p_589:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5068,26794
+	.long mono_aot_System_Net_Http_got - . + 5076,26857
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_590:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5072,26799
+	.long mono_aot_System_Net_Http_got - . + 5080,26862
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_591:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5076,26861
+	.long mono_aot_System_Net_Http_got - . + 5084,26924
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_592:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5080,26881
+	.long mono_aot_System_Net_Http_got - . + 5088,26944
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_593:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5084,26933
+	.long mono_aot_System_Net_Http_got - . + 5092,26996
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_594:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5088,26953
+	.long mono_aot_System_Net_Http_got - . + 5096,27016
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_595:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5092,26992
+	.long mono_aot_System_Net_Http_got - . + 5100,27055
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_596:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5096,27012
+	.long mono_aot_System_Net_Http_got - . + 5104,27075
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_597:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5100,27049
+	.long mono_aot_System_Net_Http_got - . + 5108,27112
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_598:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5104,27069
+	.long mono_aot_System_Net_Http_got - . + 5112,27132
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_599:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5108,27115
+	.long mono_aot_System_Net_Http_got - . + 5116,27178
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_600:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5112,27145
+	.long mono_aot_System_Net_Http_got - . + 5120,27208
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_601:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5116,27175
+	.long mono_aot_System_Net_Http_got - . + 5124,27238
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_602:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5120,27195
+	.long mono_aot_System_Net_Http_got - . + 5128,27258
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_603:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5124,27247
+	.long mono_aot_System_Net_Http_got - . + 5132,27310
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_604:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5128,27277
+	.long mono_aot_System_Net_Http_got - . + 5136,27340
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_605:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5132,27297
+	.long mono_aot_System_Net_Http_got - . + 5140,27360
 	.no_dead_strip plt_System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext
 plt_System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext:
 _p_606:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5136,27302
+	.long mono_aot_System_Net_Http_got - . + 5144,27365
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_607:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5140,27304
+	.long mono_aot_System_Net_Http_got - . + 5148,27367
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_608:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5144,27309
+	.long mono_aot_System_Net_Http_got - . + 5152,27372
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_609:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5148,27314
+	.long mono_aot_System_Net_Http_got - . + 5156,27377
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_610:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5152,27319
+	.long mono_aot_System_Net_Http_got - . + 5160,27382
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_611:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5156,27324
+	.long mono_aot_System_Net_Http_got - . + 5164,27387
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action:
 _p_612:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5160,27329
+	.long mono_aot_System_Net_Http_got - . + 5168,27392
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler__SendAsyncd__63_MoveNext
 plt_System_Net_Http_HttpClientHandler__SendAsyncd__63_MoveNext:
 _p_613:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5164,27349
+	.long mono_aot_System_Net_Http_got - . + 5172,27412
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action:
 _p_614:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5168,27351
+	.long mono_aot_System_Net_Http_got - . + 5176,27414
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_UnsafeOnCompleted_System_Action:
 _p_615:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5172,27371
+	.long mono_aot_System_Net_Http_got - . + 5180,27434
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_UnsafeOnCompleted_System_Action:
 _p_616:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5176,27393
+	.long mono_aot_System_Net_Http_got - . + 5184,27456
 	.no_dead_strip plt_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_MoveNext
 plt_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_MoveNext:
 _p_617:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5180,27415
+	.long mono_aot_System_Net_Http_got - . + 5188,27478
 	.no_dead_strip plt_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_MoveNext
 plt_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_MoveNext:
 _p_618:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5184,27417
+	.long mono_aot_System_Net_Http_got - . + 5192,27480
 	.no_dead_strip plt_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_MoveNext
 plt_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_MoveNext:
 _p_619:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5188,27419
+	.long mono_aot_System_Net_Http_got - . + 5196,27482
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_:
 _p_620:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5192,27421
+	.long mono_aot_System_Net_Http_got - . + 5200,27484
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_621:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5196,27465
+	.long mono_aot_System_Net_Http_got - . + 5204,27528
 	.no_dead_strip plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
 plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF:
 _p_622:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5200,27490
+	.long mono_aot_System_Net_Http_got - . + 5208,27553
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException:
 _p_623:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5204,27509
+	.long mono_aot_System_Net_Http_got - . + 5212,27572
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
 _p_624:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5208,27514
+	.long mono_aot_System_Net_Http_got - . + 5216,27577
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_625:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5212,27551
+	.long mono_aot_System_Net_Http_got - . + 5220,27614
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_626:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5216,27561
+	.long mono_aot_System_Net_Http_got - . + 5224,27624
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_627:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5220,27571
+	.long mono_aot_System_Net_Http_got - . + 5228,27634
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_628:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5224,27590
+	.long mono_aot_System_Net_Http_got - . + 5232,27653
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_629:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5228,27622
+	.long mono_aot_System_Net_Http_got - . + 5236,27685
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
 _p_630:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5232,27634
+	.long mono_aot_System_Net_Http_got - . + 5240,27697
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
 plt_System_Collections_Generic_List_1_T_REF_IndexOf_T_REF:
 _p_631:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5236,27655
+	.long mono_aot_System_Net_Http_got - . + 5244,27718
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_RemoveAt_int
 plt_System_Collections_Generic_List_1_T_REF_RemoveAt_int:
 _p_632:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5240,27674
+	.long mono_aot_System_Net_Http_got - . + 5248,27737
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_633:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5244,27721
+	.long mono_aot_System_Net_Http_got - . + 5252,27784
 	.no_dead_strip plt_System_Text_StringBuilderCache_Acquire_int
 plt_System_Text_StringBuilderCache_Acquire_int:
 _p_634:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5248,27748
+	.long mono_aot_System_Net_Http_got - . + 5256,27811
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_635:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5252,27762
+	.long mono_aot_System_Net_Http_got - . + 5260,27825
 	.no_dead_strip plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder
 plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder:
 _p_636:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5256,27789
+	.long mono_aot_System_Net_Http_got - . + 5264,27852
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_637:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5260,27821
+	.long mono_aot_System_Net_Http_got - . + 5268,27884
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
 plt_System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF:
 _p_638:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5264,27833
+	.long mono_aot_System_Net_Http_got - . + 5272,27896
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_639:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5268,27854
+	.long mono_aot_System_Net_Http_got - . + 5276,27917
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_AddRange_System_Collections_Generic_List_1_object
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_AddRange_System_Collections_Generic_List_1_object:
 _p_640:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5272,27859
+	.long mono_aot_System_Net_Http_got - . + 5280,27922
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_Add_object
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_Add_object:
 _p_641:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5276,27879
+	.long mono_aot_System_Net_Http_got - . + 5284,27942
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo:
 _p_642:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5280,27899
+	.long mono_aot_System_Net_Http_got - . + 5288,27962
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_GetEnumerator:
 _p_643:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5284,27919
+	.long mono_aot_System_Net_Http_got - . + 5292,27982
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_644:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5288,27958
+	.long mono_aot_System_Net_Http_got - . + 5296,28021
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_645:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5292,27984
+	.long mono_aot_System_Net_Http_got - . + 5300,28047
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_646:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5296,27995
+	.long mono_aot_System_Net_Http_got - . + 5304,28058
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_647:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5300,28000
+	.long mono_aot_System_Net_Http_got - . + 5308,28063
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_648:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5304,28005
+	.long mono_aot_System_Net_Http_got - . + 5312,28068
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_649:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5308,28010
+	.long mono_aot_System_Net_Http_got - . + 5316,28073
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_650:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5312,28030
+	.long mono_aot_System_Net_Http_got - . + 5320,28093
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_651:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5316,28035
+	.long mono_aot_System_Net_Http_got - . + 5324,28098
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_652:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5320,28055
+	.long mono_aot_System_Net_Http_got - . + 5328,28118
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_653:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5324,28060
+	.long mono_aot_System_Net_Http_got - . + 5332,28123
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_654:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5328,28080
+	.long mono_aot_System_Net_Http_got - . + 5336,28143
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_655:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5332,28085
+	.long mono_aot_System_Net_Http_got - . + 5340,28148
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_656:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5336,28105
+	.long mono_aot_System_Net_Http_got - . + 5344,28168
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_657:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5340,28110
+	.long mono_aot_System_Net_Http_got - . + 5348,28173
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_658:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5344,28115
+	.long mono_aot_System_Net_Http_got - . + 5352,28178
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_659:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5348,28120
+	.long mono_aot_System_Net_Http_got - . + 5356,28183
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_660:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5352,28140
+	.long mono_aot_System_Net_Http_got - . + 5360,28203
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_661:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5356,28160
+	.long mono_aot_System_Net_Http_got - . + 5364,28223
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_662:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5360,28165
+	.long mono_aot_System_Net_Http_got - . + 5368,28228
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_663:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5364,28170
+	.long mono_aot_System_Net_Http_got - . + 5372,28233
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_664:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5368,28175
+	.long mono_aot_System_Net_Http_got - . + 5376,28238
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_665:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5372,28180
+	.long mono_aot_System_Net_Http_got - . + 5380,28243
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_666:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5376,28185
+	.long mono_aot_System_Net_Http_got - . + 5384,28248
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_667:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5380,28190
+	.long mono_aot_System_Net_Http_got - . + 5388,28253
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_668:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5384,28195
+	.long mono_aot_System_Net_Http_got - . + 5392,28258
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_669:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5388,28215
+	.long mono_aot_System_Net_Http_got - . + 5396,28278
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_670:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5392,28220
+	.long mono_aot_System_Net_Http_got - . + 5400,28283
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_671:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5396,28225
+	.long mono_aot_System_Net_Http_got - . + 5404,28288
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_672:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5400,28233
+	.long mono_aot_System_Net_Http_got - . + 5408,28296
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_673:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5404,28253
+	.long mono_aot_System_Net_Http_got - . + 5412,28316
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_674:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5408,28273
+	.long mono_aot_System_Net_Http_got - . + 5416,28336
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
 _p_675:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5412,28278
+	.long mono_aot_System_Net_Http_got - . + 5420,28341
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_676:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5416,28298
+	.long mono_aot_System_Net_Http_got - . + 5424,28361
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
 _p_677:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5420,28303
+	.long mono_aot_System_Net_Http_got - . + 5428,28366
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_678:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5424,28323
+	.long mono_aot_System_Net_Http_got - . + 5432,28386
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_679:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5428,28328
+	.long mono_aot_System_Net_Http_got - . + 5436,28391
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_680:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5432,28348
+	.long mono_aot_System_Net_Http_got - . + 5440,28411
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_681:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5436,28368
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+	.long mono_aot_System_Net_Http_got - . + 5444,28431
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task:
 _p_682:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5440,28373
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
+	.long mono_aot_System_Net_Http_got - . + 5448,28436
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_683:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5444,28393
-	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
-plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
+	.long mono_aot_System_Net_Http_got - . + 5452,28456
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
 _p_684:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5448,28413
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
-plt_System_Threading_Tasks_Task_get_Id:
+	.long mono_aot_System_Net_Http_got - . + 5456,28476
+	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
+plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_685:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5452,28418
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
+	.long mono_aot_System_Net_Http_got - . + 5460,28496
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
 _p_686:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5456,28423
-	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
-plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
+	.long mono_aot_System_Net_Http_got - . + 5464,28501
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_687:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5460,28428
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
+	.long mono_aot_System_Net_Http_got - . + 5468,28506
+	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
+plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_688:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5464,28433
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
+	.long mono_aot_System_Net_Http_got - . + 5472,28511
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_689:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5468,28453
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
-plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
+	.long mono_aot_System_Net_Http_got - . + 5476,28516
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_690:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5472,28473
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+	.long mono_aot_System_Net_Http_got - . + 5480,28536
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
+plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_691:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5476,28478
-	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
-plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
+	.long mono_aot_System_Net_Http_got - . + 5484,28556
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_692:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5480,28498
-	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
-plt_System_Threading_AtomicBoolean_TryRelaxedSet:
+	.long mono_aot_System_Net_Http_got - . + 5488,28561
+	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
+plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_693:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5484,28503
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+	.long mono_aot_System_Net_Http_got - . + 5492,28581
+	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
+plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_694:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5488,28508
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
+	.long mono_aot_System_Net_Http_got - . + 5496,28586
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_695:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5492,28528
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.long mono_aot_System_Net_Http_got - . + 5500,28591
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
 _p_696:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5496,28558
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+	.long mono_aot_System_Net_Http_got - . + 5504,28611
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_697:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5500,28563
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
+	.long mono_aot_System_Net_Http_got - . + 5508,28641
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_698:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5504,28583
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
+	.long mono_aot_System_Net_Http_got - . + 5512,28646
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_699:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5508,28603
-	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
-plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
+	.long mono_aot_System_Net_Http_got - . + 5516,28666
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_700:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5512,28623
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+	.long mono_aot_System_Net_Http_got - . + 5520,28686
+	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
+plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
 _p_701:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5516,28628
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
+	.long mono_aot_System_Net_Http_got - . + 5524,28706
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_702:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5520,28648
-	.no_dead_strip plt__rgctx_fetch_194
-plt__rgctx_fetch_194:
+	.long mono_aot_System_Net_Http_got - . + 5528,28711
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_703:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5524,28696
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TSource_REF_get_Default
-plt_System_Collections_Generic_EqualityComparer_1_TSource_REF_get_Default:
+	.long mono_aot_System_Net_Http_got - . + 5532,28731
+	.no_dead_strip plt__rgctx_fetch_194
+plt__rgctx_fetch_194:
 _p_704:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5528,28708
-	.no_dead_strip plt__rgctx_fetch_195
-plt__rgctx_fetch_195:
+	.long mono_aot_System_Net_Http_got - . + 5536,28779
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TSource_REF_get_Default
+plt_System_Collections_Generic_EqualityComparer_1_TSource_REF_get_Default:
 _p_705:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5532,28738
-	.no_dead_strip plt__rgctx_fetch_196
-plt__rgctx_fetch_196:
+	.long mono_aot_System_Net_Http_got - . + 5540,28791
+	.no_dead_strip plt__rgctx_fetch_195
+plt__rgctx_fetch_195:
 _p_706:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5536,28750
-	.no_dead_strip plt__rgctx_fetch_197
-plt__rgctx_fetch_197:
+	.long mono_aot_System_Net_Http_got - . + 5544,28821
+	.no_dead_strip plt__rgctx_fetch_196
+plt__rgctx_fetch_196:
 _p_707:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5540,28786
-	.no_dead_strip plt__rgctx_fetch_198
-plt__rgctx_fetch_198:
+	.long mono_aot_System_Net_Http_got - . + 5548,28833
+	.no_dead_strip plt__rgctx_fetch_197
+plt__rgctx_fetch_197:
 _p_708:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5544,28822
-	.no_dead_strip plt__rgctx_fetch_199
-plt__rgctx_fetch_199:
+	.long mono_aot_System_Net_Http_got - . + 5552,28869
+	.no_dead_strip plt__rgctx_fetch_198
+plt__rgctx_fetch_198:
 _p_709:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5548,28858
-	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
-plt_System_Linq_Error_ArgumentNull_string:
+	.long mono_aot_System_Net_Http_got - . + 5556,28905
+	.no_dead_strip plt__rgctx_fetch_199
+plt__rgctx_fetch_199:
 _p_710:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5552,28885
-	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int
-plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int:
+	.long mono_aot_System_Net_Http_got - . + 5560,28941
+	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
+plt_System_Linq_Error_ArgumentNull_string:
 _p_711:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5556,28890
-	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
-plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
+	.long mono_aot_System_Net_Http_got - . + 5564,28968
+	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int
+plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int:
 _p_712:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5560,28909
-	.no_dead_strip plt__rgctx_fetch_200
-plt__rgctx_fetch_200:
+	.long mono_aot_System_Net_Http_got - . + 5568,28973
+	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
+plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_713:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5564,28941
-	.no_dead_strip plt__rgctx_fetch_201
-plt__rgctx_fetch_201:
+	.long mono_aot_System_Net_Http_got - . + 5572,28992
+	.no_dead_strip plt__rgctx_fetch_200
+plt__rgctx_fetch_200:
 _p_714:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5568,28953
-	.no_dead_strip plt__rgctx_fetch_202
-plt__rgctx_fetch_202:
+	.long mono_aot_System_Net_Http_got - . + 5576,29024
+	.no_dead_strip plt__rgctx_fetch_201
+plt__rgctx_fetch_201:
 _p_715:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5572,28980
-	.no_dead_strip plt__rgctx_fetch_203
-plt__rgctx_fetch_203:
+	.long mono_aot_System_Net_Http_got - . + 5580,29036
+	.no_dead_strip plt__rgctx_fetch_202
+plt__rgctx_fetch_202:
 _p_716:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5576,28992
-	.no_dead_strip plt_System_Array_CopyTo_System_Array_int
-plt_System_Array_CopyTo_System_Array_int:
+	.long mono_aot_System_Net_Http_got - . + 5584,29063
+	.no_dead_strip plt__rgctx_fetch_203
+plt__rgctx_fetch_203:
 _p_717:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5580,29019
-	.no_dead_strip plt__rgctx_fetch_204
-plt__rgctx_fetch_204:
+	.long mono_aot_System_Net_Http_got - . + 5588,29075
+	.no_dead_strip plt_System_Array_CopyTo_System_Array_int
+plt_System_Array_CopyTo_System_Array_int:
 _p_718:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5584,29033
-	.no_dead_strip plt__rgctx_fetch_205
-plt__rgctx_fetch_205:
+	.long mono_aot_System_Net_Http_got - . + 5592,29102
+	.no_dead_strip plt__rgctx_fetch_204
+plt__rgctx_fetch_204:
 _p_719:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5588,29069
-	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
-plt_System_Collections_Generic_List_1_T_REF_Insert_int_T_REF:
+	.long mono_aot_System_Net_Http_got - . + 5596,29116
+	.no_dead_strip plt__rgctx_fetch_205
+plt__rgctx_fetch_205:
 _p_720:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5592,29096
-	.no_dead_strip plt__rgctx_fetch_206
-plt__rgctx_fetch_206:
+	.long mono_aot_System_Net_Http_got - . + 5600,29152
+	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
+plt_System_Collections_Generic_List_1_T_REF_Insert_int_T_REF:
 _p_721:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5596,29133
-	.no_dead_strip plt__rgctx_fetch_207
-plt__rgctx_fetch_207:
+	.long mono_aot_System_Net_Http_got - . + 5604,29179
+	.no_dead_strip plt__rgctx_fetch_206
+plt__rgctx_fetch_206:
 _p_722:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5600,29143
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
+	.long mono_aot_System_Net_Http_got - . + 5608,29216
+	.no_dead_strip plt__rgctx_fetch_207
+plt__rgctx_fetch_207:
 _p_723:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5604,29153
-	.no_dead_strip plt__rgctx_fetch_208
-plt__rgctx_fetch_208:
+	.long mono_aot_System_Net_Http_got - . + 5612,29226
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
+plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_724:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5608,29190
-	.no_dead_strip plt_System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
-plt_System_Array_IndexOf_T_REF_T_REF___T_REF_int_int:
+	.long mono_aot_System_Net_Http_got - . + 5616,29236
+	.no_dead_strip plt__rgctx_fetch_208
+plt__rgctx_fetch_208:
 _p_725:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5612,29216
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+	.long mono_aot_System_Net_Http_got - . + 5620,29273
+	.no_dead_strip plt_System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
+plt_System_Array_IndexOf_T_REF_T_REF___T_REF_int_int:
 _p_726:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5616,29236
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+	.long mono_aot_System_Net_Http_got - . + 5624,29299
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_727:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5620,29241
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+	.long mono_aot_System_Net_Http_got - . + 5628,29319
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_728:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5624,29246
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+	.long mono_aot_System_Net_Http_got - . + 5632,29324
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_729:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5628,29266
-	.no_dead_strip plt__rgctx_fetch_209
-plt__rgctx_fetch_209:
+	.long mono_aot_System_Net_Http_got - . + 5636,29329
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_730:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5632,29304
-	.no_dead_strip plt__rgctx_fetch_210
-plt__rgctx_fetch_210:
+	.long mono_aot_System_Net_Http_got - . + 5640,29349
+	.no_dead_strip plt__rgctx_fetch_209
+plt__rgctx_fetch_209:
 _p_731:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5636,29316
-	.no_dead_strip plt__rgctx_fetch_211
-plt__rgctx_fetch_211:
+	.long mono_aot_System_Net_Http_got - . + 5644,29387
+	.no_dead_strip plt__rgctx_fetch_210
+plt__rgctx_fetch_210:
 _p_732:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5640,29326
-	.no_dead_strip plt__rgctx_fetch_212
-plt__rgctx_fetch_212:
+	.long mono_aot_System_Net_Http_got - . + 5648,29399
+	.no_dead_strip plt__rgctx_fetch_211
+plt__rgctx_fetch_211:
 _p_733:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5644,29354
-	.no_dead_strip plt__rgctx_fetch_213
-plt__rgctx_fetch_213:
+	.long mono_aot_System_Net_Http_got - . + 5652,29409
+	.no_dead_strip plt__rgctx_fetch_212
+plt__rgctx_fetch_212:
 _p_734:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5648,29364
-	.no_dead_strip plt__rgctx_fetch_214
-plt__rgctx_fetch_214:
+	.long mono_aot_System_Net_Http_got - . + 5656,29437
+	.no_dead_strip plt__rgctx_fetch_213
+plt__rgctx_fetch_213:
 _p_735:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5652,29383
-	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
-plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
+	.long mono_aot_System_Net_Http_got - . + 5660,29447
+	.no_dead_strip plt__rgctx_fetch_214
+plt__rgctx_fetch_214:
 _p_736:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5656,29395
-	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
-plt_System_Enum_GetUnderlyingType_System_Type:
+	.long mono_aot_System_Net_Http_got - . + 5664,29466
+	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
+plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_737:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5660,29400
-	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
-plt_System_Type_GetTypeCode_System_Type:
+	.long mono_aot_System_Net_Http_got - . + 5668,29478
+	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
+plt_System_Enum_GetUnderlyingType_System_Type:
 _p_738:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5664,29405
-	.no_dead_strip plt__rgctx_fetch_215
-plt__rgctx_fetch_215:
+	.long mono_aot_System_Net_Http_got - . + 5672,29483
+	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
+plt_System_Type_GetTypeCode_System_Type:
 _p_739:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5668,29419
-	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
+	.long mono_aot_System_Net_Http_got - . + 5676,29488
+	.no_dead_strip plt__rgctx_fetch_215
+plt__rgctx_fetch_215:
 _p_740:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5672,29431
-	.no_dead_strip plt_System_Array_GetUpperBound_int
-plt_System_Array_GetUpperBound_int:
+	.long mono_aot_System_Net_Http_got - . + 5680,29502
+	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
+plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_741:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5676,29452
-	.no_dead_strip plt__rgctx_fetch_216
-plt__rgctx_fetch_216:
+	.long mono_aot_System_Net_Http_got - . + 5684,29514
+	.no_dead_strip plt_System_Array_GetUpperBound_int
+plt_System_Array_GetUpperBound_int:
 _p_742:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5680,29485
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default_0
-plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default_0:
+	.long mono_aot_System_Net_Http_got - . + 5688,29535
+	.no_dead_strip plt__rgctx_fetch_216
+plt__rgctx_fetch_216:
 _p_743:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5684,29497
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+	.long mono_aot_System_Net_Http_got - . + 5692,29568
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default_0
+plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default_0:
 _p_744:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_Net_Http_got - . + 5688,29518
+	.long mono_aot_System_Net_Http_got - . + 5696,29580
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+_p_745:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_System_Net_Http_got - . + 5700,29601
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_System_Net_Http_got, 5696
+.lcomm mono_aot_System_Net_Http_got, 5708
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -30949,13 +31017,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 679,5696,745,903,66,391195135,0,123286
-	.long 128,4,4,10,0,26,139744,16448
-	.long 16080,12616,0,14248,15944,13336,0,9296
-	.long 1272,0,0,0,0,0,0,0
+	.long 681,5708,746,905,66,391195135,0,123506
+	.long 128,4,4,10,0,26,140024,16512
+	.long 16144,12664,0,14304,16008,13384,0,9328
+	.long 1280,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 154,199,243,121,220,58,168,8,141,144,132,112,122,212,34,219
+	.byte 12,165,212,127,190,108,32,148,63,78,4,231,112,28,170,132
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 2
 _mono_aot_module_System_Net_Http_info:
@@ -82574,11 +82642,11 @@ LTDIE_453_REFERENCE:
 LDIFF_SYM7002=LTDIE_453 - Ldebug_info_start
 	.long LDIFF_SYM7002
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
-	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:GetDefaultScheduler"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task"
 
-	.byte 8,93
-	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.byte 8,69
+	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task
 	.long Lme_344
 
 	.byte 2,118,16,3
@@ -82586,12 +82654,12 @@ LDIFF_SYM7002=LTDIE_453 - Ldebug_info_start
 
 LDIFF_SYM7003=LTDIE_453_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM7003
-	.byte 2,123,12,11
-	.asciz "V_0"
+	.byte 2,125,0,3
+	.asciz "currTask"
 
-LDIFF_SYM7004=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM7004=LTDIE_66_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM7004
-	.byte 0,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -82601,14 +82669,52 @@ Lfde782_start:
 
 	.long 0
 	.align 2
+	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task
+
+LDIFF_SYM7006=Lme_344 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_GetDefaultScheduler_System_Threading_Tasks_Task
+	.long LDIFF_SYM7006
+	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,144,10,68,14,16,68,8,8,8,10,14,8,68,11
+	.align 2
+Lfde782_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
+
+	.byte 8,93
+	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long Lme_345
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7007=LTDIE_453_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7007
+	.byte 2,123,12,11
+	.asciz "V_0"
+
+LDIFF_SYM7008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7008
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7009=Lfde783_end - Lfde783_start
+	.long LDIFF_SYM7009
+Lfde783_start:
+
+	.long 0
+	.align 2
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM7006=Lme_344 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM7006
+LDIFF_SYM7010=Lme_345 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM7010
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,32,68,13,11,2,40,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
-Lfde782_end:
+Lfde783_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -82618,51 +82724,100 @@ Lfde782_end:
 
 	.byte 8,208,1
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long Lme_345
+	.long Lme_346
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7007=LTDIE_453_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7007
+LDIFF_SYM7011=LTDIE_453_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7011
 	.byte 1,84,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM7008=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7008
+LDIFF_SYM7012=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7012
 	.byte 2,123,0,3
 	.asciz "creationOptions"
 
-LDIFF_SYM7009=LTDIE_445 - Ldebug_info_start
-	.long LDIFF_SYM7009
+LDIFF_SYM7013=LTDIE_445 - Ldebug_info_start
+	.long LDIFF_SYM7013
 	.byte 2,123,4,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM7010=LTDIE_452 - Ldebug_info_start
-	.long LDIFF_SYM7010
+LDIFF_SYM7014=LTDIE_452 - Ldebug_info_start
+	.long LDIFF_SYM7014
 	.byte 2,123,8,3
 	.asciz "scheduler"
 
-LDIFF_SYM7011=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7011
+LDIFF_SYM7015=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7015
 	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7012=Lfde783_end - Lfde783_start
-	.long LDIFF_SYM7012
-Lfde783_start:
+LDIFF_SYM7016=Lfde784_end - Lfde784_start
+	.long LDIFF_SYM7016
+Lfde784_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM7013=Lme_345 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM7013
+LDIFF_SYM7017=Lme_346 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM7017
 	.byte 68,14,8,135,2,72,14,20,132,5,136,4,139,3,142,1,68,14,48,68,13,11,2,120,10,68,13,13,14,20,68,8
 	.byte 4,8,8,8,11,14,8,68,11
 	.align 2
-Lfde783_end:
+Lfde784_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:StartNew"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 8,158,2
+	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult
+	.long Lme_347
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7018=LTDIE_453_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7018
+	.byte 1,86,3
+	.asciz "function"
+
+LDIFF_SYM7019=LTDIE_448_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7019
+	.byte 2,123,24,11
+	.asciz "stackMark"
+
+LDIFF_SYM7020=LTDIE_447 - Ldebug_info_start
+	.long LDIFF_SYM7020
+	.byte 2,123,16,11
+	.asciz "currTask"
+
+LDIFF_SYM7021=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7021
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7022=Lfde785_end - Lfde785_start
+	.long LDIFF_SYM7022
+Lfde785_start:
+
+	.long 0
+	.align 2
+	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM7023=Lme_347 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7023
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,72,68,13,11,2,220,10,68,13,13,14,20,68,8
+	.byte 6,8,8,8,11,14,8,68,11
+	.align 2
+Lfde785_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -82672,56 +82827,56 @@ Lfde783_end:
 
 	.byte 8,132,3
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long Lme_346
+	.long Lme_348
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7014=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7014
+LDIFF_SYM7024=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7024
 	.byte 0,3
 	.asciz "function"
 
-LDIFF_SYM7015=LTDIE_448_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7015
+LDIFF_SYM7025=LTDIE_448_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7025
 	.byte 2,123,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM7016=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7016
+LDIFF_SYM7026=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7026
 	.byte 2,123,28,3
 	.asciz "creationOptions"
 
-LDIFF_SYM7017=LTDIE_445 - Ldebug_info_start
-	.long LDIFF_SYM7017
+LDIFF_SYM7027=LTDIE_445 - Ldebug_info_start
+	.long LDIFF_SYM7027
 	.byte 2,123,32,3
 	.asciz "scheduler"
 
-LDIFF_SYM7018=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7018
+LDIFF_SYM7028=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7028
 	.byte 2,123,36,11
 	.asciz "stackMark"
 
-LDIFF_SYM7019=LTDIE_447 - Ldebug_info_start
-	.long LDIFF_SYM7019
+LDIFF_SYM7029=LTDIE_447 - Ldebug_info_start
+	.long LDIFF_SYM7029
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7020=Lfde784_end - Lfde784_start
-	.long LDIFF_SYM7020
-Lfde784_start:
+LDIFF_SYM7030=Lfde786_end - Lfde786_start
+	.long LDIFF_SYM7030
+Lfde786_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM7021=Lme_346 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM7021
+LDIFF_SYM7031=Lme_348 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM7031
 	.byte 68,14,8,135,2,72,14,20,132,5,136,4,139,3,142,1,68,14,72,68,13,11,2,216,10,68,13,13,14,20,68,8
 	.byte 4,8,8,8,11,14,8,68,11
 	.align 2
-Lfde784_end:
+Lfde786_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_454:
@@ -82730,117 +82885,117 @@ LTDIE_454:
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM7022=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM7022
+LDIFF_SYM7032=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM7032
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM7023=LTDIE_454 - Ldebug_info_start
-	.long LDIFF_SYM7023
+LDIFF_SYM7033=LTDIE_454 - Ldebug_info_start
+	.long LDIFF_SYM7033
 LTDIE_454_POINTER:
 
 	.byte 13
-LDIFF_SYM7024=LTDIE_454 - Ldebug_info_start
-	.long LDIFF_SYM7024
+LDIFF_SYM7034=LTDIE_454 - Ldebug_info_start
+	.long LDIFF_SYM7034
 LTDIE_454_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7025=LTDIE_454 - Ldebug_info_start
-	.long LDIFF_SYM7025
+LDIFF_SYM7035=LTDIE_454 - Ldebug_info_start
+	.long LDIFF_SYM7035
 LTDIE_455:
 
 	.byte 5
 	.asciz "System_OperationCanceledException"
 
 	.byte 72,16
-LDIFF_SYM7026=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM7026
+LDIFF_SYM7036=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM7036
 	.byte 2,35,0,6
 	.asciz "_cancellationToken"
 
-LDIFF_SYM7027=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7027
+LDIFF_SYM7037=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7037
 	.byte 2,35,68,0,7
 	.asciz "System_OperationCanceledException"
 
-LDIFF_SYM7028=LTDIE_455 - Ldebug_info_start
-	.long LDIFF_SYM7028
+LDIFF_SYM7038=LTDIE_455 - Ldebug_info_start
+	.long LDIFF_SYM7038
 LTDIE_455_POINTER:
 
 	.byte 13
-LDIFF_SYM7029=LTDIE_455 - Ldebug_info_start
-	.long LDIFF_SYM7029
+LDIFF_SYM7039=LTDIE_455 - Ldebug_info_start
+	.long LDIFF_SYM7039
 LTDIE_455_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7030=LTDIE_455 - Ldebug_info_start
-	.long LDIFF_SYM7030
+LDIFF_SYM7040=LTDIE_455 - Ldebug_info_start
+	.long LDIFF_SYM7040
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 8,158,4
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long Lme_347
+	.long Lme_349
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM7031=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7031
+LDIFF_SYM7041=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7041
 	.byte 3,123,208,0,3
 	.asciz "endFunction"
 
-LDIFF_SYM7032=LTDIE_454_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7032
+LDIFF_SYM7042=LTDIE_454_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7042
 	.byte 1,86,3
 	.asciz "endAction"
 
-LDIFF_SYM7033=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7033
+LDIFF_SYM7043=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7043
 	.byte 1,90,3
 	.asciz "promise"
 
-LDIFF_SYM7034=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7034
+LDIFF_SYM7044=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7044
 	.byte 3,123,212,0,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM7035=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM7035
+LDIFF_SYM7045=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM7045
 	.byte 3,123,216,0,11
 	.asciz "ex"
 
-LDIFF_SYM7036=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7036
+LDIFF_SYM7046=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7046
 	.byte 2,123,0,11
 	.asciz "oce"
 
-LDIFF_SYM7037=LTDIE_455_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7037
+LDIFF_SYM7047=LTDIE_455_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7047
 	.byte 2,123,4,11
 	.asciz "result"
 
-LDIFF_SYM7038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7038
+LDIFF_SYM7048=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7048
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7039=Lfde785_end - Lfde785_start
-	.long LDIFF_SYM7039
-Lfde785_start:
+LDIFF_SYM7049=Lfde787_end - Lfde787_start
+	.long LDIFF_SYM7049
+Lfde787_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM7040=Lme_347 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM7040
+LDIFF_SYM7050=Lme_349 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM7050
 	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11,3,128,2,10,68,13,13,14
 	.byte 24,68,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde785_end:
+Lfde787_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -82850,46 +83005,46 @@ Lfde785_end:
 
 	.byte 8,138,6
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long Lme_348
+	.long Lme_34a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7041=LTDIE_453_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7041
+LDIFF_SYM7051=LTDIE_453_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7051
 	.byte 2,123,8,3
 	.asciz "beginMethod"
 
-LDIFF_SYM7042=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7042
+LDIFF_SYM7052=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7052
 	.byte 2,123,12,3
 	.asciz "endMethod"
 
-LDIFF_SYM7043=LTDIE_454_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7043
+LDIFF_SYM7053=LTDIE_454_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7053
 	.byte 2,123,16,3
 	.asciz "state"
 
-LDIFF_SYM7044=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7044
+LDIFF_SYM7054=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7054
 	.byte 2,123,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7045=Lfde786_end - Lfde786_start
-	.long LDIFF_SYM7045
-Lfde786_start:
+LDIFF_SYM7055=Lfde788_end - Lfde788_start
+	.long LDIFF_SYM7055
+Lfde788_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM7046=Lme_348 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM7046
+LDIFF_SYM7056=Lme_34a - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM7056
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,64,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
-Lfde786_end:
+Lfde788_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_456:
@@ -82898,170 +83053,170 @@ LTDIE_456:
 	.asciz "_<>c__DisplayClass35_1"
 
 	.byte 20,16
-LDIFF_SYM7047=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7047
+LDIFF_SYM7057=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7057
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM7048=LTDIE_454_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7048
+LDIFF_SYM7058=LTDIE_454_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7058
 	.byte 2,35,8,6
 	.asciz "endAction"
 
-LDIFF_SYM7049=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7049
+LDIFF_SYM7059=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7059
 	.byte 2,35,12,6
 	.asciz "promise"
 
-LDIFF_SYM7050=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7050
+LDIFF_SYM7060=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7060
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass35_1"
 
-LDIFF_SYM7051=LTDIE_456 - Ldebug_info_start
-	.long LDIFF_SYM7051
+LDIFF_SYM7061=LTDIE_456 - Ldebug_info_start
+	.long LDIFF_SYM7061
 LTDIE_456_POINTER:
 
 	.byte 13
-LDIFF_SYM7052=LTDIE_456 - Ldebug_info_start
-	.long LDIFF_SYM7052
+LDIFF_SYM7062=LTDIE_456 - Ldebug_info_start
+	.long LDIFF_SYM7062
 LTDIE_456_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7053=LTDIE_456 - Ldebug_info_start
-	.long LDIFF_SYM7053
+LDIFF_SYM7063=LTDIE_456 - Ldebug_info_start
+	.long LDIFF_SYM7063
 LTDIE_458:
 
 	.byte 5
 	.asciz "System_Threading_AtomicBoolean"
 
 	.byte 12,16
-LDIFF_SYM7054=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7054
+LDIFF_SYM7064=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7064
 	.byte 2,35,0,6
 	.asciz "flag"
 
-LDIFF_SYM7055=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7055
+LDIFF_SYM7065=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7065
 	.byte 2,35,8,0,7
 	.asciz "System_Threading_AtomicBoolean"
 
-LDIFF_SYM7056=LTDIE_458 - Ldebug_info_start
-	.long LDIFF_SYM7056
+LDIFF_SYM7066=LTDIE_458 - Ldebug_info_start
+	.long LDIFF_SYM7066
 LTDIE_458_POINTER:
 
 	.byte 13
-LDIFF_SYM7057=LTDIE_458 - Ldebug_info_start
-	.long LDIFF_SYM7057
+LDIFF_SYM7067=LTDIE_458 - Ldebug_info_start
+	.long LDIFF_SYM7067
 LTDIE_458_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7058=LTDIE_458 - Ldebug_info_start
-	.long LDIFF_SYM7058
+LDIFF_SYM7068=LTDIE_458 - Ldebug_info_start
+	.long LDIFF_SYM7068
 LTDIE_457:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 16,16
-LDIFF_SYM7059=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7059
+LDIFF_SYM7069=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7069
 	.byte 2,35,0,6
 	.asciz "invoked"
 
-LDIFF_SYM7060=LTDIE_458_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7060
+LDIFF_SYM7070=LTDIE_458_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7070
 	.byte 2,35,8,6
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM7061=LTDIE_456_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7061
+LDIFF_SYM7071=LTDIE_456_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7071
 	.byte 2,35,12,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM7062=LTDIE_457 - Ldebug_info_start
-	.long LDIFF_SYM7062
+LDIFF_SYM7072=LTDIE_457 - Ldebug_info_start
+	.long LDIFF_SYM7072
 LTDIE_457_POINTER:
 
 	.byte 13
-LDIFF_SYM7063=LTDIE_457 - Ldebug_info_start
-	.long LDIFF_SYM7063
+LDIFF_SYM7073=LTDIE_457 - Ldebug_info_start
+	.long LDIFF_SYM7073
 LTDIE_457_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7064=LTDIE_457 - Ldebug_info_start
-	.long LDIFF_SYM7064
+LDIFF_SYM7074=LTDIE_457 - Ldebug_info_start
+	.long LDIFF_SYM7074
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 8,0
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long Lme_349
+	.long Lme_34b
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM7065=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7065
+LDIFF_SYM7075=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7075
 	.byte 1,90,3
 	.asciz "endFunction"
 
-LDIFF_SYM7066=LTDIE_454_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7066
+LDIFF_SYM7076=LTDIE_454_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7076
 	.byte 2,123,40,3
 	.asciz "endAction"
 
-LDIFF_SYM7067=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7067
+LDIFF_SYM7077=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7077
 	.byte 2,123,44,3
 	.asciz "state"
 
-LDIFF_SYM7068=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7068
+LDIFF_SYM7078=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7078
 	.byte 2,123,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM7069=LTDIE_445 - Ldebug_info_start
-	.long LDIFF_SYM7069
+LDIFF_SYM7079=LTDIE_445 - Ldebug_info_start
+	.long LDIFF_SYM7079
 	.byte 2,123,52,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM7070=LTDIE_456_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7070
+LDIFF_SYM7080=LTDIE_456_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7080
 	.byte 2,123,8,11
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM7071=LTDIE_457_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7071
+LDIFF_SYM7081=LTDIE_457_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7081
 	.byte 1,86,11
 	.asciz "asyncResult"
 
-LDIFF_SYM7072=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7072
+LDIFF_SYM7082=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7082
 	.byte 1,85,11
 	.asciz "V_3"
 
-LDIFF_SYM7073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7073
+LDIFF_SYM7083=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7083
 	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7074=Lfde787_end - Lfde787_start
-	.long LDIFF_SYM7074
-Lfde787_start:
+LDIFF_SYM7084=Lfde789_end - Lfde789_start
+	.long LDIFF_SYM7084
+Lfde789_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM7075=Lme_349 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM7075
+LDIFF_SYM7085=Lme_34b - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM7085
 	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,104,68,13,11,3,40,4,10,68,13
 	.byte 13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde787_end:
+Lfde789_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_459:
@@ -83070,89 +83225,89 @@ LTDIE_459:
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM7076=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM7076
+LDIFF_SYM7086=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM7086
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM7077=LTDIE_459 - Ldebug_info_start
-	.long LDIFF_SYM7077
+LDIFF_SYM7087=LTDIE_459 - Ldebug_info_start
+	.long LDIFF_SYM7087
 LTDIE_459_POINTER:
 
 	.byte 13
-LDIFF_SYM7078=LTDIE_459 - Ldebug_info_start
-	.long LDIFF_SYM7078
+LDIFF_SYM7088=LTDIE_459 - Ldebug_info_start
+	.long LDIFF_SYM7088
 LTDIE_459_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7079=LTDIE_459 - Ldebug_info_start
-	.long LDIFF_SYM7079
+LDIFF_SYM7089=LTDIE_459 - Ldebug_info_start
+	.long LDIFF_SYM7089
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long Lme_34a
+	.long Lme_34c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7080=LTDIE_459_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7080
+LDIFF_SYM7090=LTDIE_459_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7090
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM7081=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7081
+LDIFF_SYM7091=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7091
 	.byte 2,125,8,11
 	.asciz "V_0"
 
-LDIFF_SYM7082=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7082
+LDIFF_SYM7092=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7092
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM7083=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7083
+LDIFF_SYM7093=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7093
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM7084=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7084
+LDIFF_SYM7094=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7094
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM7085=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7085
+LDIFF_SYM7095=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7095
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM7086=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7086
+LDIFF_SYM7096=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7096
 	.byte 2,125,0,11
 	.asciz "V_5"
 
-LDIFF_SYM7087=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7087
+LDIFF_SYM7097=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7097
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7088=Lfde788_end - Lfde788_start
-	.long LDIFF_SYM7088
-Lfde788_start:
+LDIFF_SYM7098=Lfde790_end - Lfde790_start
+	.long LDIFF_SYM7098
+Lfde790_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM7089=Lme_34a - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM7089
+LDIFF_SYM7099=Lme_34c - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM7099
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,228,10,68,14,32,68
 	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde788_end:
+Lfde790_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83162,30 +83317,30 @@ Lfde788_end:
 
 	.byte 3,188,3
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long Lme_34b
+	.long Lme_34d
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM7090=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7090
+LDIFF_SYM7100=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7100
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7091=Lfde789_end - Lfde789_start
-	.long LDIFF_SYM7091
-Lfde789_start:
+LDIFF_SYM7101=Lfde791_end - Lfde791_start
+	.long LDIFF_SYM7101
+Lfde791_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 
-LDIFF_SYM7092=Lme_34b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long LDIFF_SYM7092
+LDIFF_SYM7102=Lme_34d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
+	.long LDIFF_SYM7102
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,2,120,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde789_end:
+Lfde791_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83195,35 +83350,35 @@ Lfde789_end:
 
 	.byte 3,229,3
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long Lme_34c
+	.long Lme_34e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7093=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7093
+LDIFF_SYM7103=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7103
 	.byte 2,125,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM7094=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7094
+LDIFF_SYM7104=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7104
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7095=Lfde790_end - Lfde790_start
-	.long LDIFF_SYM7095
-Lfde790_start:
+LDIFF_SYM7105=Lfde792_end - Lfde792_start
+	.long LDIFF_SYM7105
+Lfde792_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM7096=Lme_34c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM7096
+LDIFF_SYM7106=Lme_34e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM7106
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,84,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde790_end:
+Lfde792_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83233,107 +83388,19 @@ Lfde790_end:
 
 	.byte 3,190,4
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.long Lme_34d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM7097=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7097
-	.byte 1,90,11
-	.asciz "task"
-
-LDIFF_SYM7098=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7098
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM7099=Lfde791_end - Lfde791_start
-	.long LDIFF_SYM7099
-Lfde791_start:
-
-	.long 0
-	.align 2
-	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-
-LDIFF_SYM7100=Lme_34d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.long LDIFF_SYM7100
-	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,88,10,68,14,20,68,8,6,8,8,8,10
-	.byte 14,8,68,11
-	.align 2
-Lfde791_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 3,206,4
-	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.long Lme_34e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM7101=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7101
-	.byte 1,90,3
-	.asciz "result"
-
-LDIFF_SYM7102=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7102
-	.byte 2,123,0,11
-	.asciz "task"
-
-LDIFF_SYM7103=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7103
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM7104=Lfde792_end - Lfde792_start
-	.long LDIFF_SYM7104
-Lfde792_start:
-
-	.long 0
-	.align 2
-	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-
-LDIFF_SYM7105=Lme_34e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM7105
-	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,40,68,13,11,2,156,10,68,13,13,14,24
-	.byte 68,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde792_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 3,244,4
-	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 	.long Lme_34f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7106=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7106
-	.byte 1,86,3
-	.asciz "completedTask"
-
-LDIFF_SYM7107=LTDIE_444_REFERENCE - Ldebug_info_start
+LDIFF_SYM7107=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM7107
-	.byte 2,125,4,11
-	.asciz "V_0"
+	.byte 1,90,11
+	.asciz "task"
 
-LDIFF_SYM7108=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM7108=LTDIE_444_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM7108
-	.byte 2,125,0,0
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -83343,13 +83410,101 @@ Lfde793_start:
 
 	.long 0
 	.align 2
-	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 
-LDIFF_SYM7110=Lme_34f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+LDIFF_SYM7110=Lme_34f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 	.long LDIFF_SYM7110
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,100,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,88,10,68,14,20,68,8,6,8,8,8,10
+	.byte 14,8,68,11
 	.align 2
 Lfde793_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 3,206,4
+	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long Lme_350
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7111=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7111
+	.byte 1,90,3
+	.asciz "result"
+
+LDIFF_SYM7112=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7112
+	.byte 2,123,0,11
+	.asciz "task"
+
+LDIFF_SYM7113=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7113
+	.byte 1,86,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7114=Lfde794_end - Lfde794_start
+	.long LDIFF_SYM7114
+Lfde794_start:
+
+	.long 0
+	.align 2
+	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM7115=Lme_350 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7115
+	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,40,68,13,11,2,156,10,68,13,13,14,24
+	.byte 68,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde794_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 3,244,4
+	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long Lme_351
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7116=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7116
+	.byte 1,86,3
+	.asciz "completedTask"
+
+LDIFF_SYM7117=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7117
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM7118=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7118
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7119=Lfde795_end - Lfde795_start
+	.long LDIFF_SYM7119
+Lfde795_start:
+
+	.long 0
+	.align 2
+	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM7120=Lme_351 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7120
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,100,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde795_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83359,46 +83514,46 @@ Lfde793_end:
 
 	.byte 3,137,5
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long Lme_350
+	.long Lme_352
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7111=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7111
+LDIFF_SYM7121=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7121
 	.byte 2,125,4,3
 	.asciz "exception"
 
-LDIFF_SYM7112=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7112
+LDIFF_SYM7122=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7122
 	.byte 1,90,11
 	.asciz "task"
 
-LDIFF_SYM7113=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7113
+LDIFF_SYM7123=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7123
 	.byte 1,85,11
 	.asciz "oce"
 
-LDIFF_SYM7114=LTDIE_455_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7114
+LDIFF_SYM7124=LTDIE_455_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7124
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7115=Lfde794_end - Lfde794_start
-	.long LDIFF_SYM7115
-Lfde794_start:
+LDIFF_SYM7125=Lfde796_end - Lfde796_start
+	.long LDIFF_SYM7125
+Lfde796_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 
-LDIFF_SYM7116=Lme_350 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long LDIFF_SYM7116
+LDIFF_SYM7126=Lme_352 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
+	.long LDIFF_SYM7126
 	.byte 68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,40,2,204,10,68,14,28,68,8,4
 	.byte 8,5,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde794_end:
+Lfde796_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83408,46 +83563,46 @@ Lfde794_end:
 
 	.byte 3,225,5
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long Lme_351
+	.long Lme_353
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7117
+LDIFF_SYM7127=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7127
 	.byte 0,3
 	.asciz "result"
 
-LDIFF_SYM7118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7118
+LDIFF_SYM7128=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7128
 	.byte 2,123,52,11
 	.asciz "V_0"
 
-LDIFF_SYM7119=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7119
+LDIFF_SYM7129=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7129
 	.byte 0,11
 	.asciz "value"
 
-LDIFF_SYM7120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7120
+LDIFF_SYM7130=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7130
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7121=Lfde795_end - Lfde795_start
-	.long LDIFF_SYM7121
-Lfde795_start:
+LDIFF_SYM7131=Lfde797_end - Lfde797_start
+	.long LDIFF_SYM7131
+Lfde797_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM7122=Lme_351 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM7122
+LDIFF_SYM7132=Lme_353 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7132
 	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,88,68,13,11,3,100,9,10,68,13,13,14,20,68
 	.byte 8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde795_end:
+Lfde797_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83457,30 +83612,30 @@ Lfde795_end:
 
 	.byte 3,171,3
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long Lme_352
+	.long Lme_354
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM7123=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7123
+LDIFF_SYM7133=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7133
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7124=Lfde796_end - Lfde796_start
-	.long LDIFF_SYM7124
-Lfde796_start:
+LDIFF_SYM7134=Lfde798_end - Lfde798_start
+	.long LDIFF_SYM7134
+Lfde798_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM7125=Lme_352 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM7125
+LDIFF_SYM7135=Lme_354 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM7135
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde796_end:
+Lfde798_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_460:
@@ -83491,18 +83646,18 @@ LTDIE_460:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM7126=LTDIE_460 - Ldebug_info_start
-	.long LDIFF_SYM7126
+LDIFF_SYM7136=LTDIE_460 - Ldebug_info_start
+	.long LDIFF_SYM7136
 LTDIE_460_POINTER:
 
 	.byte 13
-LDIFF_SYM7127=LTDIE_460 - Ldebug_info_start
-	.long LDIFF_SYM7127
+LDIFF_SYM7137=LTDIE_460 - Ldebug_info_start
+	.long LDIFF_SYM7137
 LTDIE_460_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7128=LTDIE_460 - Ldebug_info_start
-	.long LDIFF_SYM7128
+LDIFF_SYM7138=LTDIE_460 - Ldebug_info_start
+	.long LDIFF_SYM7138
 LTDIE_461:
 
 	.byte 17
@@ -83511,18 +83666,18 @@ LTDIE_461:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM7129=LTDIE_461 - Ldebug_info_start
-	.long LDIFF_SYM7129
+LDIFF_SYM7139=LTDIE_461 - Ldebug_info_start
+	.long LDIFF_SYM7139
 LTDIE_461_POINTER:
 
 	.byte 13
-LDIFF_SYM7130=LTDIE_461 - Ldebug_info_start
-	.long LDIFF_SYM7130
+LDIFF_SYM7140=LTDIE_461 - Ldebug_info_start
+	.long LDIFF_SYM7140
 LTDIE_461_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7131=LTDIE_461 - Ldebug_info_start
-	.long LDIFF_SYM7131
+LDIFF_SYM7141=LTDIE_461 - Ldebug_info_start
+	.long LDIFF_SYM7141
 LTDIE_462:
 
 	.byte 17
@@ -83531,18 +83686,18 @@ LTDIE_462:
 	.byte 8,7
 	.asciz "System_Collections_Generic_ICollection`1"
 
-LDIFF_SYM7132=LTDIE_462 - Ldebug_info_start
-	.long LDIFF_SYM7132
+LDIFF_SYM7142=LTDIE_462 - Ldebug_info_start
+	.long LDIFF_SYM7142
 LTDIE_462_POINTER:
 
 	.byte 13
-LDIFF_SYM7133=LTDIE_462 - Ldebug_info_start
-	.long LDIFF_SYM7133
+LDIFF_SYM7143=LTDIE_462 - Ldebug_info_start
+	.long LDIFF_SYM7143
 LTDIE_462_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7134=LTDIE_462 - Ldebug_info_start
-	.long LDIFF_SYM7134
+LDIFF_SYM7144=LTDIE_462 - Ldebug_info_start
+	.long LDIFF_SYM7144
 LTDIE_463:
 
 	.byte 17
@@ -83551,84 +83706,84 @@ LTDIE_463:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM7135=LTDIE_463 - Ldebug_info_start
-	.long LDIFF_SYM7135
+LDIFF_SYM7145=LTDIE_463 - Ldebug_info_start
+	.long LDIFF_SYM7145
 LTDIE_463_POINTER:
 
 	.byte 13
-LDIFF_SYM7136=LTDIE_463 - Ldebug_info_start
-	.long LDIFF_SYM7136
+LDIFF_SYM7146=LTDIE_463 - Ldebug_info_start
+	.long LDIFF_SYM7146
 LTDIE_463_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7137=LTDIE_463 - Ldebug_info_start
-	.long LDIFF_SYM7137
+LDIFF_SYM7147=LTDIE_463 - Ldebug_info_start
+	.long LDIFF_SYM7147
 	.byte 2
 	.asciz "System.Linq.Enumerable:SequenceEqual<TSource_REF>"
 	.asciz "System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF"
 
 	.byte 4,18
 	.long System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
-	.long Lme_353
+	.long Lme_355
 
 	.byte 2,118,16,3
 	.asciz "first"
 
-LDIFF_SYM7138=LTDIE_460_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7138
+LDIFF_SYM7148=LTDIE_460_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7148
 	.byte 1,85,3
 	.asciz "second"
 
-LDIFF_SYM7139=LTDIE_460_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7139
+LDIFF_SYM7149=LTDIE_460_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7149
 	.byte 1,86,3
 	.asciz "comparer"
 
-LDIFF_SYM7140=LTDIE_461_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7140
+LDIFF_SYM7150=LTDIE_461_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7150
 	.byte 1,90,11
 	.asciz "firstCol"
 
-LDIFF_SYM7141=LTDIE_462_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7141
+LDIFF_SYM7151=LTDIE_462_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7151
 	.byte 1,84,11
 	.asciz "secondCol"
 
-LDIFF_SYM7142=LTDIE_462_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7142
+LDIFF_SYM7152=LTDIE_462_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7152
 	.byte 2,123,0,11
 	.asciz "e1"
 
-LDIFF_SYM7143=LTDIE_463_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7143
+LDIFF_SYM7153=LTDIE_463_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7153
 	.byte 2,123,4,11
 	.asciz "e2"
 
-LDIFF_SYM7144=LTDIE_463_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7144
+LDIFF_SYM7154=LTDIE_463_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7154
 	.byte 2,123,8,11
 	.asciz "V_4"
 
-LDIFF_SYM7145=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM7145
+LDIFF_SYM7155=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM7155
 	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7146=Lfde797_end - Lfde797_start
-	.long LDIFF_SYM7146
-Lfde797_start:
+LDIFF_SYM7156=Lfde799_end - Lfde799_start
+	.long LDIFF_SYM7156
+Lfde799_start:
 
 	.long 0
 	.align 2
 	.long System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
 
-LDIFF_SYM7147=Lme_353 - System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
-	.long LDIFF_SYM7147
+LDIFF_SYM7157=Lme_355 - System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
+	.long LDIFF_SYM7157
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11,3,8,3,10
 	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde797_end:
+Lfde799_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83638,41 +83793,41 @@ Lfde797_end:
 
 	.byte 5,157,3
 	.long System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-	.long Lme_354
+	.long Lme_356
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7148=LTDIE_427_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7148
+LDIFF_SYM7158=LTDIE_427_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7158
 	.byte 2,125,0,3
 	.asciz "min"
 
-LDIFF_SYM7149=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7149
+LDIFF_SYM7159=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7159
 	.byte 1,90,11
 	.asciz "newCapacity"
 
-LDIFF_SYM7150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7150
+LDIFF_SYM7160=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7160
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7151=Lfde798_end - Lfde798_start
-	.long LDIFF_SYM7151
-Lfde798_start:
+LDIFF_SYM7161=Lfde800_end - Lfde800_start
+	.long LDIFF_SYM7161
+Lfde800_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 
-LDIFF_SYM7152=Lme_354 - System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-	.long LDIFF_SYM7152
+LDIFF_SYM7162=Lme_356 - System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+	.long LDIFF_SYM7162
 	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32,2,124,10,68,14,24,68,8,5,8,6
 	.byte 8,8,8,10,14,8,68,11
 	.align 2
-Lfde798_end:
+Lfde800_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_464:
@@ -83683,18 +83838,18 @@ LTDIE_464:
 	.byte 8,7
 	.asciz "System_Collections_Generic_ICollection`1"
 
-LDIFF_SYM7153=LTDIE_464 - Ldebug_info_start
-	.long LDIFF_SYM7153
+LDIFF_SYM7163=LTDIE_464 - Ldebug_info_start
+	.long LDIFF_SYM7163
 LTDIE_464_POINTER:
 
 	.byte 13
-LDIFF_SYM7154=LTDIE_464 - Ldebug_info_start
-	.long LDIFF_SYM7154
+LDIFF_SYM7164=LTDIE_464 - Ldebug_info_start
+	.long LDIFF_SYM7164
 LTDIE_464_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7155=LTDIE_464 - Ldebug_info_start
-	.long LDIFF_SYM7155
+LDIFF_SYM7165=LTDIE_464 - Ldebug_info_start
+	.long LDIFF_SYM7165
 LTDIE_465:
 
 	.byte 17
@@ -83703,79 +83858,79 @@ LTDIE_465:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM7156=LTDIE_465 - Ldebug_info_start
-	.long LDIFF_SYM7156
+LDIFF_SYM7166=LTDIE_465 - Ldebug_info_start
+	.long LDIFF_SYM7166
 LTDIE_465_POINTER:
 
 	.byte 13
-LDIFF_SYM7157=LTDIE_465 - Ldebug_info_start
-	.long LDIFF_SYM7157
+LDIFF_SYM7167=LTDIE_465 - Ldebug_info_start
+	.long LDIFF_SYM7167
 LTDIE_465_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7158=LTDIE_465 - Ldebug_info_start
-	.long LDIFF_SYM7158
+LDIFF_SYM7168=LTDIE_465 - Ldebug_info_start
+	.long LDIFF_SYM7168
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_REF>:InsertRange"
 	.asciz "System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF"
 
 	.byte 5,197,5
 	.long System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
-	.long Lme_355
+	.long Lme_357
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7159=LTDIE_427_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7159
+LDIFF_SYM7169=LTDIE_427_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7169
 	.byte 2,123,24,3
 	.asciz "index"
 
-LDIFF_SYM7160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7160
+LDIFF_SYM7170=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7170
 	.byte 1,86,3
 	.asciz "collection"
 
-LDIFF_SYM7161=LTDIE_428_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7161
+LDIFF_SYM7171=LTDIE_428_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7171
 	.byte 2,123,28,11
 	.asciz "c"
 
-LDIFF_SYM7162=LTDIE_464_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7162
+LDIFF_SYM7172=LTDIE_464_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7172
 	.byte 1,85,11
 	.asciz "count"
 
-LDIFF_SYM7163=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7163
+LDIFF_SYM7173=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7173
 	.byte 1,84,11
 	.asciz "itemsToInsert"
 
-LDIFF_SYM7164=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM7164
+LDIFF_SYM7174=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM7174
 	.byte 1,90,11
 	.asciz "en"
 
-LDIFF_SYM7165=LTDIE_465_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7165
+LDIFF_SYM7175=LTDIE_465_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7175
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7166=Lfde799_end - Lfde799_start
-	.long LDIFF_SYM7166
-Lfde799_start:
+LDIFF_SYM7176=Lfde801_end - Lfde801_start
+	.long LDIFF_SYM7176
+Lfde801_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
 
-LDIFF_SYM7167=Lme_355 - System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
-	.long LDIFF_SYM7167
+LDIFF_SYM7177=Lme_357 - System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
+	.long LDIFF_SYM7177
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,208,2,10
 	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde799_end:
+Lfde801_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_466:
@@ -83784,53 +83939,53 @@ LTDIE_466:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM7168=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7168
+LDIFF_SYM7178=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7178
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM7169=LTDIE_466 - Ldebug_info_start
-	.long LDIFF_SYM7169
+LDIFF_SYM7179=LTDIE_466 - Ldebug_info_start
+	.long LDIFF_SYM7179
 LTDIE_466_POINTER:
 
 	.byte 13
-LDIFF_SYM7170=LTDIE_466 - Ldebug_info_start
-	.long LDIFF_SYM7170
+LDIFF_SYM7180=LTDIE_466 - Ldebug_info_start
+	.long LDIFF_SYM7180
 LTDIE_466_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7171=LTDIE_466 - Ldebug_info_start
-	.long LDIFF_SYM7171
+LDIFF_SYM7181=LTDIE_466 - Ldebug_info_start
+	.long LDIFF_SYM7181
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_REF>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_REF_get_Default"
 
 	.byte 9,32
 	.long System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
-	.long Lme_356
+	.long Lme_358
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM7172=LTDIE_466_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7172
+LDIFF_SYM7182=LTDIE_466_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7182
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7173=Lfde800_end - Lfde800_start
-	.long LDIFF_SYM7173
-Lfde800_start:
+LDIFF_SYM7183=Lfde802_end - Lfde802_start
+	.long LDIFF_SYM7183
+Lfde802_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 
-LDIFF_SYM7174=Lme_356 - System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
-	.long LDIFF_SYM7174
+LDIFF_SYM7184=Lme_358 - System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
+	.long LDIFF_SYM7184
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,32,2,88,10,68,14,16,68,8,8,8,10,14,8,68,11
 	.align 2
-Lfde800_end:
+Lfde802_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83840,41 +83995,41 @@ Lfde800_end:
 
 	.byte 5,245,6
 	.long System_Collections_Generic_List_1_T_REF_RemoveAt_int
-	.long Lme_357
+	.long Lme_359
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7175=LTDIE_427_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7175
+LDIFF_SYM7185=LTDIE_427_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7185
 	.byte 2,123,12,3
 	.asciz "index"
 
-LDIFF_SYM7176=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7176
+LDIFF_SYM7186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7186
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM7177=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7177
+LDIFF_SYM7187=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7187
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7178=Lfde801_end - Lfde801_start
-	.long LDIFF_SYM7178
-Lfde801_start:
+LDIFF_SYM7188=Lfde803_end - Lfde803_start
+	.long LDIFF_SYM7188
+Lfde803_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_REF_RemoveAt_int
 
-LDIFF_SYM7179=Lme_357 - System_Collections_Generic_List_1_T_REF_RemoveAt_int
-	.long LDIFF_SYM7179
+LDIFF_SYM7189=Lme_359 - System_Collections_Generic_List_1_T_REF_RemoveAt_int
+	.long LDIFF_SYM7189
 	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,40,68,13,11,2,172,10,68,13,13,14,20,68,8
 	.byte 8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde801_end:
+Lfde803_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -83884,35 +84039,35 @@ Lfde801_end:
 
 	.byte 5,238,4
 	.long System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
-	.long Lme_358
+	.long Lme_35a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7180=LTDIE_427_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7180
+LDIFF_SYM7190=LTDIE_427_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7190
 	.byte 2,125,0,3
 	.asciz "item"
 
-LDIFF_SYM7181=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7181
+LDIFF_SYM7191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7191
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7182=Lfde802_end - Lfde802_start
-	.long LDIFF_SYM7182
-Lfde802_start:
+LDIFF_SYM7192=Lfde804_end - Lfde804_start
+	.long LDIFF_SYM7192
+Lfde804_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
 
-LDIFF_SYM7183=Lme_358 - System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
-	.long LDIFF_SYM7183
+LDIFF_SYM7193=Lme_35a - System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
+	.long LDIFF_SYM7193
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,68,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde802_end:
+Lfde804_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_468:
@@ -83921,122 +84076,122 @@ LTDIE_468:
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 24,16
-LDIFF_SYM7184=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7184
+LDIFF_SYM7194=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7194
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM7185=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM7185
+LDIFF_SYM7195=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM7195
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM7186=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7186
+LDIFF_SYM7196=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7196
 	.byte 2,35,16,6
 	.asciz "_version"
 
-LDIFF_SYM7187=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7187
+LDIFF_SYM7197=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7197
 	.byte 2,35,20,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM7188=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7188
+LDIFF_SYM7198=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7198
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM7189=LTDIE_468 - Ldebug_info_start
-	.long LDIFF_SYM7189
+LDIFF_SYM7199=LTDIE_468 - Ldebug_info_start
+	.long LDIFF_SYM7199
 LTDIE_468_POINTER:
 
 	.byte 13
-LDIFF_SYM7190=LTDIE_468 - Ldebug_info_start
-	.long LDIFF_SYM7190
+LDIFF_SYM7200=LTDIE_468 - Ldebug_info_start
+	.long LDIFF_SYM7200
 LTDIE_468_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7191=LTDIE_468 - Ldebug_info_start
-	.long LDIFF_SYM7191
+LDIFF_SYM7201=LTDIE_468 - Ldebug_info_start
+	.long LDIFF_SYM7201
 LTDIE_467:
 
 	.byte 5
 	.asciz "_Enumerator"
 
 	.byte 24,16
-LDIFF_SYM7192=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM7192
+LDIFF_SYM7202=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM7202
 	.byte 2,35,0,6
 	.asciz "list"
 
-LDIFF_SYM7193=LTDIE_468_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7193
+LDIFF_SYM7203=LTDIE_468_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7203
 	.byte 2,35,8,6
 	.asciz "index"
 
-LDIFF_SYM7194=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7194
+LDIFF_SYM7204=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7204
 	.byte 2,35,12,6
 	.asciz "version"
 
-LDIFF_SYM7195=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7195
+LDIFF_SYM7205=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7205
 	.byte 2,35,16,6
 	.asciz "current"
 
-LDIFF_SYM7196=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7196
+LDIFF_SYM7206=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7206
 	.byte 2,35,20,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM7197=LTDIE_467 - Ldebug_info_start
-	.long LDIFF_SYM7197
+LDIFF_SYM7207=LTDIE_467 - Ldebug_info_start
+	.long LDIFF_SYM7207
 LTDIE_467_POINTER:
 
 	.byte 13
-LDIFF_SYM7198=LTDIE_467 - Ldebug_info_start
-	.long LDIFF_SYM7198
+LDIFF_SYM7208=LTDIE_467 - Ldebug_info_start
+	.long LDIFF_SYM7208
 LTDIE_467_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7199=LTDIE_467 - Ldebug_info_start
-	.long LDIFF_SYM7199
+LDIFF_SYM7209=LTDIE_467 - Ldebug_info_start
+	.long LDIFF_SYM7209
 	.byte 2
 	.asciz "System.Collections.Generic.List`1/Enumerator<T_REF>:.ctor"
 	.asciz "System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF"
 
 	.byte 5,133,9
 	.long System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
-	.long Lme_359
+	.long Lme_35b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7200=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7200
+LDIFF_SYM7210=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7210
 	.byte 1,86,3
 	.asciz "list"
 
-LDIFF_SYM7201=LTDIE_468_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7201
+LDIFF_SYM7211=LTDIE_468_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7211
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7202=Lfde803_end - Lfde803_start
-	.long LDIFF_SYM7202
-Lfde803_start:
+LDIFF_SYM7212=Lfde805_end - Lfde805_start
+	.long LDIFF_SYM7212
+Lfde805_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
 
-LDIFF_SYM7203=Lme_359 - System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
-	.long LDIFF_SYM7203
+LDIFF_SYM7213=Lme_35b - System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
+	.long LDIFF_SYM7213
 	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,52,10,68,14,20,68,8,6,8,8,8,10
 	.byte 14,8,68,11
 	.align 2
-Lfde803_end:
+Lfde805_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_469:
@@ -84045,89 +84200,89 @@ LTDIE_469:
 	.asciz "System_Predicate`1"
 
 	.byte 56,16
-LDIFF_SYM7204=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM7204
+LDIFF_SYM7214=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM7214
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM7205=LTDIE_469 - Ldebug_info_start
-	.long LDIFF_SYM7205
+LDIFF_SYM7215=LTDIE_469 - Ldebug_info_start
+	.long LDIFF_SYM7215
 LTDIE_469_POINTER:
 
 	.byte 13
-LDIFF_SYM7206=LTDIE_469 - Ldebug_info_start
-	.long LDIFF_SYM7206
+LDIFF_SYM7216=LTDIE_469 - Ldebug_info_start
+	.long LDIFF_SYM7216
 LTDIE_469_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7207=LTDIE_469 - Ldebug_info_start
-	.long LDIFF_SYM7207
+LDIFF_SYM7217=LTDIE_469 - Ldebug_info_start
+	.long LDIFF_SYM7217
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<object>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object"
 
 	.byte 0,0
 	.long wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
-	.long Lme_35a
+	.long Lme_35c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7208=LTDIE_469_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7208
+LDIFF_SYM7218=LTDIE_469_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7218
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM7209=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7209
+LDIFF_SYM7219=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7219
 	.byte 2,125,8,11
 	.asciz "V_0"
 
-LDIFF_SYM7210=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7210
+LDIFF_SYM7220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7220
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM7211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7211
+LDIFF_SYM7221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7221
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM7212=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7212
+LDIFF_SYM7222=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7222
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM7213=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7213
+LDIFF_SYM7223=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7223
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM7214=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7214
+LDIFF_SYM7224=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7224
 	.byte 2,125,0,11
 	.asciz "V_5"
 
-LDIFF_SYM7215=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM7215
+LDIFF_SYM7225=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM7225
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7216=Lfde804_end - Lfde804_start
-	.long LDIFF_SYM7216
-Lfde804_start:
+LDIFF_SYM7226=Lfde806_end - Lfde806_start
+	.long LDIFF_SYM7226
+Lfde806_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
 
-LDIFF_SYM7217=Lme_35a - wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
-	.long LDIFF_SYM7217
+LDIFF_SYM7227=Lme_35c - wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
+	.long LDIFF_SYM7227
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,236,10,68,14,32,68
 	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde804_end:
+Lfde806_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_470:
@@ -84136,94 +84291,94 @@ LTDIE_470:
 	.asciz "System_Comparison`1"
 
 	.byte 56,16
-LDIFF_SYM7218=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM7218
+LDIFF_SYM7228=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM7228
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM7219=LTDIE_470 - Ldebug_info_start
-	.long LDIFF_SYM7219
+LDIFF_SYM7229=LTDIE_470 - Ldebug_info_start
+	.long LDIFF_SYM7229
 LTDIE_470_POINTER:
 
 	.byte 13
-LDIFF_SYM7220=LTDIE_470 - Ldebug_info_start
-	.long LDIFF_SYM7220
+LDIFF_SYM7230=LTDIE_470 - Ldebug_info_start
+	.long LDIFF_SYM7230
 LTDIE_470_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7221=LTDIE_470 - Ldebug_info_start
-	.long LDIFF_SYM7221
+LDIFF_SYM7231=LTDIE_470 - Ldebug_info_start
+	.long LDIFF_SYM7231
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<object>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object"
 
 	.byte 0,0
 	.long wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
-	.long Lme_35b
+	.long Lme_35d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7222=LTDIE_470_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7222
+LDIFF_SYM7232=LTDIE_470_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7232
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM7223=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7223
+LDIFF_SYM7233=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7233
 	.byte 2,125,8,3
 	.asciz "param1"
 
-LDIFF_SYM7224=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7224
+LDIFF_SYM7234=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7234
 	.byte 2,125,12,11
 	.asciz "V_0"
 
-LDIFF_SYM7225=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7225
+LDIFF_SYM7235=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7235
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM7226=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7226
+LDIFF_SYM7236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7236
 	.byte 1,91,11
 	.asciz "V_2"
 
-LDIFF_SYM7227=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7227
+LDIFF_SYM7237=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7237
 	.byte 1,90,11
 	.asciz "V_3"
 
-LDIFF_SYM7228=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7228
+LDIFF_SYM7238=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7238
 	.byte 1,86,11
 	.asciz "V_4"
 
-LDIFF_SYM7229=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7229
+LDIFF_SYM7239=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7239
 	.byte 2,125,0,11
 	.asciz "V_5"
 
-LDIFF_SYM7230=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7230
+LDIFF_SYM7240=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7240
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7231=Lfde805_end - Lfde805_start
-	.long LDIFF_SYM7231
-Lfde805_start:
+LDIFF_SYM7241=Lfde807_end - Lfde807_start
+	.long LDIFF_SYM7241
+Lfde807_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
 
-LDIFF_SYM7232=Lme_35b - wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
-	.long LDIFF_SYM7232
+LDIFF_SYM7242=Lme_35d - wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
+	.long LDIFF_SYM7242
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,244,10,68,14,32,68
 	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde805_end:
+Lfde807_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84233,103 +84388,34 @@ Lfde805_end:
 
 	.byte 0,0
 	.long wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long Lme_360
+	.long Lme_362
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7233=LTDIE_448_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7233
-	.byte 1,86,11
-	.asciz "V_0"
-
-LDIFF_SYM7234=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7234
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM7235=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7235
-	.byte 1,84,11
-	.asciz "V_2"
-
-LDIFF_SYM7236=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7236
-	.byte 1,91,11
-	.asciz "V_3"
-
-LDIFF_SYM7237=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7237
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM7238=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7238
-	.byte 2,125,4,11
-	.asciz "V_5"
-
-LDIFF_SYM7239=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7239
-	.byte 2,125,8,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM7240=Lfde806_end - Lfde806_start
-	.long LDIFF_SYM7240
-Lfde806_start:
-
-	.long 0
-	.align 2
-	.long wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-
-LDIFF_SYM7241=Lme_360 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long LDIFF_SYM7241
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,16,1,10,68,14,32
-	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde806_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.VoidTaskResult>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object"
-
-	.byte 0,0
-	.long wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long Lme_365
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM7242=LTDIE_446_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7242
-	.byte 1,85,3
-	.asciz "param0"
-
-LDIFF_SYM7243=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM7243=LTDIE_448_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM7243
-	.byte 2,125,12,11
+	.byte 1,86,11
 	.asciz "V_0"
 
 LDIFF_SYM7244=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM7244
-	.byte 1,84,11
+	.byte 1,85,11
 	.asciz "V_1"
 
 LDIFF_SYM7245=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM7245
-	.byte 1,91,11
+	.byte 1,84,11
 	.asciz "V_2"
 
 LDIFF_SYM7246=LTDIE_297_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM7246
-	.byte 1,90,11
+	.byte 1,91,11
 	.asciz "V_3"
 
 LDIFF_SYM7247=LTDIE_24_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM7247
-	.byte 1,86,11
+	.byte 1,90,11
 	.asciz "V_4"
 
 LDIFF_SYM7248=LDIE_OBJECT - Ldebug_info_start
@@ -84343,20 +84429,89 @@ LDIFF_SYM7249=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7250=Lfde807_end - Lfde807_start
+LDIFF_SYM7250=Lfde808_end - Lfde808_start
 	.long LDIFF_SYM7250
-Lfde807_start:
+Lfde808_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+
+LDIFF_SYM7251=Lme_362 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+	.long LDIFF_SYM7251
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,16,1,10,68,14,32
+	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde808_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.VoidTaskResult>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object"
+
+	.byte 0,0
+	.long wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
+	.long Lme_367
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7252=LTDIE_446_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7252
+	.byte 1,85,3
+	.asciz "param0"
+
+LDIFF_SYM7253=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7253
+	.byte 2,125,12,11
+	.asciz "V_0"
+
+LDIFF_SYM7254=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7254
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM7255=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7255
+	.byte 1,91,11
+	.asciz "V_2"
+
+LDIFF_SYM7256=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7256
+	.byte 1,90,11
+	.asciz "V_3"
+
+LDIFF_SYM7257=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7257
+	.byte 1,86,11
+	.asciz "V_4"
+
+LDIFF_SYM7258=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7258
+	.byte 2,125,4,11
+	.asciz "V_5"
+
+LDIFF_SYM7259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7259
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7260=Lfde809_end - Lfde809_start
+	.long LDIFF_SYM7260
+Lfde809_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 
-LDIFF_SYM7251=Lme_365 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long LDIFF_SYM7251
+LDIFF_SYM7261=Lme_367 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
+	.long LDIFF_SYM7261
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,32,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde807_end:
+Lfde809_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_471:
@@ -84365,63 +84520,63 @@ LTDIE_471:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 12,16
-LDIFF_SYM7252=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM7252
+LDIFF_SYM7262=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM7262
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM7253=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7253
+LDIFF_SYM7263=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7263
 	.byte 2,35,8,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM7254=LTDIE_471 - Ldebug_info_start
-	.long LDIFF_SYM7254
+LDIFF_SYM7264=LTDIE_471 - Ldebug_info_start
+	.long LDIFF_SYM7264
 LTDIE_471_POINTER:
 
 	.byte 13
-LDIFF_SYM7255=LTDIE_471 - Ldebug_info_start
-	.long LDIFF_SYM7255
+LDIFF_SYM7265=LTDIE_471 - Ldebug_info_start
+	.long LDIFF_SYM7265
 LTDIE_471_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7256=LTDIE_471 - Ldebug_info_start
-	.long LDIFF_SYM7256
+LDIFF_SYM7266=LTDIE_471 - Ldebug_info_start
+	.long LDIFF_SYM7266
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 10,189,2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long Lme_366
+	.long Lme_368
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7257=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7257
+LDIFF_SYM7267=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7267
 	.byte 2,125,0,3
 	.asciz "task"
 
-LDIFF_SYM7258=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7258
+LDIFF_SYM7268=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7268
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7259=Lfde808_end - Lfde808_start
-	.long LDIFF_SYM7259
-Lfde808_start:
+LDIFF_SYM7269=Lfde810_end - Lfde810_start
+	.long LDIFF_SYM7269
+Lfde810_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM7260=Lme_366 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM7260
+LDIFF_SYM7270=Lme_368 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7270
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,92,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde808_end:
+Lfde810_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84431,30 +84586,30 @@ Lfde808_end:
 
 	.byte 10,197,2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long Lme_367
+	.long Lme_369
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7261=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7261
+LDIFF_SYM7271=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7271
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7262=Lfde809_end - Lfde809_start
-	.long LDIFF_SYM7262
-Lfde809_start:
+LDIFF_SYM7272=Lfde811_end - Lfde811_start
+	.long LDIFF_SYM7272
+Lfde811_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM7263=Lme_367 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM7263
+LDIFF_SYM7273=Lme_369 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM7273
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,40,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde809_end:
+Lfde811_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84464,35 +84619,35 @@ Lfde809_end:
 
 	.byte 10,208,2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long Lme_368
+	.long Lme_36a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7264=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7264
+LDIFF_SYM7274=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7274
 	.byte 2,125,0,3
 	.asciz "continuation"
 
-LDIFF_SYM7265=LTDIE_419_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7265
+LDIFF_SYM7275=LTDIE_419_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7275
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7266=Lfde810_end - Lfde810_start
-	.long LDIFF_SYM7266
-Lfde810_start:
+LDIFF_SYM7276=Lfde812_end - Lfde812_start
+	.long LDIFF_SYM7276
+Lfde812_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM7267=Lme_368 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM7267
+LDIFF_SYM7277=Lme_36a - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM7277
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde810_end:
+Lfde812_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84502,35 +84657,35 @@ Lfde810_end:
 
 	.byte 10,219,2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long Lme_369
+	.long Lme_36b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7268=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7268
+LDIFF_SYM7278=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7278
 	.byte 2,125,0,3
 	.asciz "continuation"
 
-LDIFF_SYM7269=LTDIE_419_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7269
+LDIFF_SYM7279=LTDIE_419_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7279
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7270=Lfde811_end - Lfde811_start
-	.long LDIFF_SYM7270
-Lfde811_start:
+LDIFF_SYM7280=Lfde813_end - Lfde813_start
+	.long LDIFF_SYM7280
+Lfde813_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM7271=Lme_369 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM7271
+LDIFF_SYM7281=Lme_36b - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM7281
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde811_end:
+Lfde813_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84540,30 +84695,30 @@ Lfde811_end:
 
 	.byte 10,229,2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long Lme_36a
+	.long Lme_36c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7272=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7272
+LDIFF_SYM7282=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7282
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7273=Lfde812_end - Lfde812_start
-	.long LDIFF_SYM7273
-Lfde812_start:
+LDIFF_SYM7283=Lfde814_end - Lfde814_start
+	.long LDIFF_SYM7283
+Lfde814_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM7274=Lme_36a - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM7274
+LDIFF_SYM7284=Lme_36c - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM7284
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,60,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde812_end:
+Lfde814_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_472:
@@ -84572,68 +84727,68 @@ LTDIE_472:
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 16,16
-LDIFF_SYM7275=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM7275
+LDIFF_SYM7285=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM7285
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM7276=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7276
+LDIFF_SYM7286=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7286
 	.byte 2,35,8,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM7277=LTDIE_472 - Ldebug_info_start
-	.long LDIFF_SYM7277
+LDIFF_SYM7287=LTDIE_472 - Ldebug_info_start
+	.long LDIFF_SYM7287
 LTDIE_472_POINTER:
 
 	.byte 13
-LDIFF_SYM7278=LTDIE_472 - Ldebug_info_start
-	.long LDIFF_SYM7278
+LDIFF_SYM7288=LTDIE_472 - Ldebug_info_start
+	.long LDIFF_SYM7288
 LTDIE_472_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7279=LTDIE_472 - Ldebug_info_start
-	.long LDIFF_SYM7279
+LDIFF_SYM7289=LTDIE_472 - Ldebug_info_start
+	.long LDIFF_SYM7289
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 10,210,3
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long Lme_36b
+	.long Lme_36d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7280=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7280
+LDIFF_SYM7290=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7290
 	.byte 2,125,16,3
 	.asciz "task"
 
-LDIFF_SYM7281=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7281
+LDIFF_SYM7291=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7291
 	.byte 2,125,20,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM7282=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM7282
+LDIFF_SYM7292=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM7292
 	.byte 2,125,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7283=Lfde813_end - Lfde813_start
-	.long LDIFF_SYM7283
-Lfde813_start:
+LDIFF_SYM7293=Lfde815_end - Lfde815_start
+	.long LDIFF_SYM7293
+Lfde815_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM7284=Lme_36b - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM7284
+LDIFF_SYM7294=Lme_36d - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM7294
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,2,124,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde813_end:
+Lfde815_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84643,30 +84798,30 @@ Lfde813_end:
 
 	.byte 10,217,3
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long Lme_36c
+	.long Lme_36e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7285=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7285
+LDIFF_SYM7295=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7295
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7286=Lfde814_end - Lfde814_start
-	.long LDIFF_SYM7286
-Lfde814_start:
+LDIFF_SYM7296=Lfde816_end - Lfde816_start
+	.long LDIFF_SYM7296
+Lfde816_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM7287=Lme_36c - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM7287
+LDIFF_SYM7297=Lme_36e - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM7297
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,76,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde814_end:
+Lfde816_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_473:
@@ -84675,73 +84830,73 @@ LTDIE_473:
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 16,16
-LDIFF_SYM7288=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM7288
+LDIFF_SYM7298=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM7298
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM7289=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7289
+LDIFF_SYM7299=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7299
 	.byte 2,35,8,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM7290=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM7290
+LDIFF_SYM7300=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM7300
 	.byte 2,35,12,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM7291=LTDIE_473 - Ldebug_info_start
-	.long LDIFF_SYM7291
+LDIFF_SYM7301=LTDIE_473 - Ldebug_info_start
+	.long LDIFF_SYM7301
 LTDIE_473_POINTER:
 
 	.byte 13
-LDIFF_SYM7292=LTDIE_473 - Ldebug_info_start
-	.long LDIFF_SYM7292
+LDIFF_SYM7302=LTDIE_473 - Ldebug_info_start
+	.long LDIFF_SYM7302
 LTDIE_473_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7293=LTDIE_473 - Ldebug_info_start
-	.long LDIFF_SYM7293
+LDIFF_SYM7303=LTDIE_473 - Ldebug_info_start
+	.long LDIFF_SYM7303
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 10,238,3
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long Lme_36d
+	.long Lme_36f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7294=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7294
+LDIFF_SYM7304=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7304
 	.byte 1,86,3
 	.asciz "task"
 
-LDIFF_SYM7295=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7295
+LDIFF_SYM7305=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7305
 	.byte 2,125,0,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM7296=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM7296
+LDIFF_SYM7306=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM7306
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7297=Lfde815_end - Lfde815_start
-	.long LDIFF_SYM7297
-Lfde815_start:
+LDIFF_SYM7307=Lfde817_end - Lfde817_start
+	.long LDIFF_SYM7307
+Lfde817_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM7298=Lme_36d - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM7298
+LDIFF_SYM7308=Lme_36f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM7308
 	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,40,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
-Lfde815_end:
+Lfde817_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84751,30 +84906,30 @@ Lfde815_end:
 
 	.byte 10,247,3
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long Lme_36e
+	.long Lme_370
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7299=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7299
+LDIFF_SYM7309=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7309
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7300=Lfde816_end - Lfde816_start
-	.long LDIFF_SYM7300
-Lfde816_start:
+LDIFF_SYM7310=Lfde818_end - Lfde818_start
+	.long LDIFF_SYM7310
+Lfde818_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM7301=Lme_36e - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM7301
+LDIFF_SYM7311=Lme_370 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM7311
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,40,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde816_end:
+Lfde818_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84784,35 +84939,35 @@ Lfde816_end:
 
 	.byte 10,130,4
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long Lme_36f
+	.long Lme_371
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7302=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7302
+LDIFF_SYM7312=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7312
 	.byte 2,125,0,3
 	.asciz "continuation"
 
-LDIFF_SYM7303=LTDIE_419_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7303
+LDIFF_SYM7313=LTDIE_419_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7313
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7304=Lfde817_end - Lfde817_start
-	.long LDIFF_SYM7304
-Lfde817_start:
+LDIFF_SYM7314=Lfde819_end - Lfde819_start
+	.long LDIFF_SYM7314
+Lfde819_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM7305=Lme_36f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM7305
+LDIFF_SYM7315=Lme_371 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM7315
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde817_end:
+Lfde819_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84822,35 +84977,35 @@ Lfde817_end:
 
 	.byte 10,141,4
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long Lme_370
+	.long Lme_372
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7306=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7306
+LDIFF_SYM7316=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7316
 	.byte 2,125,0,3
 	.asciz "continuation"
 
-LDIFF_SYM7307=LTDIE_419_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7307
+LDIFF_SYM7317=LTDIE_419_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7317
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7308=Lfde818_end - Lfde818_start
-	.long LDIFF_SYM7308
-Lfde818_start:
+LDIFF_SYM7318=Lfde820_end - Lfde820_start
+	.long LDIFF_SYM7318
+Lfde820_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM7309=Lme_370 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM7309
+LDIFF_SYM7319=Lme_372 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM7319
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde818_end:
+Lfde820_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84860,30 +85015,30 @@ Lfde818_end:
 
 	.byte 10,151,4
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long Lme_371
+	.long Lme_373
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7310=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7310
+LDIFF_SYM7320=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7320
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7311=Lfde819_end - Lfde819_start
-	.long LDIFF_SYM7311
-Lfde819_start:
+LDIFF_SYM7321=Lfde821_end - Lfde821_start
+	.long LDIFF_SYM7321
+Lfde821_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM7312=Lme_371 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM7312
+LDIFF_SYM7322=Lme_373 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM7322
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,60,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde819_end:
+Lfde821_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -84893,61 +85048,61 @@ Lfde819_end:
 
 	.byte 0,0
 	.long wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long Lme_372
+	.long Lme_374
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7313=LTDIE_451_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7313
+LDIFF_SYM7323=LTDIE_451_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7323
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM7314=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7314
+LDIFF_SYM7324=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7324
 	.byte 2,125,4,11
 	.asciz "V_0"
 
-LDIFF_SYM7315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7315
+LDIFF_SYM7325=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7325
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM7316=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7316
+LDIFF_SYM7326=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7326
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM7317=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7317
+LDIFF_SYM7327=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7327
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM7318=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7318
+LDIFF_SYM7328=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7328
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM7319=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7319
+LDIFF_SYM7329=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7329
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7320=Lfde820_end - Lfde820_start
-	.long LDIFF_SYM7320
-Lfde820_start:
+LDIFF_SYM7330=Lfde822_end - Lfde822_start
+	.long LDIFF_SYM7330
+Lfde822_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM7321=Lme_372 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM7321
+LDIFF_SYM7331=Lme_374 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7331
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,220,10,68,14,32,68
 	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde820_end:
+Lfde822_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_474:
@@ -84956,94 +85111,94 @@ LTDIE_474:
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 44,16
-LDIFF_SYM7322=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM7322
+LDIFF_SYM7332=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM7332
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM7323=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7323
+LDIFF_SYM7333=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7333
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM7324=LTDIE_474 - Ldebug_info_start
-	.long LDIFF_SYM7324
+LDIFF_SYM7334=LTDIE_474 - Ldebug_info_start
+	.long LDIFF_SYM7334
 LTDIE_474_POINTER:
 
 	.byte 13
-LDIFF_SYM7325=LTDIE_474 - Ldebug_info_start
-	.long LDIFF_SYM7325
+LDIFF_SYM7335=LTDIE_474 - Ldebug_info_start
+	.long LDIFF_SYM7335
 LTDIE_474_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7326=LTDIE_474 - Ldebug_info_start
-	.long LDIFF_SYM7326
+LDIFF_SYM7336=LTDIE_474 - Ldebug_info_start
+	.long LDIFF_SYM7336
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_"
 
 	.byte 11,131,1
 	.long System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-	.long Lme_373
+	.long Lme_375
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7327=LTDIE_474_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7327
+LDIFF_SYM7337=LTDIE_474_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7337
 	.byte 1,86,3
 	.asciz "antecedent"
 
-LDIFF_SYM7328=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7328
+LDIFF_SYM7338=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7338
 	.byte 2,123,36,3
 	.asciz "action"
 
-LDIFF_SYM7329=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7329
+LDIFF_SYM7339=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7339
 	.byte 2,123,40,3
 	.asciz "state"
 
-LDIFF_SYM7330=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7330
+LDIFF_SYM7340=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7340
 	.byte 2,123,44,3
 	.asciz "creationOptions"
 
-LDIFF_SYM7331=LTDIE_445 - Ldebug_info_start
-	.long LDIFF_SYM7331
+LDIFF_SYM7341=LTDIE_445 - Ldebug_info_start
+	.long LDIFF_SYM7341
 	.byte 2,123,48,3
 	.asciz "internalOptions"
 
-LDIFF_SYM7332=LTDIE_449 - Ldebug_info_start
-	.long LDIFF_SYM7332
+LDIFF_SYM7342=LTDIE_449 - Ldebug_info_start
+	.long LDIFF_SYM7342
 	.byte 2,123,52,3
 	.asciz "stackMark"
 
-LDIFF_SYM7333=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM7333
+LDIFF_SYM7343=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM7343
 	.byte 2,123,56,11
 	.asciz "V_0"
 
-LDIFF_SYM7334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7334
+LDIFF_SYM7344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7344
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7335=Lfde821_end - Lfde821_start
-	.long LDIFF_SYM7335
-Lfde821_start:
+LDIFF_SYM7345=Lfde823_end - Lfde823_start
+	.long LDIFF_SYM7345
+Lfde823_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 
-LDIFF_SYM7336=Lme_373 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM7336
+LDIFF_SYM7346=Lme_375 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM7346
 	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,139,3,142,1,68,14,88,68,13,11,3,16,1,10,68,13,13,14
 	.byte 24,68,8,5,8,6,8,8,8,11,14,8,68,11
 	.align 2
-Lfde821_end:
+Lfde823_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_475:
@@ -85052,69 +85207,69 @@ LTDIE_475:
 	.asciz "System_Action`2"
 
 	.byte 56,16
-LDIFF_SYM7337=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM7337
+LDIFF_SYM7347=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM7347
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM7338=LTDIE_475 - Ldebug_info_start
-	.long LDIFF_SYM7338
+LDIFF_SYM7348=LTDIE_475 - Ldebug_info_start
+	.long LDIFF_SYM7348
 LTDIE_475_POINTER:
 
 	.byte 13
-LDIFF_SYM7339=LTDIE_475 - Ldebug_info_start
-	.long LDIFF_SYM7339
+LDIFF_SYM7349=LTDIE_475 - Ldebug_info_start
+	.long LDIFF_SYM7349
 LTDIE_475_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7340=LTDIE_475 - Ldebug_info_start
-	.long LDIFF_SYM7340
+LDIFF_SYM7350=LTDIE_475 - Ldebug_info_start
+	.long LDIFF_SYM7350
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
 
 	.byte 11,146,1
 	.long System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long Lme_374
+	.long Lme_376
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7341=LTDIE_474_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7341
+LDIFF_SYM7351=LTDIE_474_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7351
 	.byte 1,90,11
 	.asciz "antecedent"
 
-LDIFF_SYM7342=LTDIE_444_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7342
+LDIFF_SYM7352=LTDIE_444_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7352
 	.byte 1,85,11
 	.asciz "action"
 
-LDIFF_SYM7343=LTDIE_451_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7343
+LDIFF_SYM7353=LTDIE_451_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7353
 	.byte 1,84,11
 	.asciz "actionWithState"
 
-LDIFF_SYM7344=LTDIE_475_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7344
+LDIFF_SYM7354=LTDIE_475_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7354
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7345=Lfde822_end - Lfde822_start
-	.long LDIFF_SYM7345
-Lfde822_start:
+LDIFF_SYM7355=Lfde824_end - Lfde824_start
+	.long LDIFF_SYM7355
+Lfde824_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM7346=Lme_374 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM7346
+LDIFF_SYM7356=Lme_376 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM7356
 	.byte 68,14,8,135,2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32,2,172,10,68,14,28,68,8,4
 	.byte 8,5,8,6,8,8,8,10,14,8,68,11
 	.align 2
-Lfde822_end:
+Lfde824_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85124,25 +85279,25 @@ Lfde822_end:
 
 	.byte 0,0
 	.long System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
-	.long Lme_375
+	.long Lme_377
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7347=Lfde823_end - Lfde823_start
-	.long LDIFF_SYM7347
-Lfde823_start:
+LDIFF_SYM7357=Lfde825_end - Lfde825_start
+	.long LDIFF_SYM7357
+Lfde825_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM7348=Lme_375 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM7348
+LDIFF_SYM7358=Lme_377 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM7358
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,16,2,48,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde823_end:
+Lfde825_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85152,66 +85307,66 @@ Lfde823_end:
 
 	.byte 0,0
 	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long Lme_37a
+	.long Lme_37c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7349=LTDIE_454_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7349
+LDIFF_SYM7359=LTDIE_454_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7359
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM7350=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7350
+LDIFF_SYM7360=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7360
 	.byte 2,125,12,11
 	.asciz "V_0"
 
-LDIFF_SYM7351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7351
+LDIFF_SYM7361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7361
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM7352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7352
+LDIFF_SYM7362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7362
 	.byte 1,91,11
 	.asciz "V_2"
 
-LDIFF_SYM7353=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7353
+LDIFF_SYM7363=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7363
 	.byte 1,90,11
 	.asciz "V_3"
 
-LDIFF_SYM7354=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7354
+LDIFF_SYM7364=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7364
 	.byte 1,86,11
 	.asciz "V_4"
 
-LDIFF_SYM7355=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM7355
+LDIFF_SYM7365=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM7365
 	.byte 2,125,4,11
 	.asciz "V_5"
 
-LDIFF_SYM7356=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7356
+LDIFF_SYM7366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7366
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7357=Lfde824_end - Lfde824_start
-	.long LDIFF_SYM7357
-Lfde824_start:
+LDIFF_SYM7367=Lfde826_end - Lfde826_start
+	.long LDIFF_SYM7367
+Lfde826_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM7358=Lme_37a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM7358
+LDIFF_SYM7368=Lme_37c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM7368
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,3,32,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde824_end:
+Lfde826_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85221,30 +85376,30 @@ Lfde824_end:
 
 	.byte 0,0
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long Lme_37b
+	.long Lme_37d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7359=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7359
+LDIFF_SYM7369=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7369
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7360=Lfde825_end - Lfde825_start
-	.long LDIFF_SYM7360
-Lfde825_start:
+LDIFF_SYM7370=Lfde827_end - Lfde827_start
+	.long LDIFF_SYM7370
+Lfde827_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM7361=Lme_37b - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM7361
+LDIFF_SYM7371=Lme_37d - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM7371
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,68,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde825_end:
+Lfde827_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85254,36 +85409,36 @@ Lfde825_end:
 
 	.byte 8,223,6
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
-	.long Lme_37c
+	.long Lme_37e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7362=LTDIE_456_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7362
+LDIFF_SYM7372=LTDIE_456_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7372
 	.byte 1,86,3
 	.asciz "iar"
 
-LDIFF_SYM7363=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7363
+LDIFF_SYM7373=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7373
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7364=Lfde826_end - Lfde826_start
-	.long LDIFF_SYM7364
-Lfde826_start:
+LDIFF_SYM7374=Lfde828_end - Lfde828_start
+	.long LDIFF_SYM7374
+Lfde828_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
 
-LDIFF_SYM7365=Lme_37c - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
-	.long LDIFF_SYM7365
+LDIFF_SYM7375=Lme_37e - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
+	.long LDIFF_SYM7375
 	.byte 68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,40,68,13,11,2,52,10,68,13,13,14,20,68,8
 	.byte 6,8,8,8,11,14,8,68,11
 	.align 2
-Lfde826_end:
+Lfde828_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85293,30 +85448,30 @@ Lfde826_end:
 
 	.byte 0,0
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long Lme_37d
+	.long Lme_37f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7366=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7366
+LDIFF_SYM7376=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7376
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7367=Lfde827_end - Lfde827_start
-	.long LDIFF_SYM7367
-Lfde827_start:
+LDIFF_SYM7377=Lfde829_end - Lfde829_start
+	.long LDIFF_SYM7377
+Lfde829_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM7368=Lme_37d - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM7368
+LDIFF_SYM7378=Lme_37f - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM7378
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,68,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde827_end:
+Lfde829_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85326,36 +85481,36 @@ Lfde827_end:
 
 	.byte 8,209,6
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.long Lme_37e
+	.long Lme_380
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7369=LTDIE_457_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7369
+LDIFF_SYM7379=LTDIE_457_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7379
 	.byte 1,86,3
 	.asciz "iar"
 
-LDIFF_SYM7370=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7370
+LDIFF_SYM7380=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7380
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7371=Lfde828_end - Lfde828_start
-	.long LDIFF_SYM7371
-Lfde828_start:
+LDIFF_SYM7381=Lfde830_end - Lfde830_start
+	.long LDIFF_SYM7381
+Lfde830_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 
-LDIFF_SYM7372=Lme_37e - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.long LDIFF_SYM7372
+LDIFF_SYM7382=Lme_380 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.long LDIFF_SYM7382
 	.byte 68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,40,68,13,11,2,92,10,68,13,13,14,20,68,8
 	.byte 6,8,8,8,11,14,8,68,11
 	.align 2
-Lfde828_end:
+Lfde830_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85365,107 +85520,19 @@ Lfde828_end:
 
 	.byte 3,193,6
 	.long System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long Lme_37f
+	.long Lme_381
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM7373=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7373
+LDIFF_SYM7383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7383
 	.byte 2,123,12,11
 	.asciz "V_0"
 
-LDIFF_SYM7374=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7374
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM7375=Lfde829_end - Lfde829_start
-	.long LDIFF_SYM7375
-Lfde829_start:
-
-	.long 0
-	.align 2
-	.long System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-
-LDIFF_SYM7376=Lme_37f - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM7376
-	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,68,10,68,13,13,14,16,68,8,8,8
-	.byte 11,14,8,68,11
-	.align 2
-Lfde829_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_REF>:set_Capacity"
-	.asciz "System_Collections_Generic_List_1_T_REF_set_Capacity_int"
-
-	.byte 5,116
-	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
-	.long Lme_380
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM7377=LTDIE_427_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7377
-	.byte 2,123,8,3
-	.asciz "value"
-
-LDIFF_SYM7378=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7378
-	.byte 1,90,11
-	.asciz "newItems"
-
-LDIFF_SYM7379=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM7379
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM7380=Lfde830_end - Lfde830_start
-	.long LDIFF_SYM7380
-Lfde830_start:
-
-	.long 0
-	.align 2
-	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
-
-LDIFF_SYM7381=Lme_380 - System_Collections_Generic_List_1_T_REF_set_Capacity_int
-	.long LDIFF_SYM7381
-	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,240,10,68,13,13,14,24
-	.byte 68,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde830_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_REF>:Insert"
-	.asciz "System_Collections_Generic_List_1_T_REF_Insert_int_T_REF"
-
-	.byte 5,166,5
-	.long System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
-	.long Lme_381
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM7382=LTDIE_427_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7382
-	.byte 2,123,8,3
-	.asciz "index"
-
-LDIFF_SYM7383=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7383
-	.byte 1,86,3
-	.asciz "item"
-
 LDIFF_SYM7384=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM7384
-	.byte 2,123,12,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -85475,14 +85542,102 @@ Lfde831_start:
 
 	.long 0
 	.align 2
+	.long System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM7386=Lme_381 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM7386
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,68,10,68,13,13,14,16,68,8,8,8
+	.byte 11,14,8,68,11
+	.align 2
+Lfde831_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Collections.Generic.List`1<T_REF>:set_Capacity"
+	.asciz "System_Collections_Generic_List_1_T_REF_set_Capacity_int"
+
+	.byte 5,116
+	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
+	.long Lme_382
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7387=LTDIE_427_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7387
+	.byte 2,123,8,3
+	.asciz "value"
+
+LDIFF_SYM7388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7388
+	.byte 1,90,11
+	.asciz "newItems"
+
+LDIFF_SYM7389=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM7389
+	.byte 1,86,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7390=Lfde832_end - Lfde832_start
+	.long LDIFF_SYM7390
+Lfde832_start:
+
+	.long 0
+	.align 2
+	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
+
+LDIFF_SYM7391=Lme_382 - System_Collections_Generic_List_1_T_REF_set_Capacity_int
+	.long LDIFF_SYM7391
+	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,240,10,68,13,13,14,24
+	.byte 68,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde832_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Collections.Generic.List`1<T_REF>:Insert"
+	.asciz "System_Collections_Generic_List_1_T_REF_Insert_int_T_REF"
+
+	.byte 5,166,5
+	.long System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
+	.long Lme_383
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM7392=LTDIE_427_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7392
+	.byte 2,123,8,3
+	.asciz "index"
+
+LDIFF_SYM7393=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7393
+	.byte 1,86,3
+	.asciz "item"
+
+LDIFF_SYM7394=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7394
+	.byte 2,123,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM7395=Lfde833_end - Lfde833_start
+	.long LDIFF_SYM7395
+Lfde833_start:
+
+	.long 0
+	.align 2
 	.long System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
 
-LDIFF_SYM7386=Lme_381 - System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
-	.long LDIFF_SYM7386
+LDIFF_SYM7396=Lme_383 - System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
+	.long LDIFF_SYM7396
 	.byte 68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,40,68,13,11,2,220,10,68,13,13,14,20,68,8
 	.byte 6,8,8,8,11,14,8,68,11
 	.align 2
-Lfde831_end:
+Lfde833_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_476:
@@ -85491,8 +85646,8 @@ LTDIE_476:
 	.asciz "System_TypeCode"
 
 	.byte 4
-LDIFF_SYM7387=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7387
+LDIFF_SYM7397=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7397
 	.byte 9
 	.asciz "Empty"
 
@@ -85550,59 +85705,59 @@ LDIFF_SYM7387=LDIE_I4 - Ldebug_info_start
 	.byte 18,0,7
 	.asciz "System_TypeCode"
 
-LDIFF_SYM7388=LTDIE_476 - Ldebug_info_start
-	.long LDIFF_SYM7388
+LDIFF_SYM7398=LTDIE_476 - Ldebug_info_start
+	.long LDIFF_SYM7398
 LTDIE_476_POINTER:
 
 	.byte 13
-LDIFF_SYM7389=LTDIE_476 - Ldebug_info_start
-	.long LDIFF_SYM7389
+LDIFF_SYM7399=LTDIE_476 - Ldebug_info_start
+	.long LDIFF_SYM7399
 LTDIE_476_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7390=LTDIE_476 - Ldebug_info_start
-	.long LDIFF_SYM7390
+LDIFF_SYM7400=LTDIE_476 - Ldebug_info_start
+	.long LDIFF_SYM7400
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_REF>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer"
 
 	.byte 9,49
 	.long System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-	.long Lme_382
+	.long Lme_384
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM7391=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7391
+LDIFF_SYM7401=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7401
 	.byte 1,90,11
 	.asciz "u"
 
-LDIFF_SYM7392=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7392
+LDIFF_SYM7402=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7402
 	.byte 1,86,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM7393=LTDIE_476 - Ldebug_info_start
-	.long LDIFF_SYM7393
+LDIFF_SYM7403=LTDIE_476 - Ldebug_info_start
+	.long LDIFF_SYM7403
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7394=Lfde832_end - Lfde832_start
-	.long LDIFF_SYM7394
-Lfde832_start:
+LDIFF_SYM7404=Lfde834_end - Lfde834_start
+	.long LDIFF_SYM7404
+Lfde834_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 
-LDIFF_SYM7395=Lme_382 - System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-	.long LDIFF_SYM7395
+LDIFF_SYM7405=Lme_384 - System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
+	.long LDIFF_SYM7405
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,3,208,4,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde832_end:
+Lfde834_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85612,46 +85767,46 @@ Lfde832_end:
 
 	.byte 2,225,23
 	.long System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
-	.long Lme_383
+	.long Lme_385
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM7396=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM7396
+LDIFF_SYM7406=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM7406
 	.byte 1,84,3
 	.asciz "value"
 
-LDIFF_SYM7397=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7397
+LDIFF_SYM7407=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7407
 	.byte 2,123,24,3
 	.asciz "startIndex"
 
-LDIFF_SYM7398=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7398
+LDIFF_SYM7408=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7408
 	.byte 1,86,3
 	.asciz "count"
 
-LDIFF_SYM7399=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7399
+LDIFF_SYM7409=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7409
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7400=Lfde833_end - Lfde833_start
-	.long LDIFF_SYM7400
-Lfde833_start:
+LDIFF_SYM7410=Lfde835_end - Lfde835_start
+	.long LDIFF_SYM7410
+Lfde835_start:
 
 	.long 0
 	.align 2
 	.long System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
 
-LDIFF_SYM7401=Lme_383 - System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
-	.long LDIFF_SYM7401
+LDIFF_SYM7411=Lme_385 - System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
+	.long LDIFF_SYM7411
 	.byte 68,14,8,135,2,72,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11,2,188,10,68,13,13
 	.byte 14,28,68,8,4,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde833_end:
+Lfde835_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_477:
@@ -85660,53 +85815,53 @@ LTDIE_477:
 	.asciz "_<>c"
 
 	.byte 8,16
-LDIFF_SYM7402=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7402
+LDIFF_SYM7412=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7412
 	.byte 2,35,0,0,7
 	.asciz "_<>c"
 
-LDIFF_SYM7403=LTDIE_477 - Ldebug_info_start
-	.long LDIFF_SYM7403
+LDIFF_SYM7413=LTDIE_477 - Ldebug_info_start
+	.long LDIFF_SYM7413
 LTDIE_477_POINTER:
 
 	.byte 13
-LDIFF_SYM7404=LTDIE_477 - Ldebug_info_start
-	.long LDIFF_SYM7404
+LDIFF_SYM7414=LTDIE_477 - Ldebug_info_start
+	.long LDIFF_SYM7414
 LTDIE_477_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7405=LTDIE_477 - Ldebug_info_start
-	.long LDIFF_SYM7405
+LDIFF_SYM7415=LTDIE_477 - Ldebug_info_start
+	.long LDIFF_SYM7415
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1/<>c<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor"
 
 	.byte 0,0
 	.long System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
-	.long Lme_384
+	.long Lme_386
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7406=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7406
+LDIFF_SYM7416=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7416
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7407=Lfde834_end - Lfde834_start
-	.long LDIFF_SYM7407
-Lfde834_start:
+LDIFF_SYM7417=Lfde836_end - Lfde836_start
+	.long LDIFF_SYM7417
+Lfde836_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM7408=Lme_384 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM7408
+LDIFF_SYM7418=Lme_386 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM7418
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,68,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde834_end:
+Lfde836_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -85716,35 +85871,35 @@ Lfde834_end:
 
 	.byte 7,87
 	.long System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long Lme_385
+	.long Lme_387
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7409=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM7409
+LDIFF_SYM7419=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM7419
 	.byte 0,3
 	.asciz "completed"
 
-LDIFF_SYM7410=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7410
+LDIFF_SYM7420=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7420
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7411=Lfde835_end - Lfde835_start
-	.long LDIFF_SYM7411
-Lfde835_start:
+LDIFF_SYM7421=Lfde837_end - Lfde837_start
+	.long LDIFF_SYM7421
+Lfde837_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM7412=Lme_385 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM7412
+LDIFF_SYM7422=Lme_387 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM7422
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,76,10,68,14,16,68,8,8,8,10,14,8,68,11
 	.align 2
-Lfde835_end:
+Lfde837_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_479:
@@ -85753,76 +85908,76 @@ LTDIE_479:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM7413=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM7413
+LDIFF_SYM7423=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7423
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM7414=LTDIE_479 - Ldebug_info_start
-	.long LDIFF_SYM7414
+LDIFF_SYM7424=LTDIE_479 - Ldebug_info_start
+	.long LDIFF_SYM7424
 LTDIE_479_POINTER:
 
 	.byte 13
-LDIFF_SYM7415=LTDIE_479 - Ldebug_info_start
-	.long LDIFF_SYM7415
+LDIFF_SYM7425=LTDIE_479 - Ldebug_info_start
+	.long LDIFF_SYM7425
 LTDIE_479_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7416=LTDIE_479 - Ldebug_info_start
-	.long LDIFF_SYM7416
+LDIFF_SYM7426=LTDIE_479 - Ldebug_info_start
+	.long LDIFF_SYM7426
 LTDIE_478:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM7417=LTDIE_479 - Ldebug_info_start
-	.long LDIFF_SYM7417
+LDIFF_SYM7427=LTDIE_479 - Ldebug_info_start
+	.long LDIFF_SYM7427
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM7418=LTDIE_478 - Ldebug_info_start
-	.long LDIFF_SYM7418
+LDIFF_SYM7428=LTDIE_478 - Ldebug_info_start
+	.long LDIFF_SYM7428
 LTDIE_478_POINTER:
 
 	.byte 13
-LDIFF_SYM7419=LTDIE_478 - Ldebug_info_start
-	.long LDIFF_SYM7419
+LDIFF_SYM7429=LTDIE_478 - Ldebug_info_start
+	.long LDIFF_SYM7429
 LTDIE_478_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7420=LTDIE_478 - Ldebug_info_start
-	.long LDIFF_SYM7420
+LDIFF_SYM7430=LTDIE_478 - Ldebug_info_start
+	.long LDIFF_SYM7430
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_REF>:.ctor"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor"
 
 	.byte 0,0
 	.long System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-	.long Lme_386
+	.long Lme_388
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM7421=LTDIE_478_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM7421
+LDIFF_SYM7431=LTDIE_478_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM7431
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM7422=Lfde836_end - Lfde836_start
-	.long LDIFF_SYM7422
-Lfde836_start:
+LDIFF_SYM7432=Lfde838_end - Lfde838_start
+	.long LDIFF_SYM7432
+Lfde838_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 
-LDIFF_SYM7423=Lme_386 - System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-	.long LDIFF_SYM7423
+LDIFF_SYM7433=Lme_388 - System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
+	.long LDIFF_SYM7433
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,68,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde836_end:
+Lfde838_end:
 
 .section __DWARF, __debug_info,regular,debug
 

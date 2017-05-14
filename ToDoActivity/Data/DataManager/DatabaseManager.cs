@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Forms;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using SQLite;
@@ -7,14 +8,22 @@ namespace ToDoActivity
 {
 	public class DatabaseManager
 	{
+		private static DatabaseManager sharedInstance = new DatabaseManager();
 		readonly SQLiteAsyncConnection database;
+
+		static public DatabaseManager SharedInstance()
+		{
+			return sharedInstance;
+		}
 
 		public DatabaseManager()
 		{
+			string dbPath = DependencyService.Get<IFileHelper>().GetLocalFilePath("TodoSQLite.db3");
 			database = new SQLiteAsyncConnection(dbPath);
 			database.CreateTableAsync<ActivityModel>().Wait();
 		}
 
+		// Public Method
 		public Task<List<ActivityModel>> GetItemsAsync()
 		{
 			return database.Table<ActivityModel>().ToListAsync();
