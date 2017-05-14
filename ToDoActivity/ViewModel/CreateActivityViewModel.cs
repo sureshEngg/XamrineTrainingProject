@@ -40,6 +40,8 @@ namespace ToDoActivity
 			}
 			else
 			{
+				Name = string.Empty;
+				Description = string.Empty;
 				DueDate = DateTime.Now;
 				DueTime = DateTime.Now;
 

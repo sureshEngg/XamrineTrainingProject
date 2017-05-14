@@ -11,12 +11,36 @@
 	<ContentPage.Content>
 		
 		<StackLayout Padding="20" Spacing="10">
-			<Label Text="{Binding Name}"/>
-			<Label Text="{Binding Description}"/>
-			<Label Text="{Binding DueDate}"/>
-			<Label Text="{Binding Lattitude}"/>
-			<Label Text="{Binding Longitude}"/>
-			<Label Text="{Binding Status}"/>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Activity Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Name}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Description:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Description}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Status:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Status}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="DueDate:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding DueDate}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Lattitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Lattitude}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>
 	

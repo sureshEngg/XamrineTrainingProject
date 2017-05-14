@@ -15,13 +15,20 @@ namespace ToDoActivity
 			homeViewModel = new HomeViewModel(Navigation);
 			BindingContext = homeViewModel;
 
-			ToolbarItems.Add(new ToolbarItem("New", null, () =>{
+			ToolbarItems.Add(new ToolbarItem("New", null, () =>
+			{
 				Navigation.PushAsync(new CreateActivityPage(null));
 			}));
+
+			// Update Back button name
+			NavigationPage.SetBackButtonTitle(this, "Back");
 		}
 
 		private void OnItemSelected(object o, ItemTappedEventArgs e)
 		{
+			// Deselect cell
+			activityList.SelectedItem = null;
+
 			var activityModel = e.Item as ActivityModel;
 			Navigation.PushAsync(new ActivityDetailPage(activityModel));
 		}

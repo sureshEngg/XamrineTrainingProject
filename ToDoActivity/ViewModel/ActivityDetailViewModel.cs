@@ -25,10 +25,18 @@ namespace ToDoActivity
 				this.activityModel = activityModel;
 				Name = activityModel.Name;
 				Description = activityModel.Description;
-				DueDate = activityModel.Name;
+				DueDate = activityModel.DueDate.ToString();
 				Lattitude = activityModel.Lattitude.ToString();
 				Longitude = activityModel.Longitude.ToString();
-				Status = activityModel.Completed.ToString();
+
+				if (activityModel.Completed)
+				{
+					Status = "Completed";
+				}
+				else
+				{
+					Status = "Not Completed";
+				}
 			}
 
 			EditCommand = new Command(Edit);

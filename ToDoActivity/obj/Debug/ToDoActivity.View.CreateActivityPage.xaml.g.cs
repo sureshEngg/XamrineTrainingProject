@@ -15,12 +15,12 @@ namespace ToDoActivity {
     public partial class CreateActivityPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.TimePicker timePicker;
+        private global::Xamarin.Forms.ToolbarItem toolBarItem;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CreateActivityPage));
-            timePicker = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.TimePicker>(this, "timePicker");
+            toolBarItem = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.ToolbarItem>(this, "toolBarItem");
         }
     }
 }
