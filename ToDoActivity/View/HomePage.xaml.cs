@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using SQLite;
 
 namespace ToDoActivity
 {
@@ -27,15 +28,7 @@ namespace ToDoActivity
 		protected override async void OnAppearing()
 		{
 			base.OnAppearing();
-			var source = await DatabaseManager.SharedInstance().GetItemsAsync();
-
-			if (source.Count > 0)
-			{
-				activityList.ItemsSource = (List<ActivityModel>)source;
-			}
-			else {
-				activityList.ItemsSource = new List<ActivityModel>();
-			}
+			activityList.ItemsSource = await DatabaseManager.SharedInstance().GetItemsAsync();
 		}
 
 		private void OnItemSelected(object o, ItemTappedEventArgs e)
