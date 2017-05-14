@@ -1,9 +1,11 @@
 ﻿using System;
+using SQLite;
 
 namespace ToDoActivity
 {
 	public class ActivityModel
 	{
+		[PrimaryKey, AutoIncrement]
 		public int Id { get; set; }
 
 		public string Name { get; set; }

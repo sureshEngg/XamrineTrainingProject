@@ -115,6 +115,7 @@
     <Compile Include="LocalServices\LocationService.cs" />
     <Compile Include="Core\Dependency\AndroidDependencyService.cs" />
     <Compile Include="LocalServices\NotificationHandler.cs" />
+    <Compile Include="Core\FileHelper\FileHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -136,6 +137,7 @@
     <Folder Include="LocalServices\" />
     <Folder Include="Core\" />
     <Folder Include="Core\Dependency\" />
+    <Folder Include="Core\FileHelper\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
