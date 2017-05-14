@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{E2DC5E7E-5C82-4CDD-9E11-7641FB38C4C3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/DataManager/DatabaseManager.cs">
-    <Files>
-      <File FileName="Data/DataManager/DatabaseManager.cs" Line="8" Column="30" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
