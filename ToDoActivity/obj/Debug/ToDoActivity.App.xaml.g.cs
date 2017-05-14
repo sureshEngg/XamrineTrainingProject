@@ -11,7 +11,7 @@
 namespace ToDoActivity {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nagarro/Projects/Training/Personal/ToDoActivity/App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

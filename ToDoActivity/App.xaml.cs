@@ -9,7 +9,7 @@ namespace ToDoActivity
 		{
 			InitializeComponent();
 			MainPage = new NavigationPage(new HomePage());
-			//DependencyService.Get<IGeoLocation>().InitializeLocationManager();
+			DependencyService.Get<IGeoLocation>().InitializeDependencyServices();
 		}
 
 		protected override void OnStart()

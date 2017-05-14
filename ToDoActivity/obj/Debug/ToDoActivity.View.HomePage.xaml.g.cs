@@ -11,7 +11,7 @@
 namespace ToDoActivity {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nagarro/Projects/Training/Personal/ToDoActivity/View/HomePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/View/HomePage.xaml")]
     public partial class HomePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

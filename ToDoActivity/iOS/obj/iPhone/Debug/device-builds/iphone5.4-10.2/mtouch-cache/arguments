@@ -1,10 +1,9 @@
-# Version: 10.8.0.175 (d15-1: a04678c2)
-# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe \
-	--cache \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/mtouch-cache \
+# Version: 10.10.0.33 (d15-2: 3e5ac5ff)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/lib/mtouch/mtouch.exe \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/mtouch-cache \
 	--dev \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/device-builds/iphone5.4-10.2/ToDoActivity.iOS.app \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/iOS/bin/iPhone/Debug/device-builds/iphone5.4-10.2/ToDoActivity.iOS.app \
 	--executable \
 	ToDoActivity.iOS \
 	--fastdev \
@@ -21,7 +20,7 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=armv7 \
 	--symbollist \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/mtouch-symbols.list \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -32,15 +31,29 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/ToDoActivity.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.core.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.bundle_green.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.bundle_green.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/sqlite-net-pcl.1.3.1/lib/netstandard1.1/SQLite-net.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/bin/Debug/ToDoActivity.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -292,6 +305,8 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ValueTuple.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll \
@@ -306,15 +321,27 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/netstandard.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/bin/Debug/ToDoActivity.dll \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.core.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.bundle_green.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/SQLitePCLRaw.bundle_green.1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/packages/sqlite-net-pcl.1.3.1/lib/netstandard1.1/SQLite-net.dll \
+	-r \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/bin/Debug/ToDoActivity.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/bin/iPhone/Debug/ToDoActivity.iOS.exe \
+	/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/iOS/bin/iPhone/Debug/ToDoActivity.iOS.exe \

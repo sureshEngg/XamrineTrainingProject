@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-	x:Class="ToDoActivity.CreateActivityPage"
-	Title="Add New">
-
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ToDoActivity.CreateActivityPage" Title="Add New">
 	<ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save" Order="Primary" 
-                Command="{Binding SaveCommand}" />
-    </ContentPage.ToolbarItems>
-	
+		<ToolbarItem Text="Save" Order="Primary" Command="{Binding SaveCommand}" />
+	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<StackLayout Padding="20" Spacing="10">
-			<Entry Text="{Binding Name}"/>
-			<Entry Text="{Binding Description}"/>
-			<Entry Text="{Binding DueDate}"/>
-			<Entry Text="{Binding Lattitude}"/>
-			<Entry Text="{Binding Longitude}"/>
-			<Entry Text="{Binding Status}"/>
+			
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Activity Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Entry Text="{Binding Name}" Placeholder="Enter name" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Description:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Entry Text="{Binding Description}" Placeholder="Enter description" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Status:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Status}" HorizontalOptions="FillAndExpand"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Lattitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Lattitude}" HorizontalOptions="FillAndExpand"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand"/>
+			</StackLayout>
+
+			<DatePicker VerticalOptions="CenterAndExpand" Date="{Binding DueDate}">
+				<DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
+			</DatePicker>
+			<TimePicker x:Name="timePicker" Time="{Binding DueTime}">
+			</TimePicker>
 		</StackLayout>
 	</ContentPage.Content>
-	
 </ContentPage>

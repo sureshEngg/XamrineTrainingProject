@@ -6,9 +6,11 @@ namespace ToDoActivity
 
 	public interface IGeoLocation
 	{
-		void InitializeLocationManager();
+		void InitializeDependencyServices();
 		double GetDeviceLattitude();
 		double GetDeviceLongitude();
-
+		void ScheduleNotification(ActivityModel activityModel);
+		void UpdateNotification(ActivityModel activityModel);
+		void CancelNotification(ActivityModel activityModel);
 	}
 }

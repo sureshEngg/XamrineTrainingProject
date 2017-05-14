@@ -11,12 +11,16 @@
 namespace ToDoActivity {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nagarro/Projects/Training/Personal/ToDoActivity/View/CreateActivityPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/View/CreateActivityPage.xaml")]
     public partial class CreateActivityPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.TimePicker timePicker;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CreateActivityPage));
+            timePicker = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.TimePicker>(this, "timePicker");
         }
     }
 }

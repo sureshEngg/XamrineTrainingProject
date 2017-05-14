@@ -112,7 +112,9 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LocationManager\LocationService.cs" />
+    <Compile Include="LocalServices\LocationService.cs" />
+    <Compile Include="Core\Dependency\AndroidDependencyService.cs" />
+    <Compile Include="LocalServices\NotificationHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -131,7 +133,9 @@
     <AndroidResource Include="Resources\drawable\add.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="LocationManager\" />
+    <Folder Include="LocalServices\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Dependency\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

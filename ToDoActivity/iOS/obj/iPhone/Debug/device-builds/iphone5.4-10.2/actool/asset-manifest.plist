@@ -6,7 +6,8 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/nagarro/Projects/Training/Personal/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/actool/partial-info.plist</string>
+			<string>/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/actool/bundle/Assets.car</string>
+			<string>/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/iOS/obj/iPhone/Debug/device-builds/iphone5.4-10.2/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>
