@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using ToDoActivity.Droid;
 
@@ -10,7 +10,7 @@ namespace ToDoActivity.Droid
 
 		public void InitializeDependencyServices()
 		{
-			LocationService.Instance();
+			LocationHandler.Instance();
 			NotificationHandler.SharedInstance();
 		}
 
@@ -19,9 +19,9 @@ namespace ToDoActivity.Droid
 		{
 			double lattitude = 0.0;
 
-			if (LocationService.Instance().CurrentLocation != null)
+			if (LocationHandler.Instance().CurrentLocation != null)
 			{
-				lattitude = LocationService.Instance().CurrentLocation.Latitude;
+				lattitude = LocationHandler.Instance().CurrentLocation.Latitude;
 			}
 			return lattitude;
 		}
@@ -29,9 +29,9 @@ namespace ToDoActivity.Droid
 		public double GetDeviceLongitude()
 		{
 			double longitude = 0.0;
-			if (LocationService.Instance().CurrentLocation != null)
+			if (LocationHandler.Instance().CurrentLocation != null)
 			{
-				longitude = LocationService.Instance().CurrentLocation.Longitude;
+				longitude = LocationHandler.Instance().CurrentLocation.Longitude;
 			}
 			return longitude;
 		}

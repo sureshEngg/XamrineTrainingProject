@@ -1,6 +1,9 @@
 ﻿using System;
 using System.IO;
+using Xamarin.Forms;
+using ToDoActivity.Droid;
 
+[assembly: Dependency(typeof(FileHelper))]
 namespace ToDoActivity.Droid
 {
 	public class FileHelper : IFileHelper

@@ -12,7 +12,7 @@
 						<ViewCell>
 							<StackLayout Orientation="Horizontal" BackgroundColor="Gray" Padding="10">
 								<Label FontSize="14" Text="{Binding Name}" TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-								<Label FontSize="14" Text="{Binding DueDate}" TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+								<Label FontSize="14" Text="{Binding DueDate}" TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="200" />
 							</StackLayout>
 						</ViewCell>
 					</DataTemplate>
