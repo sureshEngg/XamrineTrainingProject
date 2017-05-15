@@ -116,6 +116,7 @@
     <Compile Include="Core\Dependency\AndroidDependencyService.cs" />
     <Compile Include="LocalServices\NotificationHandler.cs" />
     <Compile Include="Core\FileHelper\FileHelper.cs" />
+    <Compile Include="LocalServices\NotificationPublisher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -132,6 +133,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\add.png" />
+    <AndroidResource Include="Resources\drawable\message.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LocalServices\" />

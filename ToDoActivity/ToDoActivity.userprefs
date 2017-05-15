@@ -1,9 +1,8 @@
-﻿<Properties StartupConfiguration="{E2DC5E7E-5C82-4CDD-9E11-7641FB38C4C3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="View/HomePage.xaml.cs">
+﻿<Properties StartupConfiguration="{50BA5754-37A3-466D-A64A-E9180F8450A5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/LocalServices/NotificationPublisher.cs">
     <Files>
-      <File FileName="ViewModel/CreateActivityViewModel.cs" Line="16" Column="40" />
-      <File FileName="View/CreateActivityPage.xaml.cs" Line="15" Column="1" />
-      <File FileName="View/HomePage.xaml.cs" Line="40" Column="1" />
+      <File FileName="Droid/LocalServices/NotificationHandler.cs" Line="46" Column="2" />
+      <File FileName="Droid/LocalServices/NotificationPublisher.cs" Line="67" Column="71" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -13,5 +12,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ToDoActivity.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D033E05-B484-472F-B688-E7B4F5560384" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ToDoActivity.Droid PreferredExecutionTarget="Android.a543ce067d53" />
+  <MonoDevelop.Ide.ItemProperties.ToDoActivity.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

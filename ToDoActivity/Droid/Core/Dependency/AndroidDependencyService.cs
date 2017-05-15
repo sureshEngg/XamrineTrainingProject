@@ -44,12 +44,12 @@ namespace ToDoActivity.Droid
 
 		public void UpdateNotification(ActivityModel activityModel)
 		{
-
+			NotificationHandler.SharedInstance().UpdateNotification(activityModel);
 		}
 
 		public void CancelNotification(ActivityModel activityModel)
 		{
-
+			NotificationHandler.SharedInstance().CancelNotification(activityModel);
 		}
 	}
 }
