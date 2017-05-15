@@ -27,13 +27,13 @@
 			</StackLayout>
 			<StackLayout Orientation="Horizontal" Spacing="10" Padding="0">
 				<Label FontSize="14" Text="Select Date:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<DatePicker VerticalOptions="CenterAndExpand" Date="{Binding DueDate}">
+				<DatePicker x:Name="datePicker" VerticalOptions="CenterAndExpand" Date="{Binding SelectedDate}" DateSelected="HandleDateSelected">
 					<DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
 				</DatePicker>
 			</StackLayout>
 			<StackLayout Orientation="Horizontal" Spacing="10" Padding="0">
 				<Label FontSize="14" Text="Select Time:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<TimePicker Time="{Binding DueTime}" />
+				<TimePicker x:Name="timePicker" Time="{Binding SelectedDate}" PropertyChanged="HandleTimeChanged"/>
 			</StackLayout>
 			<StackLayout Orientation="Horizontal" Spacing="10" Padding="20">
 				<Button x:Name="deleteButton" Text="Delete" TextColor="White" BackgroundColor="Red" Command="{Binding DeleteCommand}" WidthRequest="300" HeightRequest="35" />

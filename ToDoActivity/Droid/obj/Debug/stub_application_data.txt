@@ -1,2 +1,0 @@
-android.app.Application
-com.todoactivity.app.todoactivity

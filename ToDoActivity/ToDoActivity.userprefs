@@ -1,7 +1,9 @@
-﻿<Properties StartupConfiguration="{50BA5754-37A3-466D-A64A-E9180F8450A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/LocalServices/LocationHandler.cs">
+﻿<Properties StartupConfiguration="{E2DC5E7E-5C82-4CDD-9E11-7641FB38C4C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="View/HomePage.xaml.cs">
     <Files>
-      <File FileName="Droid/LocalServices/LocationHandler.cs" Line="13" Column="30" />
+      <File FileName="ViewModel/CreateActivityViewModel.cs" Line="16" Column="40" />
+      <File FileName="View/CreateActivityPage.xaml.cs" Line="15" Column="1" />
+      <File FileName="View/HomePage.xaml.cs" Line="40" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

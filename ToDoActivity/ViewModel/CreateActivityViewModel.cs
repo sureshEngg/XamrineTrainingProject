@@ -11,8 +11,8 @@ namespace ToDoActivity
 
 		public string Name { get; set; }
 		public string Description { get; set; }
-		public DateTime DueDate { get; set; }
-		public DateTime DueTime { get; set; }
+		public DateTime SelectedDate { get; set; }
+
 		public string Lattitude { get; set; }
 		public string Longitude { get; set; }
 		public string Status { get; set; }
@@ -30,12 +30,9 @@ namespace ToDoActivity
 			{
 				this.activityModel = activityModel;
 
-				DueDate = activityModel.DueDate;
-				DueTime = activityModel.DueDate;
-
 				Name = activityModel.Name;
 				Description = activityModel.Description;
-				DueDate = activityModel.DueDate;
+				SelectedDate = activityModel.DueDate;
 				Lattitude = activityModel.Lattitude.ToString();
 				Longitude = activityModel.Longitude.ToString();
 
@@ -46,8 +43,7 @@ namespace ToDoActivity
 			{
 				Name = string.Empty;
 				Description = string.Empty;
-				DueDate = DateTime.Now;
-				DueTime = DateTime.Now;
+				SelectedDate = DateTime.Now;
 
 				double lattitude = DependencyService.Get<IGeoLocation>().GetDeviceLattitude();
 				double longitude = DependencyService.Get<IGeoLocation>().GetDeviceLongitude();
@@ -84,8 +80,9 @@ namespace ToDoActivity
 					//Cancel scheduled notification
 					DependencyService.Get<IGeoLocation>().CancelNotification(activityModel);
 				}
+
 				activityModel.Name = Name;
-				activityModel.DueDate = new DateTime(DueDate.Year, DueDate.Month, DueDate.Day, DueTime.Hour, DueTime.Minute, 0);
+				activityModel.DueDate = SelectedDate;
 				activityModel.Description = Description;
 				activityModel.Completed = false;
 				activityModel.Lattitude = DependencyService.Get<IGeoLocation>().GetDeviceLattitude();
