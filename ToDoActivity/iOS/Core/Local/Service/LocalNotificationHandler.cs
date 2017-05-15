@@ -36,6 +36,9 @@ namespace ToDoActivity.iOS
 				notification.AlertAction = "View";
 				notification.AlertBody = activityModel.Description;
 
+				var notificationId = new NSNumber(activityModel.Id);
+				var userInfo = new NSDictionary("kIdKey", notificationId);
+				notification.UserInfo = userInfo;
 				UIApplication.SharedApplication.ScheduleLocalNotification(notification);
 			}
 		}
@@ -46,14 +49,20 @@ namespace ToDoActivity.iOS
 			ScheduleNotification(activityModel);
 		}
 
-		public void CancelNotification(ActivityModel activityModel) 
+		public void CancelNotification(ActivityModel activityModel)
 		{
 			foreach (UILocalNotification notification in UIApplication.SharedApplication.ScheduledLocalNotifications)
 			{
-				if (notification.AlertTitle.Equals(activityModel.Name))
+				var userInfo = notification.UserInfo;
+
+				if (userInfo != null)
 				{
-					UIApplication.SharedApplication.CancelLocalNotification(notification);
-					break;
+					NSNumber notificationId = (NSNumber)userInfo["kIdKey"];
+
+					if (notificationId.Int32Value == activityModel.Id) { 
+						UIApplication.SharedApplication.CancelLocalNotification(notification);
+						break;
+					}
 				}
 			}
 		}
