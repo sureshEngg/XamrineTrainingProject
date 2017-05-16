@@ -76,6 +76,7 @@ namespace ToDoActivity
 			ValidateSelectedDate();
 		}
 
+
 		private void ValidateSelectedDate()
 		{
 			if (timePicker != null && datePicker != null)
@@ -89,7 +90,7 @@ namespace ToDoActivity
 				}
 				else
 				{
-					viewModel.isDateValid = true;;
+					viewModel.isDateValid = true;
 					errorTimeLabel.Text = "";
 				}
 			}

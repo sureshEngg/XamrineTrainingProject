@@ -8,7 +8,8 @@ namespace ToDoActivity
 		public App()
 		{
 			InitializeComponent();
-			MainPage = new NavigationPage(new HomePage());
+			HomePage homePage = new HomePage();
+			MainPage = new NavigationPage(homePage);
 			DependencyService.Get<IGeoLocation>().InitializeDependencyServices();
 		}
 

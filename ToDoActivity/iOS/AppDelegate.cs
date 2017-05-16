@@ -1,46 +1,73 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using Xamarin.Forms;
 using Foundation;
 using UIKit;
+using Xamarin.Forms.Platform.iOS;
 
 namespace ToDoActivity.iOS
 {
 	[Register("AppDelegate")]
-	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+	public partial class AppDelegate : FormsApplicationDelegate
 	{
-		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+		private int recentActivityId;
+
+		public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
 		{
-			global::Xamarin.Forms.Forms.Init();
+			Forms.Init();
 			LoadApplication(new App());
 
 			// Check for a local notification
-			if (options != null && options.ContainsKey(UIApplication.LaunchOptionsLocalNotificationKey))
+			if (launchOptions != null && launchOptions.ContainsKey(UIApplication.LaunchOptionsLocalNotificationKey))
 			{
-				var localNotification = options[UIApplication.LaunchOptionsLocalNotificationKey] as UILocalNotification;
+				var localNotification = launchOptions[UIApplication.LaunchOptionsLocalNotificationKey] as UILocalNotification;
 				if (localNotification != null)
 				{
-					UIAlertController okayAlertController = UIAlertController.Create(localNotification.AlertAction, localNotification.AlertBody, UIAlertControllerStyle.Alert);
-					okayAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
-
-					//viewController.PresentViewController(okayAlertController, true, null);
-
-					// reset our badge
-					UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
+					// Handle Notification
+					HandleLocalNotification(localNotification);
 				}
 			}
-			return base.FinishedLaunching(app, options);
+			return base.FinishedLaunching(uiApplication, launchOptions);
 		}
 
 		public override void ReceivedLocalNotification(UIApplication application, UILocalNotification notification)
 		{
-			UIAlertController okayAlertController = UIAlertController.Create(notification.AlertAction, notification.AlertBody, UIAlertControllerStyle.Alert);
-			okayAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
-			//viewController.PresentViewController(okayAlertController, true, null);
+			// Handle Notification
+			HandleLocalNotification(notification);
+		}
+
+		// Private Method
+		private void HandleLocalNotification(UILocalNotification localNotification)
+		{
+			var appState = UIApplication.SharedApplication.ApplicationState;
 
 			// Reset our badge
 			UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
+
+			if (localNotification != null)
+			{
+				var userInfo = localNotification.UserInfo;
+
+				if (userInfo != null)
+				{
+					NSNumber notificationId = (NSNumber)userInfo["kIdKey"];
+
+					if (recentActivityId != notificationId.Int32Value)
+					{
+						recentActivityId = notificationId.Int32Value;
+
+						if (appState == UIApplicationState.Active)
+						{
+							MessagingCenter.Send<object, int>(this, "ShowAlertMessage", recentActivityId);
+						}
+						else
+						{
+							MessagingCenter.Send<object, int>(this, "OpenActivityDetailPage", recentActivityId);
+						}
+					}
+				}
+			}
 		}
 	}
 }
