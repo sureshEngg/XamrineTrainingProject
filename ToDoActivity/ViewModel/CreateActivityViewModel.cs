@@ -16,6 +16,7 @@ namespace ToDoActivity
 		public string Lattitude { get; set; }
 		public string Longitude { get; set; }
 		public string Status { get; set; }
+		public bool isDateValid { get; set; }
 
 		public Command SaveCommand { get; private set; }
 		public Command DeleteCommand { get; private set; }
@@ -69,7 +70,7 @@ namespace ToDoActivity
 
 		async void Save()
 		{
-			if (Name.Length > 0 && Description.Length > 0)
+			if (isDateValid && Name.Length > 0 && Description.Length > 0)
 			{
 				if (activityModel == null)
 				{

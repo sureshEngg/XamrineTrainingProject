@@ -27,6 +27,7 @@ namespace ToDoActivity
 
 			var Date = DateTime.Now;
 			datePicker.MinimumDate = Date;
+			timePicker.Time = new TimeSpan(Date.Hour, Date.Minute, 0);
 		}
 
 		// Date Selection
@@ -66,9 +67,31 @@ namespace ToDoActivity
 			}
 
 			// Date update 
-			if (viewModel != null) 
+			if (viewModel != null)
 			{
 				viewModel.SelectedDate = new DateTime(year, month, day, hour, minute, 0);
+			}
+
+			//Validate Selected Date
+			ValidateSelectedDate();
+		}
+
+		private void ValidateSelectedDate()
+		{
+			if (timePicker != null && datePicker != null)
+			{
+				int result = DateTime.Compare(DateTime.Now, viewModel.SelectedDate);
+
+				if (result >= 0)
+				{
+					viewModel.isDateValid = false;
+					errorTimeLabel.Text = "Please select future time!";
+				}
+				else
+				{
+					viewModel.isDateValid = true;;
+					errorTimeLabel.Text = "";
+				}
 			}
 		}
 	}
