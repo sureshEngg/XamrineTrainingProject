@@ -11,26 +11,26 @@ using ToDoActivity.Droid;
 using Android.Locations;
 using System.Collections.Generic;
 using System.Linq;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.Android;
 
 namespace ToDoActivity.Droid
 {
     [Activity(Label = "ToDoActivity.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, ILocationListener
+    public class MainActivity : FormsAppCompatActivity, ILocationListener
     {
         // All variable declared here
         static readonly string TAG = "X:" + typeof(MainActivity).Name;
-        Location _currentLocation;
         LocationManager _locationManager;
         string _locationProvider;
 
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            base.OnCreate(bundle);
-
-            global::Xamarin.Forms.Forms.Init(this, bundle);
+            base.OnCreate(savedInstanceState);
+            Forms.Init(this, savedInstanceState);
 
             //To initialize GPS service for the App
             InitializeLocationManager();
@@ -72,7 +72,7 @@ namespace ToDoActivity.Droid
         }
 
         //Geo Location is finding here
-        public async void OnLocationChanged(Location location)
+        public void OnLocationChanged(Location location)
         {
             LocationHandler.Instance().CurrentLocation = location;
         }

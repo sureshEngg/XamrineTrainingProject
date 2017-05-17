@@ -19,15 +19,18 @@ namespace ToDoActivity
 			{
 				Title = "Edit";
 				deleteButton.IsVisible = true;
+
+				datePicker.MinimumDate = activityModel.DueDate;
+				timePicker.Time = new TimeSpan(activityModel.DueDate.Hour, activityModel.DueDate.Minute, 0);
 			}
 			else
 			{
 				deleteButton.IsVisible = false;
-			}
 
-			var Date = DateTime.Now;
-			datePicker.MinimumDate = Date;
-			timePicker.Time = new TimeSpan(Date.Hour, Date.Minute, 0);
+				var Date = DateTime.Now;
+				datePicker.MinimumDate = Date;
+				timePicker.Time = new TimeSpan(Date.Hour, Date.Minute, 0);
+			}
 		}
 
 		// Date Selection
