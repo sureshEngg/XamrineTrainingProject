@@ -16,7 +16,7 @@ using Android.Widget;
 [assembly: Xamarin.Forms.Dependency(typeof(LocationHandler))]
 namespace ToDoActivity.Droid
 {
-	public class LocationHandler : ILocationListener
+	public class LocationHandler
 	{
 		private static LocationHandler _instance = new LocationHandler();
 
@@ -28,69 +28,12 @@ namespace ToDoActivity.Droid
 
 		private LocationHandler()
 		{
-			InitializeLocationService();
+			//InitializeLocationService();
 		}
 
 		static public LocationHandler Instance()
 		{
 			return _instance;
-		}
-
-		private void InitializeLocationService()
-		{
-			Toast.MakeText(Forms.Context, "Starting...", ToastLength.Long).Show();
-			locationManager = Android.App.Application.Context.GetSystemService(Context.LocationService).JavaCast<LocationManager>();
-
-			Criteria criteriaForLocationService = new Criteria
-			{
-				Accuracy = Accuracy.Fine
-			};
-
-			IList<string> acceptableLocationProviders = locationManager.GetProviders(criteriaForLocationService, true);
-
-			if (acceptableLocationProviders.Any())
-			{
-				locationProvider = acceptableLocationProviders.First();
-			}
-			else
-			{
-				locationProvider = string.Empty;
-			}
-			Log.Debug(TAG, "Using " + locationProvider + ".");
-			Toast.MakeText(Forms.Context, "Ending...", ToastLength.Long).Show();
-		}
-
-		public IntPtr Handle
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		public void OnProviderDisabled(string provider)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void OnProviderEnabled(string provider)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void OnStatusChanged(string provider, [GeneratedEnum] Availability status, Bundle extras)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void Dispose()
-		{
-			throw new NotImplementedException();
-		}
-
-		public void OnLocationChanged(Location location)
-		{
-			this.CurrentLocation = location;
 		}
 	}
 }
