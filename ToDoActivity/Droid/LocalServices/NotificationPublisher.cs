@@ -3,6 +3,8 @@ using Android.App;
 using Android.Content;
 using Android.Support.V4.App;
 using Xamarin.Forms;
+using Android.OS;
+using Android.Media;
 
 namespace ToDoActivity.Droid
 {
@@ -15,26 +17,34 @@ namespace ToDoActivity.Droid
         {
             var message = intent.GetStringExtra("message");
             var title = intent.GetStringExtra("title");
+          
+            // When the user clicks the notification, SecondActivity will start up.
+            Intent resultIntent = new Intent(context, typeof(MainActivity));
 
-            var notIntent = new Intent(context, typeof(MainActivity));
-            var contentIntent = PendingIntent.GetActivity(context, 0, notIntent, PendingIntentFlags.CancelCurrent);
-            var manager = NotificationManagerCompat.From(context);
+            // Construct a back stack for cross-task navigation:
+            Android.Support.V4.App.TaskStackBuilder stackBuilder = Android.Support.V4.App.TaskStackBuilder.Create(context);
+            stackBuilder.AddParentStack(Java.Lang.Class.FromType(typeof(MainActivity)));
+            stackBuilder.AddNextIntent(resultIntent);
 
-            var style = new NotificationCompat.BigTextStyle();
-            style.BigText(message);
+            // Create the PendingIntent with the back stack:            
+            PendingIntent resultPendingIntent =
+                stackBuilder.GetPendingIntent(0, (int)PendingIntentFlags.UpdateCurrent);
 
-            //Generate a notification with just short text and small icon
-            var builder = new NotificationCompat.Builder(context)
-                .SetContentIntent(contentIntent)
-                .SetSmallIcon(Resource.Drawable.message)
+            // Build the notification:
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
+                .SetAutoCancel(true)
+                .SetSound(RingtoneManager.GetDefaultUri(RingtoneType.Notification))
                 .SetContentTitle(title)
                 .SetContentText(message)
-                .SetStyle(style)
-                .SetWhen(Java.Lang.JavaSystem.CurrentTimeMillis())
-                .SetAutoCancel(true);
+                .SetContentIntent(resultPendingIntent)  // Start 2nd activity when the intent is clicked.
+                .SetSmallIcon(Resource.Drawable.ic_stat_access_time)  // Display this icon
+               ; // The message to display.
 
-            var notification = builder.Build();
-            manager.Notify(0, notification);
+            // Finally, publish the notification:
+            NotificationManager notificationManager =
+                (NotificationManager)context.GetSystemService(Context.NotificationService);
+            builder.SetAutoCancel(true);
+            notificationManager.Notify(123, builder.Build());
         }
     }
 }
