@@ -134,6 +134,10 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\add.png" />
     <AndroidResource Include="Resources\drawable\message.png" />
+    <AndroidResource Include="Resources\drawable\ic_stat_access_time.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_stat_access_time.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_stat_access_time.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_stat_access_time.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LocalServices\" />
