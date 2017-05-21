@@ -22,7 +22,6 @@ namespace ToDoActivity.Droid
     {
         // All variable declared here
         static readonly string TAG = "X:" + typeof(MainActivity).Name;
-        string _locationProvider;
         int WIFI_SETTINGS_REQ_CODE = 100;
         const int RequestLocationId = 0;
 
@@ -154,11 +153,12 @@ namespace ToDoActivity.Droid
                 var locator = CrossGeolocator.Current;
                 locator.DesiredAccuracy = 500000;
                 var position = await locator.GetPositionAsync(50000);
-                Location loc = new Location(_locationProvider);
+
+				String locationProvider = null;
+				Location loc = new Location(locationProvider);
                 loc.Latitude = position.Latitude;
                 loc.Longitude = position.Longitude;
-                LocationHandler.Instance().CurrentLocation = loc;
-ILocationHandler.CurrentLocation = loc;
+                ILocationHandler.CurrentLocation = loc;
             }
             catch (Exception ex)
             {

@@ -11,9 +11,9 @@ namespace ToDoActivity.Droid
     public class INotificationHandler
     {
 
-        private static NotificationHandler _instance = new NotificationHandler();
+        private static INotificationHandler _instance = new INotificationHandler();
 
-        static public NotificationHandler SharedInstance()
+        static public INotificationHandler SharedInstance()
         {
             return _instance;
         }
@@ -23,7 +23,7 @@ namespace ToDoActivity.Droid
         {
             if (activityModel != null)
             {
-                Intent alarmIntent = new Intent(Forms.Context, typeof(NotificationPublisher));
+                Intent alarmIntent = new Intent(Forms.Context, typeof(INotificationPublisher));
                 alarmIntent.PutExtra("title", activityModel.Name);
                 alarmIntent.PutExtra("message", activityModel.Description);
 
