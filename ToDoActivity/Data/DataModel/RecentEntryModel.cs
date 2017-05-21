@@ -16,9 +16,9 @@ namespace ToDoActivity
 		}
 
 		// Public Method
-		public static Task<RecentEntryModel> GetItemAsync(int id)
+		public static Task<RecentEntryModel> GetItemAsync()
 		{
-			return DatabaseManager.SharedInstance().database.Table<RecentEntryModel>().Where(i => i.Id == id).FirstOrDefaultAsync();
+			return DatabaseManager.SharedInstance().database.Table<RecentEntryModel>().FirstOrDefaultAsync();
 		}
 	}
 }

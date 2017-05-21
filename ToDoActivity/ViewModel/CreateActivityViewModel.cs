@@ -63,7 +63,7 @@ namespace ToDoActivity
 			if (activityModel == null && (Name.Length > 0 || Description.Length > 0))
 			{
 				bool shouldUpdate = true;
-				var entryModel = await RecentEntryModel.GetItemAsync(1);
+				var entryModel = await RecentEntryModel.GetItemAsync();
 
 				if (entryModel == null)
 				{
@@ -75,10 +75,18 @@ namespace ToDoActivity
 				{
 					entryModel.Name = Name;
 				}
+				else 
+				{
+					entryModel.Name = string.Empty;
+				}
 
 				if (Description.Length > 0)
 				{
 					entryModel.Description = Description;
+				}
+				else
+				{
+					entryModel.Name = string.Empty;
 				}
 				await entryModel.SaveItemAsync(shouldUpdate);
 			}
@@ -129,7 +137,7 @@ namespace ToDoActivity
 				DependencyService.Get<ILocalNotificationHelper>().ScheduleNotification(this.activityModel);
 
 				// Delete recent entry data
-				var recentEntryModel = await RecentEntryModel.GetItemAsync(1);
+				var recentEntryModel = await RecentEntryModel.GetItemAsync();
 
 				if (recentEntryModel != null)
 				{

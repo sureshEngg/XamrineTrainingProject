@@ -42,7 +42,7 @@ namespace ToDoActivity
 
 		private async void LoadRecentEntry()
 		{
-			var entryModel = await RecentEntryModel.GetItemAsync(1);
+			var entryModel = await RecentEntryModel.GetItemAsync();
 
 			if (entryModel != null)
 			{
