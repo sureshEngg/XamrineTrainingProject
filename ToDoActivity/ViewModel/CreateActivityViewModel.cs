@@ -86,7 +86,7 @@ namespace ToDoActivity
 				}
 				else
 				{
-					entryModel.Name = string.Empty;
+					entryModel.Description = string.Empty;
 				}
 				await entryModel.SaveItemAsync(shouldUpdate);
 			}
