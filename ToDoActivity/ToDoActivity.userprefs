@@ -1,7 +1,9 @@
-﻿<Properties StartupConfiguration="{50BA5754-37A3-466D-A64A-E9180F8450A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="View/ActivityDetailPage.xaml">
+﻿<Properties StartupConfiguration="{E2DC5E7E-5C82-4CDD-9E11-7641FB38C4C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="View/ActivityDetailPage.xaml" Line="5" Column="17" />
+      <File FileName="ViewModel/CreateActivityViewModel.cs" Line="124" Column="47" />
+      <File FileName="View/HomePage.xaml.cs" Line="67" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="64" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,5 +13,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ToDoActivity.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D033E05-B484-472F-B688-E7B4F5560384" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ToDoActivity.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.ToDoActivity.Droid PreferredExecutionTarget="Android.a543ce067d53" />
 </Properties>

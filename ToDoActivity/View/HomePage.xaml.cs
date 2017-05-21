@@ -8,7 +8,6 @@ namespace ToDoActivity
 {
 	public partial class HomePage : ContentPage
 	{
-		private int lastOpenedToDoId;
 		private HomeViewModel homeViewModel;
 
 		public HomePage()
@@ -29,39 +28,7 @@ namespace ToDoActivity
 		protected override async void OnAppearing()
 		{
 			base.OnAppearing();
-			lastOpenedToDoId = 0;
 			toDoList.ItemsSource = await ActivityModel.GetItemsAsync();
-			SubscribeObserver();
-		}
-
-		private void SubscribeObserver()
-		{
-			MessagingCenter.Subscribe<object, int>(this, Constant.kOpenActivityDetailPageKey, (sender, activityId) =>
-			{
-				Device.BeginInvokeOnMainThread(() =>
-				{
-					HandleLocalNotification(activityId, false);
-				});
-
-			});
-
-			MessagingCenter.Subscribe<object, int>(this, Constant.kShowAlertMessageKey, (sender, activityId) =>
-			{
-				Device.BeginInvokeOnMainThread(() =>
-				{
-					HandleLocalNotification(activityId, true);
-				});
-			});
-		}
-
-
-		protected override void OnDisappearing()
-		{
-			base.OnDisappearing();
-			lastOpenedToDoId = 0;
-
-			MessagingCenter.Unsubscribe<object>(this, Constant.kOpenActivityDetailPageKey);
-			MessagingCenter.Unsubscribe<object>(this, Constant.kShowAlertMessageKey);
 		}
 
 		private void OnItemSelected(object o, ItemTappedEventArgs e)
@@ -73,30 +40,25 @@ namespace ToDoActivity
 			Navigation.PushAsync(new ActivityDetailPage(activityModel));
 		}
 
-		private void HandleLocalNotification(int activityId, bool showAlert)
+		public void HandleLocalNotification(int activityId, bool showAlert)
 		{
-			if (lastOpenedToDoId != activityId)
+			foreach (ActivityModel model in toDoList.ItemsSource)
 			{
-				lastOpenedToDoId = activityId;
-
-				foreach (ActivityModel model in toDoList.ItemsSource)
+				if (model.Id == activityId)
 				{
-					if (model.Id == activityId)
+					if (showAlert)
 					{
-						if (showAlert)
-						{
-							DisplayAlert(model.Name, model.Description, Constant.kOkTextKey);
-						}
-						else
-						{
-							if (Navigation.NavigationStack.Count > 1)
-							{
-								Navigation.PopToRootAsync();
-							}
-							Navigation.PushAsync(new ActivityDetailPage(model));
-						}
-						break;
+						DisplayAlert(model.Name, model.Description, Constant.kOkTextKey);
 					}
+					else
+					{
+						if (Navigation.NavigationStack.Count > 1)
+						{
+							Navigation.PopToRootAsync();
+						}
+						Navigation.PushAsync(new ActivityDetailPage(model));
+					}
+					break;
 				}
 			}
 		}

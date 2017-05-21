@@ -11,7 +11,6 @@ namespace ToDoActivity.iOS
 	[Register("AppDelegate")]
 	public partial class AppDelegate : FormsApplicationDelegate
 	{
-		private int recentActivityId;
 
 		public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
 		{
@@ -61,18 +60,13 @@ namespace ToDoActivity.iOS
 				{
 					NSNumber notificationId = (NSNumber)userInfo[Constant.kToDoActivityKey];
 
-					if (recentActivityId != notificationId.Int32Value)
+					if (appState == UIApplicationState.Active)
 					{
-						recentActivityId = notificationId.Int32Value;
-
-						if (appState == UIApplicationState.Active)
-						{
-							MessagingCenter.Send<object, int>(this, Constant.kShowAlertMessageKey, recentActivityId);
-						}
-						else
-						{
-							MessagingCenter.Send<object, int>(this, Constant.kOpenActivityDetailPageKey, recentActivityId);
-						}
+						MessagingCenter.Send<object, int>(this, Constant.kShowAlertMessageKey, notificationId.Int32Value);
+					}
+					else
+					{
+						MessagingCenter.Send<object, int>(this, Constant.kOpenActivityDetailPageKey, notificationId.Int32Value);
 					}
 				}
 			}
