@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ToDoActivity.CreateActivityPage" Title="Add New">
+
 	<ContentPage.ToolbarItems>
 		<ToolbarItem x:Name="toolBarItem" Text="Save" Order="Primary" Command="{Binding SaveCommand}" />
 	</ContentPage.ToolbarItems>
+	
 	<ContentPage.Content>
-		<StackLayout Padding="20" Spacing="10">
+		<StackLayout Style="{StaticResource marginLayout}">
 			<StackLayout Orientation="Horizontal">
 				<Label FontSize="14" Text="Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Entry x:Name="nameEntry" Text="{Binding Name}" Placeholder="Enter name" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray" />
 			</StackLayout>
-			<StackLayout Orientation="Horizontal">
+			<StackLayout Style="{StaticResource horizontalLayout}">
 				<Label FontSize="14" Text="Description:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Entry x:Name="descriptionEntry" Text="{Binding Description}" Placeholder="Enter description" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray" />
 			</StackLayout>
-			<StackLayout Orientation="Horizontal">
+			<StackLayout Style="{StaticResource horizontalLayout}">
 				<Label FontSize="14" Text="Lattitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Label Text="{Binding Lattitude}" HorizontalOptions="FillAndExpand" />
 			</StackLayout>
-			<StackLayout Orientation="Horizontal">
+			<StackLayout Style="{StaticResource horizontalLayout}">
 				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand" />
 			</StackLayout>
-			<StackLayout Orientation="Horizontal" Spacing="10" Padding="0">
+			<StackLayout Padding="0" Style="{StaticResource horizontalMarginLayout}">
 				<Label FontSize="14" Text="Select Date:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<DatePicker x:Name="datePicker" VerticalOptions="CenterAndExpand" Date="{Binding SelectedDate}" DateSelected="HandleDateSelected">
 					<DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
 				</DatePicker>
 			</StackLayout>
-			<StackLayout Orientation="Horizontal" Spacing="10" Padding="0">
+			<StackLayout Padding="0" Style="{StaticResource horizontalMarginLayout}">
 				<Label FontSize="14" Text="Select Time:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<StackLayout Orientation="Vertical" Spacing="10" Padding="0">
+				<StackLayout Orientation="Vertical" Padding="0" Style="{StaticResource horizontalMarginLayout}">
                     <TimePicker x:Name="timePicker" Time="{Binding SelectedDate}" PropertyChanged="HandleTimeChanged"/>
                     <Label FontSize="14" x:Name="errorTimeLabel" Text="" TextColor="Red"/>
                 </StackLayout>
 			</StackLayout>
-			<StackLayout Orientation="Horizontal" Spacing="10" Padding="20" HorizontalOptions="Center">
-				<Button x:Name="deleteButton" Text="Delete" TextColor="White" BackgroundColor="Maroon" Command="{Binding DeleteCommand}" WidthRequest="250" HeightRequest="35" />
+			<StackLayout Style="{StaticResource showValueLayout}">
+				<Button x:Name="deleteButton" Style="{StaticResource deleteButton}"/>
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>

@@ -8,36 +8,36 @@
         <ToolbarItem Text="Edit" Order="Primary" 
                 Command="{Binding EditCommand}" />
     </ContentPage.ToolbarItems>
+	
 	<ContentPage.Content>
-		
-		<StackLayout Padding="20" Spacing="10">
+		<StackLayout Style="{StaticResource marginLayout}">
 
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Label Text="{Binding Name}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			<StackLayout Style="{StaticResource horizontalLayout}">
+				<Label Text="Name:" Style="{StaticResource showPropertName}" />
+				<Label Text="{Binding Name}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Description:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Label Text="{Binding Description}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			<StackLayout Style="{StaticResource horizontalLayout}">
+				<Label Text="Description:" Style="{StaticResource showPropertName}" />
+				<Label Text="{Binding Description}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Due Date:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Label Text="{Binding DueDate}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			<StackLayout Style="{StaticResource horizontalLayout}">
+				<Label Text="Due Date:" Style="{StaticResource showPropertName}" />
+				<Label Text="{Binding DueDate}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Lattitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Label Text="{Binding Lattitude}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			<StackLayout Style="{StaticResource horizontalLayout}">
+				<Label Text="Lattitude:" Style="{StaticResource showPropertName}" />
+				<Label Text="{Binding Lattitude}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
+			<StackLayout Style="{StaticResource horizontalLayout}">
+				<Label Text="Longitude:" Style="{StaticResource showPropertName}" />
+				<Label Text="{Binding Longitude}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
-			<StackLayout Orientation="Horizontal" Spacing="10" Padding="20" HorizontalOptions="Center">
-				<Button x:Name="deleteButton" Text="DELETE" TextColor="White" BackgroundColor="Maroon" Command="{Binding DeleteCommand}" WidthRequest="250" HeightRequest="35"/>
+			<StackLayout Style="{StaticResource showValueLayout}">
+				<Button x:Name="deleteButton" Style="{StaticResource deleteButton}"/>
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>
