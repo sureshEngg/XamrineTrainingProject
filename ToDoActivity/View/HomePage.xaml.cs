@@ -30,7 +30,7 @@ namespace ToDoActivity
 		{
 			base.OnAppearing();
 			lastOpenedActivityId = 0;
-			activityList.ItemsSource = await DatabaseManager.SharedInstance().GetItemsAsync();
+			activityList.ItemsSource = await ActivityModel.GetItemsAsync();
 			SubscribeObserver();
 		}
 

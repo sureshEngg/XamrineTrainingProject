@@ -1,16 +1,8 @@
-﻿<Properties StartupConfiguration="{E2DC5E7E-5C82-4CDD-9E11-7641FB38C4C3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
-    <Files>
-      <File FileName="View/HomePage.xaml.cs" Line="78" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="55" Column="6" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{50BA5754-37A3-466D-A64A-E9180F8450A5}|Default">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/View/CreateActivityPage.xaml.cs" relfile="View/CreateActivityPage.xaml.cs" line="81" column="1" />
-      <Breakpoint file="/Users/nagarro/Projects/Training/Personal/Suresh_ToDo/ToDoActivity/View/HomePage.xaml.cs" relfile="View/HomePage.xaml.cs" line="78" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ToDoActivity.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D033E05-B484-472F-B688-E7B4F5560384" />

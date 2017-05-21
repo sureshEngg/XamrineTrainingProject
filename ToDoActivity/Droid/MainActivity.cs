@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using Android.App;
 using Android.Content.PM;
@@ -101,7 +101,6 @@ namespace ToDoActivity.Droid
                 await GetLocationAsync();
                 return;
             }
-
             await GetLocationPermissionAsync();
         }
 
@@ -159,6 +158,7 @@ namespace ToDoActivity.Droid
                 loc.Latitude = position.Latitude;
                 loc.Longitude = position.Longitude;
                 LocationHandler.Instance().CurrentLocation = loc;
+ILocationHandler.CurrentLocation = loc;
             }
             catch (Exception ex)
             {

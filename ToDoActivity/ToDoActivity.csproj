@@ -61,8 +61,11 @@
     <Compile Include="Data\DataModel\ActivityModel.cs" />
     <Compile Include="View\Custom\Controls\ActivityViewCell.cs" />
     <Compile Include="Data\DataManager\DatabaseManager.cs" />
-    <Compile Include="Core\Common\Shared.cs" />
     <Compile Include="Core\Common\IFileHelper.cs" />
+    <Compile Include="Data\DataModel\RecentEntryModel.cs" />
+    <Compile Include="Core\Common\ILocationHelper.cs" />
+    <Compile Include="Core\Common\ILocalNotificationHelper.cs" />
+    <Compile Include="Data\DataModel\BaseDataModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

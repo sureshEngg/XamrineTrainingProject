@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using ToDoActivity;
 
 namespace ToDoActivity
 {
@@ -21,6 +22,7 @@ namespace ToDoActivity
 		public Command SaveCommand { get; private set; }
 		public Command DeleteCommand { get; private set; }
 
+		// Constructor Method
 		public CreateActivityViewModel(INavigation navigation, ActivityModel activityModel)
 		{
 			this.navigation = navigation;
@@ -42,12 +44,10 @@ namespace ToDoActivity
 			}
 			else
 			{
-				Name = string.Empty;
-				Description = string.Empty;
 				SelectedDate = DateTime.Now;
 
-				double lattitude = DependencyService.Get<IGeoLocation>().GetDeviceLattitude();
-				double longitude = DependencyService.Get<IGeoLocation>().GetDeviceLongitude();
+				double lattitude = DependencyService.Get<ILocationHelper>().GetDeviceLattitude();
+				double longitude = DependencyService.Get<ILocationHelper>().GetDeviceLongitude();
 				Lattitude = lattitude.ToString();
 				Longitude = longitude.ToString();
 
@@ -56,6 +56,35 @@ namespace ToDoActivity
 			}
 		}
 
+		// Public Methods
+
+		public async void SaveRecentEntries()
+		{
+			if (activityModel == null && (Name.Length > 0 || Description.Length > 0))
+			{
+				bool shouldUpdate = true;
+				var entryModel = await RecentEntryModel.GetItemAsync(1);
+
+				if (entryModel == null)
+				{
+					shouldUpdate = false;
+					entryModel = new RecentEntryModel();
+				}
+
+				if (Name.Length > 0)
+				{
+					entryModel.Name = Name;
+				}
+
+				if (Description.Length > 0)
+				{
+					entryModel.Description = Description;
+				}
+				await entryModel.SaveItemAsync(shouldUpdate);
+			}
+		}
+
+		// Private Methods
 		private void UpdateActivityStatus(bool isCompleted)
 		{
 			if (isCompleted)
@@ -68,32 +97,44 @@ namespace ToDoActivity
 			}
 		}
 
+		// User Actions
 		async void Save()
 		{
 			if (isDateValid && Name.Length > 0 && Description.Length > 0)
 			{
+				bool shouldUpdate = true;
+
 				if (activityModel == null)
 				{
+					shouldUpdate = false;
 					activityModel = new ActivityModel();
 				}
 				else
 				{
 					//Cancel scheduled notification
-					DependencyService.Get<IGeoLocation>().CancelNotification(activityModel);
+					DependencyService.Get<ILocalNotificationHelper>().CancelNotification(activityModel);
 				}
 
 				activityModel.Name = Name;
 				activityModel.DueDate = SelectedDate;
 				activityModel.Description = Description;
 				activityModel.Completed = false;
-				activityModel.Lattitude = DependencyService.Get<IGeoLocation>().GetDeviceLattitude();
-				activityModel.Longitude = DependencyService.Get<IGeoLocation>().GetDeviceLongitude();
+				activityModel.Lattitude = DependencyService.Get<ILocationHelper>().GetDeviceLattitude();
+				activityModel.Longitude = DependencyService.Get<ILocationHelper>().GetDeviceLongitude();
 
 				// Save activity
-				await DatabaseManager.SharedInstance().SaveItemAsync(activityModel);
+				await activityModel.SaveItemAsync(shouldUpdate);
 
 				// Schedule notification
-				DependencyService.Get<IGeoLocation>().ScheduleNotification(this.activityModel);
+				DependencyService.Get<ILocalNotificationHelper>().ScheduleNotification(this.activityModel);
+
+				// Delete recent entry data
+				var recentEntryModel = await RecentEntryModel.GetItemAsync(1);
+
+				if (recentEntryModel != null)
+				{
+					await recentEntryModel.DeleteItemAsync();
+				}
 
 				//Pop to root view page.
 				await navigation.PopToRootAsync();
@@ -103,10 +144,10 @@ namespace ToDoActivity
 		async void Delete()
 		{
 			//Cancel scheduled notification
-			DependencyService.Get<IGeoLocation>().CancelNotification(activityModel);
+			DependencyService.Get<ILocalNotificationHelper>().CancelNotification(activityModel);
 
 			// Save activity
-			await DatabaseManager.SharedInstance().DeleteItemAsync(activityModel);
+			await activityModel.DeleteItemAsync();
 
 			//Pop to root view page.
 			await navigation.PopToRootAsync();

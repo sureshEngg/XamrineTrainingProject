@@ -18,22 +18,30 @@ namespace ToDoActivity.iOS
 			Forms.Init();
 			LoadApplication(new App());
 
-			// Check for a local notification
+			// Register for local notification alerts
+			var settings = UIUserNotificationSettings.GetSettingsForTypes(UIUserNotificationType.Alert, null);
+			UIApplication.SharedApplication.RegisterUserNotificationSettings(settings);
+
+			// Check if app opend through user action on local notification
 			if (launchOptions != null && launchOptions.ContainsKey(UIApplication.LaunchOptionsLocalNotificationKey))
 			{
 				var localNotification = launchOptions[UIApplication.LaunchOptionsLocalNotificationKey] as UILocalNotification;
 				if (localNotification != null)
 				{
-					// Handle Notification
+					// Handle action on local lotification
 					HandleLocalNotification(localNotification);
 				}
 			}
+
+			// Create location manager to start location fetch;
+			ILocationManager.Instance();
+
 			return base.FinishedLaunching(uiApplication, launchOptions);
 		}
 
 		public override void ReceivedLocalNotification(UIApplication application, UILocalNotification notification)
 		{
-			// Handle Notification
+			// Handle action on local lotification
 			HandleLocalNotification(notification);
 		}
 

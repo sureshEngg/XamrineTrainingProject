@@ -54,10 +54,10 @@ namespace ToDoActivity
 		async void Delete()
 		{
 			//Cancel scheduled notification
-			DependencyService.Get<IGeoLocation>().CancelNotification(activityModel);
+			DependencyService.Get<ILocalNotificationHelper>().CancelNotification(activityModel);
 
 			// Save activity
-			await DatabaseManager.SharedInstance().DeleteItemAsync(activityModel);
+			await activityModel.DeleteItemAsync();
 
 			// Pop to home page.
 			await navigation.PopAsync();

@@ -26,10 +26,33 @@ namespace ToDoActivity
 			else
 			{
 				deleteButton.IsVisible = false;
+				LoadRecentEntry();
 
 				var Date = DateTime.Now;
 				datePicker.MinimumDate = Date;
 				timePicker.Time = new TimeSpan(Date.Hour, Date.Minute, 0);
+			}
+		}
+
+		protected override void OnDisappearing()
+		{
+			base.OnDisappearing();
+			viewModel.SaveRecentEntries();
+		}
+
+		private async void LoadRecentEntry()
+		{
+			var entryModel = await RecentEntryModel.GetItemAsync(1);
+
+			if (entryModel != null)
+			{
+				nameEntry.Text = entryModel.Name;
+				descriptionEntry.Text = entryModel.Description;
+			}
+			else
+			{
+				nameEntry.Text = string.Empty;
+				descriptionEntry.Text = string.Empty;
 			}
 		}
 
