@@ -8,7 +8,7 @@ using ToDoActivity.Droid;
 [assembly: Xamarin.Forms.Dependency(typeof(INotificationHandler))]
 namespace ToDoActivity.Droid
 {
-    public class INotificationHandler
+	public class INotificationHandler : ILocalNotificationHelper
     {
 
         private static INotificationHandler _instance = new INotificationHandler();
