@@ -13,7 +13,7 @@
 		<StackLayout Padding="20" Spacing="10">
 
 			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Activity Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label FontSize="14" Text="Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Label Text="{Binding Name}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
 			</StackLayout>
 
@@ -23,12 +23,7 @@
 			</StackLayout>
 
 			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Status:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Label Text="{Binding Status}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
-			</StackLayout>
-
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="DueDate:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label FontSize="14" Text="Due Date:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Label Text="{Binding DueDate}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
 			</StackLayout>
 
@@ -41,8 +36,8 @@
 				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
 				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray"/>
 			</StackLayout>
-			<StackLayout Orientation="Horizontal" Spacing="10" Padding="20">
-				<Button x:Name="deleteButton" Text="Delete" TextColor="White" BackgroundColor="Red" Command="{Binding DeleteCommand}" WidthRequest="300" HeightRequest="35" />
+			<StackLayout Orientation="Horizontal" Spacing="10" Padding="20" HorizontalOptions="Center">
+				<Button x:Name="deleteButton" Text="DELETE" TextColor="White" BackgroundColor="Maroon" Command="{Binding DeleteCommand}" WidthRequest="250" HeightRequest="35"/>
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>

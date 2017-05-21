@@ -14,7 +14,6 @@ namespace ToDoActivity
 		public string DueDate { get; set; }
 		public string Lattitude { get; set; }
 		public string Longitude { get; set; }
-		public string Status { get; set; }
 
 		public ActivityDetailViewModel(INavigation navigation, ActivityModel activityModel)
 		{
@@ -28,15 +27,6 @@ namespace ToDoActivity
 				DueDate = activityModel.DueDate.ToString();
 				Lattitude = activityModel.Lattitude.ToString();
 				Longitude = activityModel.Longitude.ToString();
-
-				if (activityModel.Completed)
-				{
-					Status = "Completed";
-				}
-				else
-				{
-					Status = "Not Completed";
-				}
 			}
 
 			EditCommand = new Command(Edit);

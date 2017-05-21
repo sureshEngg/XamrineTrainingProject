@@ -38,9 +38,6 @@ namespace ToDoActivity
 				SelectedDate = activityModel.DueDate;
 				Lattitude = activityModel.Lattitude.ToString();
 				Longitude = activityModel.Longitude.ToString();
-
-				// Update Status
-				UpdateActivityStatus(activityModel.Completed);
 			}
 			else
 			{
@@ -50,9 +47,6 @@ namespace ToDoActivity
 				double longitude = DependencyService.Get<ILocationHelper>().GetDeviceLongitude();
 				Lattitude = lattitude.ToString();
 				Longitude = longitude.ToString();
-
-				// Update Status
-				UpdateActivityStatus(false);
 			}
 		}
 
@@ -92,19 +86,6 @@ namespace ToDoActivity
 			}
 		}
 
-		// Private Methods
-		private void UpdateActivityStatus(bool isCompleted)
-		{
-			if (isCompleted)
-			{
-				Status = "Completed";
-			}
-			else
-			{
-				Status = "Not Completed";
-			}
-		}
-
 		// User Actions
 		async void Save()
 		{
@@ -126,7 +107,6 @@ namespace ToDoActivity
 				activityModel.Name = Name;
 				activityModel.DueDate = SelectedDate;
 				activityModel.Description = Description;
-				activityModel.Completed = false;
 				activityModel.Lattitude = DependencyService.Get<ILocationHelper>().GetDeviceLattitude();
 				activityModel.Longitude = DependencyService.Get<ILocationHelper>().GetDeviceLongitude();
 

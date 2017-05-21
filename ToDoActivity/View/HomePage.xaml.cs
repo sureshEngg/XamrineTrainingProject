@@ -8,7 +8,7 @@ namespace ToDoActivity
 {
 	public partial class HomePage : ContentPage
 	{
-		private int lastOpenedActivityId;
+		private int lastOpenedToDoId;
 		private HomeViewModel homeViewModel;
 
 		public HomePage()
@@ -29,8 +29,8 @@ namespace ToDoActivity
 		protected override async void OnAppearing()
 		{
 			base.OnAppearing();
-			lastOpenedActivityId = 0;
-			activityList.ItemsSource = await ActivityModel.GetItemsAsync();
+			lastOpenedToDoId = 0;
+			toDoList.ItemsSource = await ActivityModel.GetItemsAsync();
 			SubscribeObserver();
 		}
 
@@ -58,7 +58,7 @@ namespace ToDoActivity
 		protected override void OnDisappearing()
 		{
 			base.OnDisappearing();
-			lastOpenedActivityId = 0;
+			lastOpenedToDoId = 0;
 
 			MessagingCenter.Unsubscribe<object>(this, "OpenActivityDetailPage");
 			MessagingCenter.Unsubscribe<object>(this, "ShowAlertMessage");
@@ -67,7 +67,7 @@ namespace ToDoActivity
 		private void OnItemSelected(object o, ItemTappedEventArgs e)
 		{
 			// Deselect cell
-			activityList.SelectedItem = null;
+			toDoList.SelectedItem = null;
 
 			var activityModel = e.Item as ActivityModel;
 			Navigation.PushAsync(new ActivityDetailPage(activityModel));
@@ -75,11 +75,11 @@ namespace ToDoActivity
 
 		private void HandleLocalNotification(int activityId, bool showAlert)
 		{
-			if (lastOpenedActivityId != activityId)
+			if (lastOpenedToDoId != activityId)
 			{
-				lastOpenedActivityId = activityId;
+				lastOpenedToDoId = activityId;
 
-				foreach (ActivityModel model in activityList.ItemsSource)
+				foreach (ActivityModel model in toDoList.ItemsSource)
 				{
 					if (model.Id == activityId)
 					{
