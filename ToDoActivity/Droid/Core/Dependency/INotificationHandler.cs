@@ -18,14 +18,14 @@ namespace ToDoActivity.Droid
             return _instance;
         }
 
-        // Schedule the notification for the future time when a TODO due date appears
+        // Schedule the notification for the future time when a ToDo due date appears
         public void ScheduleNotification(ActivityModel activityModel)
         {
             if (activityModel != null)
             {
                 Intent alarmIntent = new Intent(Forms.Context, typeof(INotificationPublisher));
-                alarmIntent.PutExtra("title", activityModel.Name);
-                alarmIntent.PutExtra("message", activityModel.Description);
+				alarmIntent.PutExtra(Constant.kTitleTextKey, activityModel.Name);
+				alarmIntent.PutExtra(Constant.kMessageTextKey, activityModel.Description);
 
                 PendingIntent pendingIntent = PendingIntent.GetBroadcast(Forms.Context, 0, alarmIntent, PendingIntentFlags.UpdateCurrent);
                 AlarmManager alarmManager = (AlarmManager)Forms.Context.GetSystemService(Context.AlarmService);

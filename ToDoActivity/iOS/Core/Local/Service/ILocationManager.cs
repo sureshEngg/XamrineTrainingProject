@@ -29,15 +29,11 @@ namespace ToDoActivity.iOS
 			if (CLLocationManager.LocationServicesEnabled)
 			{
 				LocationService.StartUpdatingLocation();
-				//LocationService.StartMonitoringSignificantLocationChanges();
 			}
 			else
 			{
-				Console.WriteLine("Location services not enabled, please enable this in your Settings");
-
 				LocationService.AuthorizationChanged += (sender, args) =>
 				{
-					Console.WriteLine("Authorization changed to: {0}", args.Status);
 					LocationService.StartUpdatingLocation();
 				};
 			}

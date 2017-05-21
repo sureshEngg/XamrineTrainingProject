@@ -12,7 +12,7 @@ namespace ToDoActivity.iOS
 		public string GetLocalFilePath(string filename)
 		{
 			string docFolder = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-			string libFolder = Path.Combine(docFolder, "..", "Library", "Databases");
+			string libFolder = Path.Combine(docFolder, Constant.kTwoDotsTextKey, Constant.kLibraryTextKey, Constant.kDatabaseTextKey);
 
 			if (!Directory.Exists(libFolder))
 			{

@@ -17,13 +17,13 @@ namespace ToDoActivity
 			homeViewModel = new HomeViewModel();
 			BindingContext = homeViewModel;
 
-			ToolbarItems.Add(new ToolbarItem("New", null, () =>
+			ToolbarItems.Add(new ToolbarItem(Constant.kNewTextKey, null, () =>
 			{
 				Navigation.PushAsync(new CreateActivityPage(null));
 			}));
 
 			// Update Back button name
-			NavigationPage.SetBackButtonTitle(this, "Back");
+			NavigationPage.SetBackButtonTitle(this, Constant.kBackTextKey);
 		}
 
 		protected override async void OnAppearing()
@@ -36,7 +36,7 @@ namespace ToDoActivity
 
 		private void SubscribeObserver()
 		{
-			MessagingCenter.Subscribe<object, int>(this, "OpenActivityDetailPage", (sender, activityId) =>
+			MessagingCenter.Subscribe<object, int>(this, Constant.kOpenActivityDetailPageKey, (sender, activityId) =>
 			{
 				Device.BeginInvokeOnMainThread(() =>
 				{
@@ -45,7 +45,7 @@ namespace ToDoActivity
 
 			});
 
-			MessagingCenter.Subscribe<object, int>(this, "ShowAlertMessage", (sender, activityId) =>
+			MessagingCenter.Subscribe<object, int>(this, Constant.kShowAlertMessageKey, (sender, activityId) =>
 			{
 				Device.BeginInvokeOnMainThread(() =>
 				{
@@ -60,8 +60,8 @@ namespace ToDoActivity
 			base.OnDisappearing();
 			lastOpenedToDoId = 0;
 
-			MessagingCenter.Unsubscribe<object>(this, "OpenActivityDetailPage");
-			MessagingCenter.Unsubscribe<object>(this, "ShowAlertMessage");
+			MessagingCenter.Unsubscribe<object>(this, Constant.kOpenActivityDetailPageKey);
+			MessagingCenter.Unsubscribe<object>(this, Constant.kShowAlertMessageKey);
 		}
 
 		private void OnItemSelected(object o, ItemTappedEventArgs e)
@@ -85,7 +85,7 @@ namespace ToDoActivity
 					{
 						if (showAlert)
 						{
-							DisplayAlert(model.Name, model.Description, "OK");
+							DisplayAlert(model.Name, model.Description, Constant.kOkTextKey);
 						}
 						else
 						{

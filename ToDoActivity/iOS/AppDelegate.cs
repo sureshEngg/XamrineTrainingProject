@@ -59,7 +59,7 @@ namespace ToDoActivity.iOS
 
 				if (userInfo != null)
 				{
-					NSNumber notificationId = (NSNumber)userInfo["kIdKey"];
+					NSNumber notificationId = (NSNumber)userInfo[Constant.kToDoActivityKey];
 
 					if (recentActivityId != notificationId.Int32Value)
 					{
@@ -67,11 +67,11 @@ namespace ToDoActivity.iOS
 
 						if (appState == UIApplicationState.Active)
 						{
-							MessagingCenter.Send<object, int>(this, "ShowAlertMessage", recentActivityId);
+							MessagingCenter.Send<object, int>(this, Constant.kShowAlertMessageKey, recentActivityId);
 						}
 						else
 						{
-							MessagingCenter.Send<object, int>(this, "OpenActivityDetailPage", recentActivityId);
+							MessagingCenter.Send<object, int>(this, Constant.kOpenActivityDetailPageKey, recentActivityId);
 						}
 					}
 				}

@@ -18,7 +18,7 @@ namespace ToDoActivity
 			BindingContext = activityDetailViewModel;
 
 			// Update Back button name
-			NavigationPage.SetBackButtonTitle(this, "Back");
+			NavigationPage.SetBackButtonTitle(this, Constant.kBackTextKey);
 		}
 	}
 }

@@ -18,7 +18,7 @@ namespace ToDoActivity
 
 		public DatabaseManager()
 		{
-			string dbPath = DependencyService.Get<IFileHelper>().GetLocalFilePath("TodoSQLite.db3");
+			string dbPath = DependencyService.Get<IFileHelper>().GetLocalFilePath(Constant.kDatabaseNameKey);
 			database = new SQLiteAsyncConnection(dbPath);
 			database.CreateTableAsync<ActivityModel>().Wait();
 			database.CreateTableAsync<RecentEntryModel>().Wait();

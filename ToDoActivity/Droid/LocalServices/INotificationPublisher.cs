@@ -15,8 +15,8 @@ namespace ToDoActivity.Droid
 
         public override void OnReceive(Context context, Intent intent)
         {
-            var message = intent.GetStringExtra("message");
-            var title = intent.GetStringExtra("title");
+			var message = intent.GetStringExtra(Constant.kMessageTextKey);
+			var title = intent.GetStringExtra(Constant.kTitleTextKey);
           
             // When the user clicks the notification, SecondActivity will start up.
             Intent resultIntent = new Intent(context, typeof(MainActivity));

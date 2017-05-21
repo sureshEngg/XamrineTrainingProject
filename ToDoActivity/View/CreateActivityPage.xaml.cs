@@ -17,7 +17,7 @@ namespace ToDoActivity
 
 			if (activityModel != null)
 			{
-				Title = "Edit";
+				Title = Constant.kEditTextKey;
 				deleteButton.IsVisible = true;
 
 				datePicker.MinimumDate = activityModel.DueDate;
@@ -112,12 +112,12 @@ namespace ToDoActivity
 				if (result >= 0)
 				{
 					viewModel.isDateValid = false;
-					errorTimeLabel.Text = "Please select future time!";
+					errorTimeLabel.Text = Constant.kSelectTimeAlertKey;
 				}
 				else
 				{
 					viewModel.isDateValid = true;
-					errorTimeLabel.Text = "";
+					errorTimeLabel.Text = string.Empty;
 				}
 			}
 		}

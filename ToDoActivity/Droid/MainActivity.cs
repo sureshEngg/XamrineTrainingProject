@@ -56,7 +56,7 @@ namespace ToDoActivity.Droid
             }
             catch (Exception ex)
             {
-                Toast.MakeText(this, "Error in GPS = " + ex.Message, ToastLength.Long).Show();
+				Toast.MakeText(this, Constant.kErrorForGPSFailureKey + ex.Message, ToastLength.Long).Show();
             }
 
             try
@@ -65,7 +65,7 @@ namespace ToDoActivity.Droid
             }
             catch (Exception ex)
             {
-                Toast.MakeText(this, "Error in Network = " + ex.Message, ToastLength.Long).Show();
+				Toast.MakeText(this, Constant.kErrorForNetworkFailureKey + ex.Message, ToastLength.Long).Show();
             }
 
             if (!gps_enabled)
@@ -117,7 +117,7 @@ namespace ToDoActivity.Droid
             if (ShouldShowRequestPermissionRationale(permission))
             {
                 //Explain to the user why we need to read the contacts
-                Toast.MakeText(this, "Location access is required to read current location.", ToastLength.Long).Show();
+				Toast.MakeText(this, Constant.kLocationPermissionMessageKey, ToastLength.Long).Show();
                 RequestPermissions(PermissionsLocation, RequestLocationId);
                 return;
             }
@@ -138,7 +138,7 @@ namespace ToDoActivity.Droid
                         }
                         else
                         {
-                            Toast.MakeText(this, "GPS will not be available for Application due denial of GPS permission!", ToastLength.Long).Show();
+							Toast.MakeText(this, Constant.kGPSPermissionMessageKey, ToastLength.Long).Show();
                         }
                     }
                     break;
@@ -151,8 +151,8 @@ namespace ToDoActivity.Droid
             try
             {
                 var locator = CrossGeolocator.Current;
-                locator.DesiredAccuracy = 500000;
-                var position = await locator.GetPositionAsync(50000);
+				locator.DesiredAccuracy = Constant.kDesiredLocationAccuracyValue;
+                var position = await locator.GetPositionAsync(Constant.kDesiredLocationAccuracyValue);
 
 				String locationProvider = null;
 				Location loc = new Location(locationProvider);
@@ -163,7 +163,7 @@ namespace ToDoActivity.Droid
             catch (Exception ex)
             {
 
-                Toast.MakeText(this, "Unable to get location: " + ex.ToString(), ToastLength.Long).Show();
+				Toast.MakeText(this, Constant.kLocationFetchFailedMessageKey + ex.ToString(), ToastLength.Long).Show();
             }
         }
 

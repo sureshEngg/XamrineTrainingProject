@@ -29,11 +29,11 @@ namespace ToDoActivity.iOS
 				notification.TimeZone = NSTimeZone.DefaultTimeZone;
 
 				notification.AlertTitle = activityModel.Name;
-				notification.AlertAction = "View";
+				notification.AlertAction = Constant.kViewTextKey;
 				notification.AlertBody = activityModel.Description;
 
 				var notificationId = new NSNumber(activityModel.Id);
-				var userInfo = new NSDictionary("kIdKey", notificationId);
+				var userInfo = new NSDictionary(Constant.kToDoActivityKey, notificationId);
 				notification.UserInfo = userInfo;
 				UIApplication.SharedApplication.ScheduleLocalNotification(notification);
 			}
@@ -53,7 +53,7 @@ namespace ToDoActivity.iOS
 
 				if (userInfo != null)
 				{
-					NSNumber notificationId = (NSNumber)userInfo["kIdKey"];
+					NSNumber notificationId = (NSNumber)userInfo[Constant.kToDoActivityKey];
 
 					if (notificationId.Int32Value == activityModel.Id)
 					{
