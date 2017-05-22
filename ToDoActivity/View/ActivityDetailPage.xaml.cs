@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using ToDoActivity.Support;
 using Xamarin.Forms;
 
 namespace ToDoActivity
@@ -16,9 +16,9 @@ namespace ToDoActivity
 
 			activityDetailViewModel = new ActivityDetailViewModel(Navigation, activityModel);
 			BindingContext = activityDetailViewModel;
-
-			// Update Back button name
-			NavigationPage.SetBackButtonTitle(this, Constant.kBackTextKey);
+            
+            // Update Back button name
+            NavigationPage.SetBackButtonTitle(this, LocalizedResources.BackTextKey);
 		}
 	}
 }

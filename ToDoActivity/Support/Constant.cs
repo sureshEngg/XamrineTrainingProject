@@ -1,4 +1,6 @@
 ﻿using System;
+using ToDoActivity.Support;
+
 namespace ToDoActivity
 {
 	public static class Constant
@@ -11,18 +13,7 @@ namespace ToDoActivity
 		public static string kLibraryTextKey = "Library";
 		public static string kDatabaseNameKey = "TodoSQLite.db3";
 		public static string kTwoDotsTextKey = "..";
-
-
-		// Common string constant
-		public static string kOkTextKey = "OK";
-		public static string kEditTextKey = "Edit";
-		public static string kNewTextKey = "New";
-		public static string kSaveTextKey = "Save";
-		public static string kBackTextKey = "Back";
-		public static string kViewTextKey = "View";
-		public static string kTitleTextKey = "Title";
-		public static string kMessageTextKey = "Message";
-
+        
 		// Key for schedule notification id
 		public static string kToDoActivityKey = "ToDoIdActivityId";
 
@@ -30,12 +21,16 @@ namespace ToDoActivity
 		public static string kShowAlertMessageKey = "ShowAlertMessage";
 		public static string kOpenActivityDetailPageKey = "OpenActivityDetailPage";
 
-		// Message constant
-		public static string kLocationFetchFailedMessageKey = "Unable to get location: ";
-		public static string kSelectTimeAlertKey = "Please select future time!";
-		public static string kErrorForGPSFailureKey = "Error in GPS = ";
-		public static string kErrorForNetworkFailureKey = "Error in Network = ";
-		public static string kLocationPermissionMessageKey = "Location access is required to read current location.";
-		public static string kGPSPermissionMessageKey = "GPS will not be available for Application due denial of GPS permission!";
+        //Common string constants used in Droid and iOS
+        public static string kViewTextKey = LocalizedResources.ViewTextKey;
+        public static string kTitleTextKey = LocalizedResources.TitleTextKey;
+        public static string kMessageTextKey = LocalizedResources.MessageTextKey;
+
+        // Message constant
+        public static string kLocationFetchFailedMessageKey = LocalizedResources.LocationFetchFailedMessageKey;
+		public static string kErrorForGPSFailureKey = LocalizedResources.ErrorForGPSFailureKey;
+		public static string kErrorForNetworkFailureKey = LocalizedResources.ErrorForNetworkFailureKey;
+		public static string kLocationPermissionMessageKey = LocalizedResources.LocationPermissionMessageKey;
+		public static string kGPSPermissionMessageKey = LocalizedResources.GPSPermissionMessageKey;
 	}
 }

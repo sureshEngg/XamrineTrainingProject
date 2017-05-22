@@ -17,7 +17,7 @@ using Xamarin.Forms.PlatformConfiguration;
 
 namespace ToDoActivity.Droid
 {
-	[Activity(Label = "ToDoActivity.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	[Activity(Label = "ToDo", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : FormsAppCompatActivity
 	{
 		// All variable declared here
@@ -37,7 +37,7 @@ namespace ToDoActivity.Droid
 
 			base.OnCreate(savedInstanceState);
 			Forms.Init(this, savedInstanceState);
-
+           
 			CheckForGPSSettings();
 			LoadApplication(new App());
 		}

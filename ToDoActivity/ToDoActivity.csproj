@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -39,9 +39,10 @@
     <EmbeddedResource Include="View\ActivityDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Support\AppResources.resx">
+    <EmbeddedResource Include="Support\LocalizedResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <LastGenOutput>LocalizedResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -71,8 +72,10 @@
     <Compile Include="Core\Common\ILocalNotificationHelper.cs" />
     <Compile Include="Data\DataModel\BaseDataModel.cs" />
     <Compile Include="Support\Constant.cs" />
-    <Compile Include="Support\AppResources.Designer.cs">
-      <DependentUpon>AppResources.resx</DependentUpon>
+    <Compile Include="Support\LocalizedResources.Designer.cs">
+      <DependentUpon>LocalizedResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -101,18 +104,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\" />
-    <Folder Include="ViewModel\" />
-    <Folder Include="Core\" />
-    <Folder Include="Data\" />
-    <Folder Include="Data\DataModel\" />
-    <Folder Include="Data\DataManager\" />
-    <Folder Include="View\Custom\" />
-    <Folder Include="View\Custom\Controls\" />
-    <Folder Include="Core\Common\" />
-    <Folder Include="Support\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
 </Project>
