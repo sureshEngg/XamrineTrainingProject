@@ -3,8 +3,6 @@ namespace ToDoActivity
 {
 	public static class Constant
 	{
-
-
 		// Value constant
 		public static int kDesiredLocationAccuracyValue = 500000;
 

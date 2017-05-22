@@ -48,11 +48,6 @@ namespace ToDoActivity.Droid
 
         public void CancelNotification(ActivityModel activityModel)
         {
-            //Intent intent = new Intent(Forms.Context, typeof(NotificationPublisher));
-            //PendingIntent sender = PendingIntent.GetBroadcast(Forms.Context, 0, intent, 0);
-
-            //AlarmManager alarmManager = (AlarmManager)Forms.Context.GetSystemService(Context.AlarmService);
-            //alarmManager.Cancel(sender);
         }
     }
 
