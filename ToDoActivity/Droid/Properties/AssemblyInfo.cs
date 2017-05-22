@@ -10,7 +10,7 @@ using Android.App;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("nagarro")]
+[assembly: AssemblyCopyright("ToDo")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
