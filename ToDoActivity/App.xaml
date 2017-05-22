@@ -16,13 +16,15 @@
 			<Style x:Key="showValueLayout" TargetType="StackLayout" BasedOn="{StaticResource horizontalMarginLayout}">
 				<Setter Property="HorizontalOptions" Value="Center" />
 			</Style>
+			<Style x:Key="fontAdjustLabel" TargetType="Label">
+				<Setter Property="FontSize" Value="14" />
+			</Style>
 			<Style x:Key="showValueLabel" TargetType="Label">
 				<Setter Property="HorizontalOptions" Value="FillAndExpand" />
 				<Setter Property="TextColor" Value="White" />
 				<Setter Property="BackgroundColor" Value="Gray" />
 			</Style>
-			<Style x:Key="showPropertName" TargetType="Label">
-				<Setter Property="FontSize" Value="14" />
+			<Style x:Key="showPropertyName" TargetType="Label" BasedOn="{StaticResource fontAdjustLabel}">
 				<Setter Property="HorizontalOptions" Value="Start" />
 				<Setter Property="VerticalOptions" Value="Center" />
 				<Setter Property="WidthRequest" Value="100" />

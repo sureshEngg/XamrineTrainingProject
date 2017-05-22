@@ -1,43 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ToDoActivity.CreateActivityPage" Title="Add New">
-
 	<ContentPage.ToolbarItems>
 		<ToolbarItem x:Name="toolBarItem" Text="Save" Order="Primary" Command="{Binding SaveCommand}" />
 	</ContentPage.ToolbarItems>
-	
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="entryFieldStype" TargetType="Entry">
+				<Setter Property="HorizontalOptions" Value="FillAndExpand" />
+				<Setter Property="TextColor" Value="White" />
+				<Setter Property="BackgroundColor" Value="Gray" />
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
 	<ContentPage.Content>
 		<StackLayout Style="{StaticResource marginLayout}">
-			<StackLayout Orientation="Horizontal">
-				<Label FontSize="14" Text="Name:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Entry x:Name="nameEntry" Text="{Binding Name}" Placeholder="Enter name" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray" />
+			<StackLayout Style="{StaticResource horizontalLayout}">
+				<Label Text="Name:" Style="{StaticResource showPropertyName}" />
+				<Entry x:Name="nameEntry" Text="{Binding Name}" Placeholder="Enter name" Style="{StaticResource entryFieldStype}" />
 			</StackLayout>
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label FontSize="14" Text="Description:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
-				<Entry x:Name="descriptionEntry" Text="{Binding Description}" Placeholder="Enter description" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray" />
+				<Label Text="Description:" Style="{StaticResource showPropertyName}" />
+				<Entry x:Name="descriptionEntry" Text="{Binding Description}" Placeholder="Enter description" Style="{StaticResource entryFieldStype}" />
 			</StackLayout>
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label FontSize="14" Text="Lattitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="Lattitude:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding Lattitude}" HorizontalOptions="FillAndExpand" />
 			</StackLayout>
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label FontSize="14" Text="Longitude:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="Longitude:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding Longitude}" HorizontalOptions="FillAndExpand" />
 			</StackLayout>
 			<StackLayout Padding="0" Style="{StaticResource horizontalMarginLayout}">
-				<Label FontSize="14" Text="Select Date:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="Select Date:" Style="{StaticResource showPropertyName}" />
 				<DatePicker x:Name="datePicker" VerticalOptions="CenterAndExpand" Date="{Binding SelectedDate}" DateSelected="HandleDateSelected">
 					<DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
 				</DatePicker>
 			</StackLayout>
 			<StackLayout Padding="0" Style="{StaticResource horizontalMarginLayout}">
-				<Label FontSize="14" Text="Select Time:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+				<Label Text="Select Time:" Style="{StaticResource showPropertyName}" />
 				<StackLayout Orientation="Vertical" Padding="0" Style="{StaticResource horizontalMarginLayout}">
-                    <TimePicker x:Name="timePicker" Time="{Binding SelectedDate}" PropertyChanged="HandleTimeChanged"/>
-                    <Label FontSize="14" x:Name="errorTimeLabel" Text="" TextColor="Red"/>
-                </StackLayout>
+					<TimePicker x:Name="timePicker" Time="{Binding SelectedDate}" PropertyChanged="HandleTimeChanged" />
+					<Label x:Name="errorTimeLabel" TextColor="Red" Style="{StaticResource fontAdjustLabel}"/>
+				</StackLayout>
 			</StackLayout>
 			<StackLayout Style="{StaticResource showValueLayout}">
-				<Button x:Name="deleteButton" Style="{StaticResource deleteButton}"/>
+				<Button x:Name="deleteButton" Style="{StaticResource deleteButton}" />
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>

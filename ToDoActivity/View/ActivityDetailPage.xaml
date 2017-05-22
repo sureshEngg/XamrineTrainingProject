@@ -13,27 +13,27 @@
 		<StackLayout Style="{StaticResource marginLayout}">
 
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label Text="Name:" Style="{StaticResource showPropertName}" />
+				<Label Text="Name:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding Name}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label Text="Description:" Style="{StaticResource showPropertName}" />
+				<Label Text="Description:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding Description}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label Text="Due Date:" Style="{StaticResource showPropertName}" />
+				<Label Text="Due Date:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding DueDate}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label Text="Lattitude:" Style="{StaticResource showPropertName}" />
+				<Label Text="Lattitude:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding Lattitude}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 
 			<StackLayout Style="{StaticResource horizontalLayout}">
-				<Label Text="Longitude:" Style="{StaticResource showPropertName}" />
+				<Label Text="Longitude:" Style="{StaticResource showPropertyName}" />
 				<Label Text="{Binding Longitude}" Style="{StaticResource showValueLabel}"/>
 			</StackLayout>
 			<StackLayout Style="{StaticResource showValueLayout}">
