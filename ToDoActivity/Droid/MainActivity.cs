@@ -17,160 +17,156 @@ using Xamarin.Forms.PlatformConfiguration;
 
 namespace ToDoActivity.Droid
 {
-    [Activity(Label = "ToDoActivity.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : FormsAppCompatActivity
-    {
-        // All variable declared here
-        static readonly string TAG = "X:" + typeof(MainActivity).Name;
-        int WIFI_SETTINGS_REQ_CODE = 100;
-        const int RequestLocationId = 0;
+	[Activity(Label = "ToDoActivity.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	public class MainActivity : FormsAppCompatActivity
+	{
+		// All variable declared here
+		static readonly string TAG = "X:" + typeof(MainActivity).Name;
+		int WIFI_SETTINGS_REQ_CODE = 100;
+		const int RequestLocationId = 0;
 
-        readonly string[] PermissionsLocation =
-            {
-                Manifest.Permission.AccessCoarseLocation,
-                Manifest.Permission.AccessFineLocation
-            };
+		readonly string[] PermissionsLocation = {
+			Manifest.Permission.AccessCoarseLocation,
+			Manifest.Permission.AccessFineLocation
+		};
 
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+		protected override void OnCreate(Bundle savedInstanceState)
+		{
+			TabLayoutResource = Resource.Layout.Tabbar;
+			ToolbarResource = Resource.Layout.Toolbar;
 
-            base.OnCreate(savedInstanceState);
-            Forms.Init(this, savedInstanceState);
+			base.OnCreate(savedInstanceState);
+			Forms.Init(this, savedInstanceState);
 
-            CheckForGPSSettings();
-            LoadApplication(new App());
-        }
+			CheckForGPSSettings();
+			LoadApplication(new App());
+		}
 
-        // To check if Wifi is available from any mode either from GPS or Wifi
-        private void CheckForGPSSettings()
-        {
-            Boolean gps_enabled = false;
-            Boolean network_enabled = false;
+		// To check if Wifi is available from any mode either from GPS or Wifi
+		private void CheckForGPSSettings()
+		{
+			Boolean gps_enabled = false;
+			Boolean network_enabled = false;
 
-            LocationManager _locationManager = (LocationManager)GetSystemService(LocationService);
-            try
-            {
-                gps_enabled = _locationManager.IsProviderEnabled(LocationManager.GpsProvider);
-            }
-            catch (Exception ex)
-            {
+			LocationManager _locationManager = (LocationManager)GetSystemService(LocationService);
+			try
+			{
+				gps_enabled = _locationManager.IsProviderEnabled(LocationManager.GpsProvider);
+			}
+			catch (Exception ex)
+			{
 				Toast.MakeText(this, Constant.kErrorForGPSFailureKey + ex.Message, ToastLength.Long).Show();
-            }
+			}
 
-            try
-            {
-                network_enabled = _locationManager.IsProviderEnabled(LocationManager.NetworkProvider);
-            }
-            catch (Exception ex)
-            {
+			try
+			{
+				network_enabled = _locationManager.IsProviderEnabled(LocationManager.NetworkProvider);
+			}
+			catch (Exception ex)
+			{
 				Toast.MakeText(this, Constant.kErrorForNetworkFailureKey + ex.Message, ToastLength.Long).Show();
-            }
+			}
 
-            if (!gps_enabled)
-            {
-                var intent = new Intent(Android.Provider.Settings.ActionLocationSourceSettings);
-                StartActivityForResult(intent, WIFI_SETTINGS_REQ_CODE);
-            }
-            else
-            {
-                SetUpLocationServicesAsync();
-            }
-        }
+			if (!gps_enabled)
+			{
+				var intent = new Intent(Android.Provider.Settings.ActionLocationSourceSettings);
+				StartActivityForResult(intent, WIFI_SETTINGS_REQ_CODE);
+			}
+			else
+			{
+				SetUpLocationServicesAsync();
+			}
+		}
 
-        //When User come back from the GPS Setting screen, need to initiate GPS stuff
-        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
-        {
-            if (requestCode == WIFI_SETTINGS_REQ_CODE)
-                CheckForGPSSettings();
-        }
+		//When User come back from the GPS Setting screen, need to initiate GPS stuff
+		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+		{
+			if (requestCode == WIFI_SETTINGS_REQ_CODE)
+				CheckForGPSSettings();
+		}
 
-        // Prior to fetching current location
-        private async void SetUpLocationServicesAsync()
-        {
-            await TryGetLocationAsync();
-        }
+		// Prior to fetching current location
+		private async void SetUpLocationServicesAsync()
+		{
+			await TryGetLocationAsync();
+		}
 
-        // Checking for devive version as marshmallow and above device require permission to be granted
-        async Task TryGetLocationAsync()
-        {
-            if ((int)Build.VERSION.SdkInt < 23)
-            {
-                await GetLocationAsync();
-                return;
-            }
-            await GetLocationPermissionAsync();
-        }
+		// Checking for devive version as marshmallow and above device require permission to be granted
+		async Task TryGetLocationAsync()
+		{
+			if ((int)Build.VERSION.SdkInt < 23)
+			{
+				await GetLocationAsync();
+				return;
+			}
+			await GetLocationPermissionAsync();
+		}
 
-        // For marshmallow and above devices It is required to ask for the GPS permission. allow or deny are the options.
-        async Task GetLocationPermissionAsync()
-        {
-            const string permission = Manifest.Permission.AccessFineLocation;
+		// For marshmallow and above devices It is required to ask for the GPS permission. allow or deny are the options.
+		async Task GetLocationPermissionAsync()
+		{
+			const string permission = Manifest.Permission.AccessFineLocation;
 
-            if (CheckSelfPermission(permission) == (int)Permission.Granted)
-            {
-                await GetLocationAsync();
-                return;
-            }
-
-            if (ShouldShowRequestPermissionRationale(permission))
-            {
-                //Explain to the user why we need to read the contacts
+			if (CheckSelfPermission(permission) == (int)Permission.Granted)
+			{
+				await GetLocationAsync();
+				return;
+			}
+			if (ShouldShowRequestPermissionRationale(permission))
+			{
+				//Explain to the user why we need to read the contacts
 				Toast.MakeText(this, Constant.kLocationPermissionMessageKey, ToastLength.Long).Show();
-                RequestPermissions(PermissionsLocation, RequestLocationId);
-                return;
-            }
+				RequestPermissions(PermissionsLocation, RequestLocationId);
+				return;
+			}
+			RequestPermissions(PermissionsLocation, RequestLocationId);
+		}
 
-            RequestPermissions(PermissionsLocation, RequestLocationId);
-        }
-
-        // Once permission access or denied this would be invoked to proceed with the application
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
-        {
-            switch (requestCode)
-            {
-                case RequestLocationId:
-                    {
-                        if (grantResults[0] == (int)Permission.Granted)
-                        {
-                            GetLocationAsync();
-                        }
-                        else
-                        {
+		// Once permission access or denied this would be invoked to proceed with the application
+		public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+		{
+			switch (requestCode)
+			{
+				case RequestLocationId:
+					{
+						if (grantResults[0] == (int)Permission.Granted)
+						{
+							GetLocationAsync();
+						}
+						else
+						{
 							Toast.MakeText(this, Constant.kGPSPermissionMessageKey, ToastLength.Long).Show();
-                        }
-                    }
-                    break;
-            }
-        }
+						}
+					}
+					break;
+			}
+		}
 
-        // Finding the current GPS location
-        async Task GetLocationAsync()
-        {
-            try
-            {
-                var locator = CrossGeolocator.Current;
+		// Finding the current GPS location
+		async Task GetLocationAsync()
+		{
+			try
+			{
+				var locator = CrossGeolocator.Current;
 				locator.DesiredAccuracy = Constant.kDesiredLocationAccuracyValue;
-                var position = await locator.GetPositionAsync(Constant.kDesiredLocationAccuracyValue);
+				var position = await locator.GetPositionAsync(Constant.kDesiredLocationAccuracyValue);
 
 				String locationProvider = null;
 				Location loc = new Location(locationProvider);
-                loc.Latitude = position.Latitude;
-                loc.Longitude = position.Longitude;
-                ILocationHandler.CurrentLocation = loc;
-            }
-            catch (Exception ex)
-            {
-
+				loc.Latitude = position.Latitude;
+				loc.Longitude = position.Longitude;
+				ILocationHandler.CurrentLocation = loc;
+			}
+			catch (Exception ex)
+			{
 				Toast.MakeText(this, Constant.kLocationFetchFailedMessageKey + ex.ToString(), ToastLength.Long).Show();
-            }
-        }
+			}
+		}
 
-        public void OnProviderDisabled(string provider) { }
+		public void OnProviderDisabled(string provider) { }
 
-        public void OnProviderEnabled(string provider) { }
+		public void OnProviderEnabled(string provider) { }
 
-        public void OnStatusChanged(string provider, Availability status, Bundle extras) { }
-    }
+		public void OnStatusChanged(string provider, Availability status, Bundle extras) { }
+	}
 }

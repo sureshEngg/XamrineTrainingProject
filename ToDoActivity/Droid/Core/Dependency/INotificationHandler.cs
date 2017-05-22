@@ -26,6 +26,7 @@ namespace ToDoActivity.Droid
                 Intent alarmIntent = new Intent(Forms.Context, typeof(INotificationPublisher));
 				alarmIntent.PutExtra(Constant.kTitleTextKey, activityModel.Name);
 				alarmIntent.PutExtra(Constant.kMessageTextKey, activityModel.Description);
+				alarmIntent.PutExtra(Constant.kToDoActivityKey, activityModel.Id);
 
                 PendingIntent pendingIntent = PendingIntent.GetBroadcast(Forms.Context, 0, alarmIntent, PendingIntentFlags.UpdateCurrent);
                 AlarmManager alarmManager = (AlarmManager)Forms.Context.GetSystemService(Context.AlarmService);

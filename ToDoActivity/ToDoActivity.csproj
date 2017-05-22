@@ -39,6 +39,10 @@
     <EmbeddedResource Include="View\ActivityDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Support\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -67,6 +71,9 @@
     <Compile Include="Core\Common\ILocalNotificationHelper.cs" />
     <Compile Include="Data\DataModel\BaseDataModel.cs" />
     <Compile Include="Support\Constant.cs" />
+    <Compile Include="Support\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
