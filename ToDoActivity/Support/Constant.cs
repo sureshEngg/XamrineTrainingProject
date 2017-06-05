@@ -1,4 +1,6 @@
 ﻿using System;
+using ToDoActivity.Support;
+
 namespace ToDoActivity
 {
 	public static class Constant
@@ -14,14 +16,9 @@ namespace ToDoActivity
 
 
 		// Common string constant
-		public static string kOkTextKey = "OK";
-		public static string kEditTextKey = "Edit";
-		public static string kNewTextKey = "New";
-		public static string kSaveTextKey = "Save";
-		public static string kBackTextKey = "Back";
-		public static string kViewTextKey = "View";
-		public static string kTitleTextKey = "Title";
-		public static string kMessageTextKey = "Message";
+		public static string kViewTextKey = AppResources.kViewTextKey;
+		public static string kTitleTextKey = AppResources.kTitleTextKey;
+		public static string kMessageTextKey = AppResources.kMessageTextKey;
 
 		// Key for schedule notification id
 		public static string kToDoActivityKey = "ToDoIdActivityId";
@@ -31,11 +28,11 @@ namespace ToDoActivity
 		public static string kOpenActivityDetailPageKey = "OpenActivityDetailPage";
 
 		// Message constant
-		public static string kLocationFetchFailedMessageKey = "Unable to get location: ";
-		public static string kSelectTimeAlertKey = "Please select future time!";
-		public static string kErrorForGPSFailureKey = "Error in GPS = ";
-		public static string kErrorForNetworkFailureKey = "Error in Network = ";
-		public static string kLocationPermissionMessageKey = "Location access is required to read current location.";
-		public static string kGPSPermissionMessageKey = "GPS will not be available for Application due denial of GPS permission!";
+		public static string kLocationFetchFailedMessageKey = AppResources.kLocationFetchFailedMessageKey;
+		public static string kSelectTimeAlertKey = AppResources.kSelectTimeAlertKey;
+        public static string kErrorForGPSFailureKey = AppResources.kErrorForGPSFailureKey;
+		public static string kErrorForNetworkFailureKey = AppResources.kErrorForNetworkFailureKey;
+		public static string kLocationPermissionMessageKey = AppResources.kLocationPermissionMessageKey;
+		public static string kGPSPermissionMessageKey = AppResources.kGPSPermissionMessageKey;
 	}
 }

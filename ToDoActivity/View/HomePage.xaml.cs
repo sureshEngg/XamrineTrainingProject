@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using Xamarin.Forms;
 using SQLite;
+using ToDoActivity.Support;
 
 namespace ToDoActivity
 {
@@ -16,13 +17,13 @@ namespace ToDoActivity
 			homeViewModel = new HomeViewModel();
 			BindingContext = homeViewModel;
 
-			ToolbarItems.Add(new ToolbarItem(Constant.kNewTextKey, null, () =>
+			ToolbarItems.Add(new ToolbarItem(AppResources.kNewTextKey, null, () =>
 			{
 				Navigation.PushAsync(new CreateActivityPage(null));
 			}));
 
 			// Update Back button name
-			NavigationPage.SetBackButtonTitle(this, Constant.kBackTextKey);
+			NavigationPage.SetBackButtonTitle(this, AppResources.kBackTextKey);
 		}
 
 		protected override async void OnAppearing()
@@ -48,7 +49,7 @@ namespace ToDoActivity
 				{
 					if (showAlert)
 					{
-						DisplayAlert(model.Name, model.Description, Constant.kOkTextKey);
+						DisplayAlert(model.Name, model.Description, AppResources.kOkTextKey);
 					}
 					else
 					{

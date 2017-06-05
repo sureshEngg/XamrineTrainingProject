@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using ToDoActivity.Support;
 using Xamarin.Forms;
 
 namespace ToDoActivity
@@ -17,7 +18,7 @@ namespace ToDoActivity
 
 			if (activityModel != null)
 			{
-				Title = Constant.kEditTextKey;
+				Title = AppResources.kEditTextKey;
 				deleteButton.IsVisible = true;
 
 				datePicker.MinimumDate = activityModel.DueDate;
@@ -112,7 +113,7 @@ namespace ToDoActivity
 				if (result >= 0)
 				{
 					viewModel.isDateValid = false;
-					errorTimeLabel.Text = Constant.kSelectTimeAlertKey;
+					errorTimeLabel.Text = AppResources.kSelectTimeAlertKey;
 				}
 				else
 				{
